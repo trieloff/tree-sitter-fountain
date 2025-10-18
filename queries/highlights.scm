@@ -11,6 +11,7 @@
 
 ;; Uppercase key words/props in action lines
 (uppercase_text) @emphasis.strong
+(action (uppercase_text) @emphasis.strong)
 
 (parenthetical) @comment.doc
 
