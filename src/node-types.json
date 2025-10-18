@@ -236,10 +236,10 @@
     "fields": {},
     "children": {
       "multiple": true,
-      "required": true,
+      "required": false,
       "types": [
         {
-          "type": "description",
+          "type": "scene_location",
           "named": true
         },
         {
@@ -248,6 +248,10 @@
         },
         {
           "type": "scene_start",
+          "named": true
+        },
+        {
+          "type": "scene_time",
           "named": true
         }
       ]
@@ -374,6 +378,10 @@
     "named": false
   },
   {
+    "type": "-",
+    "named": false
+  },
+  {
     "type": ".",
     "named": false
   },
@@ -442,7 +450,15 @@
     "named": true
   },
   {
+    "type": "scene_location",
+    "named": true
+  },
+  {
     "type": "scene_start",
+    "named": true
+  },
+  {
+    "type": "scene_time",
     "named": true
   },
   {

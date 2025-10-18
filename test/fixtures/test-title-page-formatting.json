@@ -69,9 +69,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "HOUSE - DAY"
+          "text": "HOUSE "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. HOUSE - DAY\n\n"

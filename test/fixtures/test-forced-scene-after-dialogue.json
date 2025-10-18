@@ -32,7 +32,7 @@
       "type": "scene_heading",
       "children": [
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
           "text": "SNIPER SCOPE POV"
         }

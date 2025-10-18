@@ -10,9 +10,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "ROOM - DAY"
+          "text": "ROOM "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. ROOM - DAY\n\n"
@@ -57,9 +62,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "ANOTHER ROOM - DAY"
+          "text": "ANOTHER ROOM "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. ANOTHER ROOM - DAY\n"

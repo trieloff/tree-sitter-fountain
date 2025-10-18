@@ -48,9 +48,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "BOWLING ALLEY - NIGHT"
+          "text": "BOWLING ALLEY "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "INT. BOWLING ALLEY - NIGHT\n\n"

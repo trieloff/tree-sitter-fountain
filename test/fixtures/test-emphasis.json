@@ -10,9 +10,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "MOVIE SET - DAY"
+          "text": "MOVIE SET "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. MOVIE SET - DAY\n\n"

@@ -106,9 +106,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "DESERT - DAY"
+          "text": "DESERT "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. DESERT - DAY\n\n"

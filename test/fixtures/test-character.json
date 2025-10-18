@@ -10,9 +10,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "LIVING ROOM - DAY"
+          "text": "LIVING ROOM "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. LIVING ROOM - DAY\n\n"

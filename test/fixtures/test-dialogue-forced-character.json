@@ -10,9 +10,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "POLICE STATION - DAY"
+          "text": "POLICE STATION "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. POLICE STATION - DAY\n\n"

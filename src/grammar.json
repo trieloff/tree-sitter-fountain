@@ -222,8 +222,37 @@
                 ]
               },
               {
-                "type": "SYMBOL",
-                "name": "description"
+                "type": "CHOICE",
+                "members": [
+                  {
+                    "type": "SYMBOL",
+                    "name": "scene_location"
+                  },
+                  {
+                    "type": "BLANK"
+                  }
+                ]
+              },
+              {
+                "type": "CHOICE",
+                "members": [
+                  {
+                    "type": "SEQ",
+                    "members": [
+                      {
+                        "type": "STRING",
+                        "value": "-"
+                      },
+                      {
+                        "type": "SYMBOL",
+                        "name": "scene_time"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "BLANK"
+                  }
+                ]
               },
               {
                 "type": "CHOICE",
@@ -263,8 +292,37 @@
                 ]
               },
               {
-                "type": "SYMBOL",
-                "name": "description"
+                "type": "CHOICE",
+                "members": [
+                  {
+                    "type": "SYMBOL",
+                    "name": "scene_location"
+                  },
+                  {
+                    "type": "BLANK"
+                  }
+                ]
+              },
+              {
+                "type": "CHOICE",
+                "members": [
+                  {
+                    "type": "SEQ",
+                    "members": [
+                      {
+                        "type": "STRING",
+                        "value": "-"
+                      },
+                      {
+                        "type": "SYMBOL",
+                        "name": "scene_time"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "BLANK"
+                  }
+                ]
               },
               {
                 "type": "CHOICE",
@@ -286,6 +344,14 @@
           }
         ]
       }
+    },
+    "scene_location": {
+      "type": "PATTERN",
+      "value": "[^-#\\n]+"
+    },
+    "scene_time": {
+      "type": "PATTERN",
+      "value": "[^#\\n]+"
     },
     "scene_number": {
       "type": "SEQ",

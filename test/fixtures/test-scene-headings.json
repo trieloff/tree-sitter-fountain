@@ -10,9 +10,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "MANSION - DAY"
+          "text": "MANSION "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. MANSION - DAY\n\n"
@@ -37,9 +42,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "MANSION - NIGHT"
+          "text": "MANSION "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "EXT. MANSION - NIGHT\n\n"
@@ -86,9 +96,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "/EXT. CAR - DAY"
+          "text": "/EXT. CAR "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT./EXT. CAR - DAY\n\n"
@@ -113,7 +128,7 @@
           "text": "."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
           "text": "SNIPER SCOPE POV"
         }
@@ -140,7 +155,7 @@
           "text": "."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
           "text": "ANOTHER FORCED SCENE"
         }
@@ -167,9 +182,19 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "HOUSE - DAY #1#"
+          "text": "HOUSE "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY "
+        },
+        {
+          "type": "scene_number",
+          "children": [],
+          "text": "#1#"
         }
       ],
       "text": "INT. HOUSE - DAY #1#\n\n"
@@ -194,9 +219,19 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "HOUSE - DAY #1A#"
+          "text": "HOUSE "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY "
+        },
+        {
+          "type": "scene_number",
+          "children": [],
+          "text": "#1A#"
         }
       ],
       "text": "INT. HOUSE - DAY #1A#\n\n"
@@ -221,9 +256,19 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "HOUSE - DAY - FLASHBACK (1944) #110A#"
+          "text": "HOUSE "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY - FLASHBACK (1944) "
+        },
+        {
+          "type": "scene_number",
+          "children": [],
+          "text": "#110A#"
         }
       ],
       "text": "INT. HOUSE - DAY - FLASHBACK (1944) #110A#\n\n"

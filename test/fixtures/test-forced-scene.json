@@ -10,7 +10,7 @@
           "text": "."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
           "text": "OPENING TITLES"
         }
@@ -115,9 +115,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "WOODEN SHACK - DAY"
+          "text": "WOODEN SHACK "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. WOODEN SHACK - DAY\n"

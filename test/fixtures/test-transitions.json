@@ -10,9 +10,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "OFFICE - DAY"
+          "text": "OFFICE "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. OFFICE - DAY\n\n"
@@ -42,9 +47,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "BRICK'S POOL - DAY"
+          "text": "BRICK'S POOL "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. BRICK'S POOL - DAY\n\n"
@@ -74,9 +84,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "HOSPITAL - NIGHT"
+          "text": "HOSPITAL "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "INT. HOSPITAL - NIGHT\n\n"
@@ -106,9 +121,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "CEMETERY - DAY"
+          "text": "CEMETERY "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. CEMETERY - DAY\n\n"
@@ -138,9 +158,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "CAR CRASH - NIGHT"
+          "text": "CAR CRASH "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "EXT. CAR CRASH - NIGHT\n\n"
@@ -170,9 +195,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "THEATER - DAY"
+          "text": "THEATER "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. THEATER - DAY\n\n"
@@ -202,9 +232,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "SUNSET BEACH - DUSK"
+          "text": "SUNSET BEACH "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DUSK"
         }
       ],
       "text": "EXT. SUNSET BEACH - DUSK\n\n"
@@ -234,9 +269,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "BEDROOM - NIGHT"
+          "text": "BEDROOM "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "INT. BEDROOM - NIGHT\n\n"

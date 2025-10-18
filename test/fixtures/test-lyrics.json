@@ -10,9 +10,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "CHOCOLATE FACTORY - DAY"
+          "text": "CHOCOLATE FACTORY "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. CHOCOLATE FACTORY - DAY\n\n"

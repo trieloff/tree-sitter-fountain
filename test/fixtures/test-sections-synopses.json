@@ -53,9 +53,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "COFFEE SHOP - MORNING"
+          "text": "COFFEE SHOP "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " MORNING"
         }
       ],
       "text": "EXT. COFFEE SHOP - MORNING\n\n"
@@ -199,9 +204,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "DOWNTOWN STREET - DAY"
+          "text": "DOWNTOWN STREET "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. DOWNTOWN STREET - DAY\n\n"

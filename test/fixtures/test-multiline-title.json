@@ -127,9 +127,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "BRICK'S HOUSE - DAY"
+          "text": "BRICK'S HOUSE "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. BRICK'S HOUSE - DAY\n\n"

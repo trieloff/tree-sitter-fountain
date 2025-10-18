@@ -10,9 +10,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "ABANDONED WAREHOUSE - NIGHT"
+          "text": "ABANDONED WAREHOUSE "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "EXT. ABANDONED WAREHOUSE - NIGHT\n\n"

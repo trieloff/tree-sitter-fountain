@@ -80,18 +80,30 @@ module.exports = grammar({
       seq(
         $.scene_start,
         optional(' '),
-        $.description,
+        optional($.scene_location),
+        optional(seq(
+          '-',
+          $.scene_time
+        )),
         optional($.scene_number),
         '\n'
       ),
       seq(
         '.',
         optional(' '),
-        $.description,
+        optional($.scene_location),
+        optional(seq(
+          '-',
+          $.scene_time
+        )),
         optional($.scene_number),
         '\n'
       )
     )),
+
+    scene_location: $ => /[^-#\n]+/,
+
+    scene_time: $ => /[^#\n]+/,
 
     scene_number: $ => seq(
       '#',

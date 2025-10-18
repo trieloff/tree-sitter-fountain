@@ -10,9 +10,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "BRICK'S POOL - DAY"
+          "text": "BRICK'S POOL "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. BRICK'S POOL - DAY\n\n"

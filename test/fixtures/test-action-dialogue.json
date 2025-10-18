@@ -10,9 +10,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "CITY STREET - DAY"
+          "text": "CITY STREET "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. CITY STREET - DAY\n\n"

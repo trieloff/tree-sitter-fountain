@@ -74,9 +74,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "OFFICE - DAY"
+          "text": "OFFICE "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "INT. OFFICE - DAY\n\n"

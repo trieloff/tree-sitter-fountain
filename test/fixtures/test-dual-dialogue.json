@@ -10,9 +10,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "INTERROGATION ROOM - NIGHT"
+          "text": "INTERROGATION ROOM "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "INT. INTERROGATION ROOM - NIGHT\n\n"

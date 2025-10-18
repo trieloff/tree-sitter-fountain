@@ -10,9 +10,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "PARK BENCH - AFTERNOON"
+          "text": "PARK BENCH "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " AFTERNOON"
         }
       ],
       "text": "EXT. PARK BENCH - AFTERNOON\n\n"

@@ -43,9 +43,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "CASINO - NIGHT"
+          "text": "CASINO "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "INT. CASINO - NIGHT\n\n"

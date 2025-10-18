@@ -10,9 +10,14 @@
           "text": "EXT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "BRICK'S POOL - DAY"
+          "text": "BRICK'S POOL "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " DAY"
         }
       ],
       "text": "EXT. BRICK'S POOL - DAY\n\n"
@@ -48,9 +53,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "STEEL'S APARTMENT - NIGHT"
+          "text": "STEEL'S APARTMENT "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " NIGHT"
         }
       ],
       "text": "INT. STEEL'S APARTMENT - NIGHT\n\n"
@@ -128,9 +138,14 @@
           "text": "INT."
         },
         {
-          "type": "description",
+          "type": "scene_location",
           "children": [],
-          "text": "HEADQUARTERS - CONTINUOUS"
+          "text": "HEADQUARTERS "
+        },
+        {
+          "type": "scene_time",
+          "children": [],
+          "text": " CONTINUOUS"
         }
       ],
       "text": "INT. HEADQUARTERS - CONTINUOUS\n\n"
