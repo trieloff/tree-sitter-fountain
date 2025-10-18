@@ -17,7 +17,23 @@
         },
         {
           "type": "SYMBOL",
+          "name": "boneyard"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "page_break"
+        },
+        {
+          "type": "SYMBOL",
           "name": "scene_heading"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "synopsis"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "section_heading"
         },
         {
           "type": "SYMBOL",
@@ -29,7 +45,11 @@
         },
         {
           "type": "SYMBOL",
-          "name": "section_heading"
+          "name": "centered"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "lyric"
         },
         {
           "type": "SYMBOL",
@@ -98,22 +118,97 @@
             "name": "description"
           },
           {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "SYMBOL",
+                "name": "scene_number"
+              },
+              {
+                "type": "BLANK"
+              }
+            ]
+          },
+          {
             "type": "STRING",
             "value": "\n"
           }
         ]
       }
     },
-    "character": {
+    "scene_number": {
       "type": "SEQ",
       "members": [
         {
+          "type": "STRING",
+          "value": "#"
+        },
+        {
           "type": "PATTERN",
-          "value": "[A-Z][A-Z0-9 \\(\\)\\.']*[A-Z\\)]"
+          "value": "[A-Za-z0-9\\-\\.]+"
         },
         {
           "type": "STRING",
-          "value": "\n"
+          "value": "#"
+        }
+      ]
+    },
+    "character": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "PATTERN",
+              "value": "[A-Z][A-Z0-9 \\(\\)\\.']*[A-Z\\)]"
+            },
+            {
+              "type": "CHOICE",
+              "members": [
+                {
+                  "type": "PATTERN",
+                  "value": "\\s*\\^"
+                },
+                {
+                  "type": "BLANK"
+                }
+              ]
+            },
+            {
+              "type": "STRING",
+              "value": "\n"
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "forced_character_start"
+            },
+            {
+              "type": "PATTERN",
+              "value": "[^\\n]+"
+            },
+            {
+              "type": "CHOICE",
+              "members": [
+                {
+                  "type": "PATTERN",
+                  "value": "\\s*\\^"
+                },
+                {
+                  "type": "BLANK"
+                }
+              ]
+            },
+            {
+              "type": "STRING",
+              "value": "\n"
+            }
+          ]
         }
       ]
     },
@@ -184,15 +279,37 @@
       "type": "PREC",
       "value": 1,
       "content": {
-        "type": "SEQ",
+        "type": "CHOICE",
         "members": [
           {
-            "type": "SYMBOL",
-            "name": "line"
+            "type": "SEQ",
+            "members": [
+              {
+                "type": "SYMBOL",
+                "name": "forced_action_start"
+              },
+              {
+                "type": "PATTERN",
+                "value": "[^\\n]+"
+              },
+              {
+                "type": "STRING",
+                "value": "\n"
+              }
+            ]
           },
           {
-            "type": "STRING",
-            "value": "\n"
+            "type": "SEQ",
+            "members": [
+              {
+                "type": "SYMBOL",
+                "name": "line"
+              },
+              {
+                "type": "STRING",
+                "value": "\n"
+              }
+            ]
           }
         ]
       }
@@ -201,44 +318,66 @@
       "type": "PREC",
       "value": 3,
       "content": {
-        "type": "SEQ",
+        "type": "CHOICE",
         "members": [
           {
-            "type": "CHOICE",
+            "type": "SEQ",
             "members": [
               {
-                "type": "STRING",
-                "value": "CUT TO:"
-              },
-              {
-                "type": "STRING",
-                "value": "FADE OUT:"
-              },
-              {
-                "type": "STRING",
-                "value": "FADE IN:"
-              },
-              {
-                "type": "STRING",
-                "value": "FADE TO:"
-              },
-              {
-                "type": "STRING",
-                "value": "DISSOLVE TO:"
-              },
-              {
-                "type": "STRING",
-                "value": "MATCH CUT TO:"
+                "type": "SYMBOL",
+                "name": "forced_transition_start"
               },
               {
                 "type": "PATTERN",
-                "value": "[A-Z][A-Z ]+TO:"
+                "value": "[^\\n]+"
+              },
+              {
+                "type": "STRING",
+                "value": "\n"
               }
             ]
           },
           {
-            "type": "STRING",
-            "value": "\n"
+            "type": "SEQ",
+            "members": [
+              {
+                "type": "CHOICE",
+                "members": [
+                  {
+                    "type": "STRING",
+                    "value": "CUT TO:"
+                  },
+                  {
+                    "type": "STRING",
+                    "value": "FADE OUT:"
+                  },
+                  {
+                    "type": "STRING",
+                    "value": "FADE IN:"
+                  },
+                  {
+                    "type": "STRING",
+                    "value": "FADE TO:"
+                  },
+                  {
+                    "type": "STRING",
+                    "value": "DISSOLVE TO:"
+                  },
+                  {
+                    "type": "STRING",
+                    "value": "MATCH CUT TO:"
+                  },
+                  {
+                    "type": "PATTERN",
+                    "value": "[A-Z][A-Z ]+TO:"
+                  }
+                ]
+              },
+              {
+                "type": "STRING",
+                "value": "\n"
+              }
+            ]
           }
         ]
       }
@@ -310,6 +449,107 @@
       "type": "PATTERN",
       "value": "[^\\]]+"
     },
+    "boneyard": {
+      "type": "PREC",
+      "value": 10,
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "boneyard_start"
+          },
+          {
+            "type": "PATTERN",
+            "value": "[\\s\\S]*?\\*\\/"
+          }
+        ]
+      }
+    },
+    "page_break": {
+      "type": "PREC",
+      "value": 10,
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "page_break_marker"
+          },
+          {
+            "type": "STRING",
+            "value": "\n"
+          }
+        ]
+      }
+    },
+    "synopsis": {
+      "type": "PREC",
+      "value": 5,
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "synopsis_start"
+          },
+          {
+            "type": "PATTERN",
+            "value": "[^\\n]+"
+          },
+          {
+            "type": "STRING",
+            "value": "\n"
+          }
+        ]
+      }
+    },
+    "lyric": {
+      "type": "PREC",
+      "value": 4,
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "lyric_start"
+          },
+          {
+            "type": "PATTERN",
+            "value": "[^\\n]+"
+          },
+          {
+            "type": "STRING",
+            "value": "\n"
+          }
+        ]
+      }
+    },
+    "centered": {
+      "type": "PREC",
+      "value": 4,
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "centered_start"
+          },
+          {
+            "type": "PATTERN",
+            "value": "[^<\\n]+"
+          },
+          {
+            "type": "STRING",
+            "value": "<"
+          },
+          {
+            "type": "STRING",
+            "value": "\n"
+          }
+        ]
+      }
+    },
     "line": {
       "type": "PATTERN",
       "value": "[^\\n]+"
@@ -347,6 +587,38 @@
     {
       "type": "SYMBOL",
       "name": "note_start"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "forced_action_start"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "forced_character_start"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "forced_transition_start"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "lyric_start"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "centered_start"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "page_break_marker"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "synopsis_start"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "boneyard_start"
     }
   ],
   "inline": [],

@@ -8,7 +8,41 @@
       "required": true,
       "types": [
         {
+          "type": "forced_action_start",
+          "named": true
+        },
+        {
           "type": "line",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "boneyard",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "boneyard_start",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "centered",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "centered_start",
           "named": true
         }
       ]
@@ -17,7 +51,17 @@
   {
     "type": "character",
     "named": true,
-    "fields": {}
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "forced_character_start",
+          "named": true
+        }
+      ]
+    }
   },
   {
     "type": "description",
@@ -75,11 +119,27 @@
           "named": true
         },
         {
+          "type": "boneyard",
+          "named": true
+        },
+        {
+          "type": "centered",
+          "named": true
+        },
+        {
           "type": "dialogue_block",
           "named": true
         },
         {
+          "type": "lyric",
+          "named": true
+        },
+        {
           "type": "note",
+          "named": true
+        },
+        {
+          "type": "page_break",
           "named": true
         },
         {
@@ -88,6 +148,10 @@
         },
         {
           "type": "section_heading",
+          "named": true
+        },
+        {
+          "type": "synopsis",
           "named": true
         },
         {
@@ -107,6 +171,21 @@
     "fields": {}
   },
   {
+    "type": "lyric",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "lyric_start",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "note",
     "named": true,
     "fields": {},
@@ -120,6 +199,21 @@
         },
         {
           "type": "note_start",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "page_break",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "page_break_marker",
           "named": true
         }
       ]
@@ -143,11 +237,20 @@
           "named": true
         },
         {
+          "type": "scene_number",
+          "named": true
+        },
+        {
           "type": "scene_start",
           "named": true
         }
       ]
     }
+  },
+  {
+    "type": "scene_number",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "section_heading",
@@ -163,6 +266,21 @@
         },
         {
           "type": "section_start",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "synopsis",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "synopsis_start",
           "named": true
         }
       ]
@@ -190,7 +308,17 @@
   {
     "type": "transition",
     "named": true,
-    "fields": {}
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": false,
+      "types": [
+        {
+          "type": "forced_transition_start",
+          "named": true
+        }
+      ]
+    }
   },
   {
     "type": "\n",
@@ -201,11 +329,19 @@
     "named": false
   },
   {
+    "type": "#",
+    "named": false
+  },
+  {
     "type": "(",
     "named": false
   },
   {
     "type": ")",
+    "named": false
+  },
+  {
+    "type": "<",
     "named": false
   },
   {
@@ -237,6 +373,30 @@
     "named": false
   },
   {
+    "type": "boneyard_start",
+    "named": true
+  },
+  {
+    "type": "centered_start",
+    "named": true
+  },
+  {
+    "type": "forced_action_start",
+    "named": true
+  },
+  {
+    "type": "forced_character_start",
+    "named": true
+  },
+  {
+    "type": "forced_transition_start",
+    "named": true
+  },
+  {
+    "type": "lyric_start",
+    "named": true
+  },
+  {
     "type": "note_content",
     "named": true
   },
@@ -245,11 +405,19 @@
     "named": true
   },
   {
+    "type": "page_break_marker",
+    "named": true
+  },
+  {
     "type": "scene_start",
     "named": true
   },
   {
     "type": "section_start",
+    "named": true
+  },
+  {
+    "type": "synopsis_start",
     "named": true
   },
   {
