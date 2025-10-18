@@ -31,7 +31,7 @@ module.exports = grammar({
     ),
 
     character: $ => seq(
-      /[A-Z][A-Z ]*[A-Z]/,
+      /[A-Z][A-Z0-9 \(\)\.']*[A-Z\)]/,
       '\n'
     ),
 
