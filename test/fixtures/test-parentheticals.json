@@ -12,21 +12,10 @@
         {
           "type": "description",
           "children": [],
-          "text": "BRICK'S POOL - DAY"
+          "text": "COFFEE SHOP - DAY"
         }
       ],
-      "text": "EXT. BRICK'S POOL - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "line",
-          "children": [],
-          "text": "Steel, in the middle of a heated phone call:"
-        }
-      ],
-      "text": "Steel, in the middle of a heated phone call:\n\n"
+      "text": "EXT. COFFEE SHOP - DAY\n\n"
     },
     {
       "type": "dialogue_block",
@@ -34,7 +23,22 @@
         {
           "type": "character",
           "children": [],
-          "text": "STEEL\n"
+          "text": "SARAH\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "parenthetical",
+          "children": [],
+          "text": "(excited)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": "I "
         },
         {
           "type": "dialogue",
@@ -42,52 +46,252 @@
             {
               "type": "line",
               "children": [],
-              "text": "They're coming out of the woodwork!"
+              "text": "got the job!"
             }
           ],
-          "text": "They're coming out of the woodwork!\n"
+          "text": "got the job!\n"
+        }
+      ],
+      "text": "SARAH\n(excited)\nI got the job!\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "MARK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
         },
         {
           "type": "parenthetical",
           "children": [],
-          "text": "(pause)\n"
+          "text": "(skeptical)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Really? When did they call?"
+            }
+          ],
+          "text": "Really? When did they call?\n"
         }
       ],
-      "text": "STEEL\nThey're coming out of the woodwork!\n(pause)\n"
+      "text": "MARK\n(skeptical)\nReally? When did they call?\n"
     },
     {
-      "type": "action",
+      "type": "dialogue_block",
       "children": [
         {
-          "type": "line",
+          "type": "character",
           "children": [],
-          "text": "No, everybody we've put away!"
+          "text": "SARAH\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "This morning."
+            }
+          ],
+          "text": "This morning.\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "parenthetical",
+          "children": [],
+          "text": "(checking her phone)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Around nine thirty."
+            }
+          ],
+          "text": "Around nine thirty.\n"
         }
       ],
-      "text": "No, everybody we've put away!\n"
+      "text": "SARAH\nThis morning.\n(checking her phone)\nAround nine thirty.\n"
     },
     {
-      "type": "action",
+      "type": "dialogue_block",
       "children": [
         {
-          "type": "line",
+          "type": "character",
           "children": [],
-          "text": "(pause)"
+          "text": "MARK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "parenthetical",
+          "children": [],
+          "text": "(sarcastically)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Congratulations."
+            }
+          ],
+          "text": "Congratulations.\n"
         }
       ],
-      "text": "(pause)\n"
+      "text": "MARK\n(sarcastically)\nCongratulations.\n"
     },
     {
-      "type": "action",
+      "type": "dialogue_block",
       "children": [
         {
-          "type": "line",
+          "type": "character",
           "children": [],
-          "text": "Point Blank Sniper?"
+          "text": "SARAH\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "parenthetical",
+          "children": [],
+          "text": "(softly, almost to herself)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Thanks..."
+            }
+          ],
+          "text": "Thanks...\n"
         }
       ],
-      "text": "Point Blank Sniper?\n"
+      "text": "SARAH\n(softly, almost to herself)\nThanks...\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "MARK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "parenthetical",
+          "children": [],
+          "text": "(LOUDLY)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": "I "
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "SAID CONGRATULATIONS!"
+            }
+          ],
+          "text": "SAID CONGRATULATIONS!\n"
+        }
+      ],
+      "text": "MARK\n(LOUDLY)\nI SAID CONGRATULATIONS!\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "SARAH\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "parenthetical",
+          "children": [],
+          "text": "(in lowercase)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "i heard you."
+            }
+          ],
+          "text": "i heard you.\n"
+        }
+      ],
+      "text": "SARAH\n(in lowercase)\ni heard you.\n"
     }
   ],
-  "text": "EXT. BRICK'S POOL - DAY\n\nSteel, in the middle of a heated phone call:\n\nSTEEL\nThey're coming out of the woodwork!\n(pause)\nNo, everybody we've put away!\n(pause)\nPoint Blank Sniper?\n"
+  "text": "EXT. COFFEE SHOP - DAY\n\nSARAH\n(excited)\nI got the job!\n\nMARK\n(skeptical)\nReally? When did they call?\n\nSARAH\nThis morning.\n(checking her phone)\nAround nine thirty.\n\nMARK\n(sarcastically)\nCongratulations.\n\nSARAH\n(softly, almost to herself)\nThanks...\n\nMARK\n(LOUDLY)\nI SAID CONGRATULATIONS!\n\nSARAH\n(in lowercase)\ni heard you.\n"
 }
