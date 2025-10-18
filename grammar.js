@@ -169,8 +169,14 @@ module.exports = grammar({
     // Boneyard comments (/* ... */)
     boneyard: $ => prec(10, seq(
       $.boneyard_start,
-      /[\s\S]*?\*\//
+      $.boneyard_content,
+      '*/'
     )),
+
+    boneyard_content: $ => token(prec(-1, repeat(choice(
+      /[^*]+/,  // Any character except *
+      /\*[^\/]/  // * not followed by /
+    )))),
 
     // Page breaks (===)
     page_break: $ => prec(10, seq(

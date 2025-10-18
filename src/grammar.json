@@ -582,10 +582,37 @@
             "name": "boneyard_start"
           },
           {
-            "type": "PATTERN",
-            "value": "[\\s\\S]*?\\*\\/"
+            "type": "SYMBOL",
+            "name": "boneyard_content"
+          },
+          {
+            "type": "STRING",
+            "value": "*/"
           }
         ]
+      }
+    },
+    "boneyard_content": {
+      "type": "TOKEN",
+      "content": {
+        "type": "PREC",
+        "value": -1,
+        "content": {
+          "type": "REPEAT",
+          "content": {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "PATTERN",
+                "value": "[^*]+"
+              },
+              {
+                "type": "PATTERN",
+                "value": "\\*[^\\/]"
+              }
+            ]
+          }
+        }
       }
     },
     "page_break": {

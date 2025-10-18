@@ -23,9 +23,13 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "boneyard_content",
+          "named": true
+        },
         {
           "type": "boneyard_start",
           "named": true
@@ -370,11 +374,19 @@
     "named": false
   },
   {
+    "type": "*/",
+    "named": false
+  },
+  {
     "type": "]]",
     "named": false
   },
   {
     "type": "blank_line",
+    "named": true
+  },
+  {
+    "type": "boneyard_content",
     "named": true
   },
   {
