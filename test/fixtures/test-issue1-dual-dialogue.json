@@ -26,6 +26,11 @@
           "text": "BRICK ^\n"
         },
         {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
           "type": "dialogue",
           "children": [
             {
@@ -46,6 +51,11 @@
           "type": "character",
           "children": [],
           "text": "STEEL ^\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
         },
         {
           "type": "dialogue",
