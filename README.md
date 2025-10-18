@@ -41,6 +41,62 @@ Then, run `:TSInstall fountain`.
 ## Updating
 You'll need to fetch `queries/highlights.scm` manually. Then run `:TSUpdate fountain`.
 
+## Testing
+
+### Running Tests
+
+Run the unit tests using Node.js built-in test runner:
+
+```bash
+npm test
+```
+
+This will run all fixture-based tests in `test/fixtures/`.
+
+Alternatively, run the tree-sitter corpus tests:
+
+```bash
+npm run test:tree-sitter
+```
+
+### Creating New Tests
+
+To add a new test:
+
+1. Create a `.fountain` file in `test/fixtures/` with your test content
+2. Generate the expected AST by running:
+
+```bash
+node test/generate-fixtures.js
+```
+
+This will create a `.json` file with the complete AST structure for each `.fountain` file.
+
+Alternatively, you can manually create the JSON file with the expected AST structure:
+
+```json
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {"type": "scene_start", "children": []},
+        {"type": "description", "children": []}
+      ]
+    },
+    {
+      "type": "action",
+      "children": [
+        {"type": "line", "children": []}
+      ]
+    }
+  ]
+}
+```
+
+The test runner will automatically discover and run your new test on the next `npm test` run. Tests perform deep AST comparison, verifying the complete tree structure.
+
 ## References
 
 <!-- NOTE: add the grammar's references here -->

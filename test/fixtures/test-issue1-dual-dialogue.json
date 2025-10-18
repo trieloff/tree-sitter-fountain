@@ -1,0 +1,77 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "APARTMENT - DAY"
+        }
+      ],
+      "text": "INT. APARTMENT - DAY\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK ^\n"
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Screw retirement."
+            }
+          ],
+          "text": "Screw retirement.\n\n"
+        }
+      ],
+      "text": "BRICK ^\nScrew retirement.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL ^\n"
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "That's what I've been saying!"
+            }
+          ],
+          "text": "That's what I've been saying!\n\n"
+        }
+      ],
+      "text": "STEEL ^\nThat's what I've been saying!\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Regular action line here."
+        }
+      ],
+      "text": "Regular action line here.\n"
+    }
+  ],
+  "text": "INT. APARTMENT - DAY\n\nBRICK ^\nScrew retirement.\n\nSTEEL ^\nThat's what I've been saying!\n\nRegular action line here.\n"
+}
