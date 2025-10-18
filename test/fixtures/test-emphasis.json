@@ -26,9 +26,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The director yells *action* and the scene begins."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e director yells "
+        },
+        {
+          "type": "italic",
+          "children": [],
+          "text": "*action*"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " and the scene begins."
         }
       ],
       "text": "The director yells *action* and the scene begins.\n\n"
@@ -37,9 +52,34 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Steel enters wearing **bold sunglasses** and a ***bold italic jacket***."
+          "text": "St"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "eel enters wearing "
+        },
+        {
+          "type": "bold",
+          "children": [],
+          "text": "**bold sunglasses**"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " and a "
+        },
+        {
+          "type": "bold_italic",
+          "children": [],
+          "text": "***bold italic jacket***"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "."
         }
       ],
       "text": "Steel enters wearing **bold sunglasses** and a ***bold italic jacket***.\n\n"
@@ -48,9 +88,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "He notices the _underlined contract_ on the table."
+          "text": "He"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " notices the "
+        },
+        {
+          "type": "underline",
+          "children": [],
+          "text": "_underlined contract_"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " on the table."
         }
       ],
       "text": "He notices the _underlined contract_ on the table.\n\n"
@@ -72,9 +127,54 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "This contract is *very* important. The terms are **non-negotiable** and ***absolutely final***."
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "is contract is "
+            },
+            {
+              "type": "italic",
+              "children": [],
+              "text": "*very*"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " important. "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "e terms are "
+            },
+            {
+              "type": "bold",
+              "children": [],
+              "text": "**non-negotiable**"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " and "
+            },
+            {
+              "type": "bold_italic",
+              "children": [],
+              "text": "***absolutely final***"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "."
             }
           ],
           "text": "This contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n"
@@ -86,9 +186,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The lawyer points to the _signature line_ at the bottom."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e lawyer points to the "
+        },
+        {
+          "type": "underline",
+          "children": [],
+          "text": "_signature line_"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " at the bottom."
         }
       ],
       "text": "The lawyer points to the _signature line_ at the bottom.\n"

@@ -39,9 +39,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Where were you on the night of the 15th?"
+              "text": "Wh"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ere were you on the night of the 15th?"
             }
           ],
           "text": "Where were you on the night of the 15th?\n"
@@ -66,9 +71,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "I was at home."
+              "text": "I "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "was at home."
             }
           ],
           "text": "I was at home.\n"
@@ -93,9 +103,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "That's not what your neighbor said."
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "at's not what your neighbor said."
             }
           ],
           "text": "That's not what your neighbor said.\n"
@@ -107,9 +122,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "They lock eyes, neither backing down."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ey lock eyes, neither backing down."
         }
       ],
       "text": "They lock eyes, neither backing down.\n\n"
@@ -131,9 +151,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Screw retirement."
+              "text": "Sc"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "rew retirement."
             }
           ],
           "text": "Screw retirement.\n"
@@ -158,9 +183,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Screw retirement."
+              "text": "Sc"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "rew retirement."
             }
           ],
           "text": "Screw retirement.\n"
@@ -172,9 +202,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The room falls silent."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e room falls silent."
         }
       ],
       "text": "The room falls silent.\n"

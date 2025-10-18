@@ -39,9 +39,24 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "When I was young, things were different."
+              "text": "Wh"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "en "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "I "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "was young, things were different."
             }
           ],
           "text": "When I was young, things were different.\n"
@@ -55,9 +70,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "We didn't have all these gadgets."
+              "text": "We"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " didn't have all these gadgets."
             }
           ],
           "text": "We didn't have all these gadgets.\n"
@@ -71,9 +91,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "We talked to each other, face to face."
+              "text": "We"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " talked to each other, face to face."
             }
           ],
           "text": "We talked to each other, face to face.\n"
@@ -95,8 +120,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(listening intently)"
+            }
+          ],
           "text": "(listening intently)\n"
         },
         {
@@ -108,9 +139,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Tell me more about that time."
+              "text": "Te"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ll me more about that time."
             }
           ],
           "text": "Tell me more about that time.\n"
@@ -135,9 +171,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Well, for starters..."
+              "text": "We"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ll, for starters..."
             }
           ],
           "text": "Well, for starters...\n"
@@ -151,9 +192,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "We used to write letters."
+              "text": "We"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " used to write letters."
             }
           ],
           "text": "We used to write letters.\n"
@@ -167,9 +213,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Real letters, with pen and paper."
+              "text": "Re"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "al letters, with pen and paper."
             }
           ],
           "text": "Real letters, with pen and paper.\n"
@@ -183,9 +234,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Can you imagine that?"
+              "text": "Ca"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "n you imagine that?"
             }
           ],
           "text": "Can you imagine that?\n"
@@ -210,9 +266,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "That sounds lovely."
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "at sounds lovely."
             }
           ],
           "text": "That sounds lovely.\n"

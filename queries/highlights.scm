@@ -3,6 +3,15 @@
  (dialogue)
 ] @spell
 
+;; Emphasis in dialogue and action (bold but same color)
+(italic) @emphasis.strong
+(bold) @emphasis.strong
+(bold_italic) @emphasis.strong
+(underline) @emphasis.strong
+
+;; Uppercase key words/props in action lines
+(uppercase_text) @emphasis.strong
+
 (parenthetical) @comment.doc
 
 ;; Title page - subtle highlighting
@@ -17,7 +26,8 @@
 
 ;; Scene headings with scene numbers
 (scene_start) @keyword
-(scene_heading (description) @emphasis.strong)
+(scene_location) @emphasis.strong
+(scene_time) @string.special
 (scene_number) @number
 
 ;; Section headings (# markers)

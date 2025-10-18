@@ -26,9 +26,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Steel walks down the street, hands in his pockets."
+          "text": "St"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "eel walks down the street, hands in his pockets."
         }
       ],
       "text": "Steel walks down the street, hands in his pockets.\n\n"
@@ -37,9 +42,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "He stops at a corner."
+          "text": "He"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " stops at a corner."
         }
       ],
       "text": "He stops at a corner.\n"
@@ -48,9 +58,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Looks both ways."
+          "text": "Lo"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "oks both ways."
         }
       ],
       "text": "Looks both ways.\n"
@@ -59,9 +74,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Crosses carefully."
+          "text": "Cr"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "osses carefully."
         }
       ],
       "text": "Crosses carefully.\n\n"
@@ -81,9 +101,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "He catches himself and looks around embarrassed."
+          "text": "He"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " catches himself and looks around embarrassed."
         }
       ],
       "text": "He catches himself and looks around embarrassed.\n\n"
@@ -102,8 +127,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(appearing from nowhere)"
+            }
+          ],
           "text": "(appearing from nowhere)\n"
         },
         {
@@ -115,9 +146,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Nice reflexes."
+              "text": "Ni"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ce reflexes."
             }
           ],
           "text": "Nice reflexes.\n"
@@ -139,8 +175,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(defensive)"
+            }
+          ],
           "text": "(defensive)\n"
         },
         {
@@ -152,7 +194,7 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
               "text": "wasn't paying attention."
             }
@@ -179,9 +221,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Sure you weren't."
+              "text": "Su"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "re you weren't."
             }
           ],
           "text": "Sure you weren't.\n"
@@ -192,8 +239,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(grinning)"
+            }
+          ],
           "text": "(grinning)\n"
         },
         {
@@ -205,9 +258,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Let's get coffee."
+              "text": "Le"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "t's get coffee."
             }
           ],
           "text": "Let's get coffee.\n"
@@ -219,9 +277,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "They walk off together, leaving the empty street behind."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ey walk off together, leaving the empty street behind."
         }
       ],
       "text": "They walk off together, leaving the empty street behind.\n"

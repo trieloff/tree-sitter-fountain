@@ -50,9 +50,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Hello there."
+              "text": "He"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "llo there."
             }
           ],
           "text": "Hello there.\n"

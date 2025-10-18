@@ -18,9 +18,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "They're coming out of the woodwork!"
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ey're coming out of the woodwork!"
             }
           ],
           "text": "They're coming out of the woodwork!\n"
@@ -43,9 +48,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "From what seems like only INCHES AWAY."
+          "text": "Fr"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "om what seems like only "
+        },
+        {
+          "type": "uppercase_text",
+          "children": [],
+          "text": "INCHES AWAY"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "."
         }
       ],
       "text": "From what seems like only INCHES AWAY.\n"

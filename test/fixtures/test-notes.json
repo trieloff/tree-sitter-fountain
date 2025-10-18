@@ -42,9 +42,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Steel approaches the door cautiously."
+          "text": "St"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "eel approaches the door cautiously."
         }
       ],
       "text": "Steel approaches the door cautiously.\n\n"
@@ -66,7 +71,7 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
               "text": "[[whisper this line]]"
             }
@@ -82,9 +87,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Anyone home?"
+              "text": "An"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "yone home?"
             }
           ],
           "text": "Anyone home?\n"
@@ -96,9 +106,19 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "[[Remember to add sound effects here]]"
+          "text": "[["
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "Re"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "member to add sound effects here]]"
         }
       ],
       "text": "[[Remember to add sound effects here]]\n\n"
@@ -107,9 +127,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The door creaks open."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e door creaks open."
         }
       ],
       "text": "The door creaks open.\n"

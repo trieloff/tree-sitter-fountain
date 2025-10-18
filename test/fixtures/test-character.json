@@ -26,9 +26,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Basic character with dialogue."
+          "text": "Ba"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "sic character with dialogue."
         }
       ],
       "text": "Basic character with dialogue.\n\n"
@@ -50,9 +55,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Hello, world!"
+              "text": "He"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "llo, world!"
             }
           ],
           "text": "Hello, world!\n"
@@ -64,9 +74,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Character with extension."
+          "text": "Ch"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "aracter with extension."
         }
       ],
       "text": "Character with extension.\n\n"
@@ -88,9 +103,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Dinner's ready!"
+              "text": "Di"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "nner's ready!"
             }
           ],
           "text": "Dinner's ready!\n"
@@ -102,9 +122,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Character with parenthetical."
+          "text": "Ch"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "aracter with parenthetical."
         }
       ],
       "text": "Character with parenthetical.\n\n"
@@ -123,8 +148,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(whispering)"
+            }
+          ],
           "text": "(whispering)\n"
         },
         {
@@ -136,9 +167,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Don't tell anyone."
+              "text": "Do"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "n't tell anyone."
             }
           ],
           "text": "Don't tell anyone.\n"
@@ -150,9 +186,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Multiple characters in sequence."
+          "text": "Mu"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ltiple characters in sequence."
         }
       ],
       "text": "Multiple characters in sequence.\n\n"
@@ -174,9 +215,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "What happened here?"
+              "text": "Wh"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "at happened here?"
             }
           ],
           "text": "What happened here?\n"
@@ -201,9 +247,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "I saw everything."
+              "text": "I "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "saw everything."
             }
           ],
           "text": "I saw everything.\n"
@@ -215,9 +266,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Character with mixed case forced."
+          "text": "Ch"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "aracter with mixed case forced."
         }
       ],
       "text": "Character with mixed case forced.\n\n"
@@ -245,9 +301,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Yippee-ki-yay!"
+              "text": "Yi"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ppee-ki-yay!"
             }
           ],
           "text": "Yippee-ki-yay!\n"
@@ -259,9 +320,29 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Character must be uppercase (testing R2D2)."
+          "text": "Ch"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "aracter must be uppercase (testing "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "R2"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "D2"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": ")."
         }
       ],
       "text": "Character must be uppercase (testing R2D2).\n\n"
@@ -283,9 +364,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Beep boop!"
+              "text": "Be"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ep boop!"
             }
           ],
           "text": "Beep boop!\n"
@@ -297,9 +383,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Character with uppercase extension."
+          "text": "Ch"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "aracter with uppercase extension."
         }
       ],
       "text": "Character with uppercase extension.\n\n"
@@ -321,9 +412,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Everything is going according to plan."
+              "text": "Ev"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "erything is going according to plan."
             }
           ],
           "text": "Everything is going according to plan.\n"
@@ -335,9 +431,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Character with voice over extension."
+          "text": "Ch"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "aracter with voice over extension."
         }
       ],
       "text": "Character with voice over extension.\n\n"
@@ -359,9 +460,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "This is your captain speaking."
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "is is your captain speaking."
             }
           ],
           "text": "This is your captain speaking.\n"

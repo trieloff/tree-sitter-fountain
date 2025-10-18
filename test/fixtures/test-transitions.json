@@ -26,9 +26,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Jack begins to argue vociferously in Vietnamese."
+          "text": "Ja"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ck begins to argue vociferously in "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "Vi"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "etnamese."
         }
       ],
       "text": "Jack begins to argue vociferously in Vietnamese.\n\n"
@@ -63,9 +78,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Brick and Steel regard one another."
+          "text": "Br"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ick and "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "St"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "eel regard one another."
         }
       ],
       "text": "Brick and Steel regard one another.\n\n"
@@ -100,9 +130,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The doctor walks down the corridor."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e doctor walks down the corridor."
         }
       ],
       "text": "The doctor walks down the corridor.\n\n"
@@ -137,9 +172,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "A funeral procession."
+          "text": "A "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "funeral procession."
         }
       ],
       "text": "A funeral procession.\n\n"
@@ -174,9 +214,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Metal twists and glass shatters."
+          "text": "Me"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "tal twists and glass shatters."
         }
       ],
       "text": "Metal twists and glass shatters.\n\n"
@@ -211,9 +256,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The final scene ends."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e final scene ends."
         }
       ],
       "text": "The final scene ends.\n\n"
@@ -248,9 +298,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Waves crash on the shore."
+          "text": "Wa"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ves crash on the shore."
         }
       ],
       "text": "Waves crash on the shore.\n\n"
@@ -285,9 +340,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "She opens the letter."
+          "text": "Sh"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e opens the letter."
         }
       ],
       "text": "She opens the letter.\n"

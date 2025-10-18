@@ -26,9 +26,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Steel, in the middle of a heated phone call:"
+          "text": "St"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "eel, in the middle of a heated phone call:"
         }
       ],
       "text": "Steel, in the middle of a heated phone call:\n\n"
@@ -50,9 +55,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "They're coming out of the woodwork!"
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ey're coming out of the woodwork!"
             }
           ],
           "text": "They're coming out of the woodwork!\n"
@@ -63,8 +73,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(pause)"
+            }
+          ],
           "text": "(pause)\n"
         },
         {
@@ -76,9 +92,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "No, everybody we've put away!"
+              "text": "No"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": ", everybody we've put away!"
             }
           ],
           "text": "No, everybody we've put away!\n"
@@ -89,8 +110,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(pause)"
+            }
+          ],
           "text": "(pause)\n"
         },
         {
@@ -102,9 +129,34 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Point Blank Sniper?"
+              "text": "Po"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "int "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Bl"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ank "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Sn"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "iper?"
             }
           ],
           "text": "Point Blank Sniper?\n"

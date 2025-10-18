@@ -477,8 +477,11 @@
         "type": "SEQ",
         "members": [
           {
-            "type": "SYMBOL",
-            "name": "line"
+            "type": "REPEAT1",
+            "content": {
+              "type": "SYMBOL",
+              "name": "_inline_content"
+            }
           },
           {
             "type": "IMMEDIATE_TOKEN",
@@ -542,8 +545,11 @@
             "type": "SEQ",
             "members": [
               {
-                "type": "SYMBOL",
-                "name": "line"
+                "type": "REPEAT1",
+                "content": {
+                  "type": "SYMBOL",
+                  "name": "_inline_content"
+                }
               },
               {
                 "type": "STRING",
@@ -802,6 +808,111 @@
     "centered_end": {
       "type": "STRING",
       "value": "<"
+    },
+    "_inline_content": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "SYMBOL",
+          "name": "bold_italic"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "bold"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "italic"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "underline"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "uppercase_text"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "text"
+        }
+      ]
+    },
+    "bold_italic": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "***"
+        },
+        {
+          "type": "PATTERN",
+          "value": "[^*\\n]+"
+        },
+        {
+          "type": "STRING",
+          "value": "***"
+        }
+      ]
+    },
+    "bold": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "**"
+        },
+        {
+          "type": "PATTERN",
+          "value": "[^*\\n]+"
+        },
+        {
+          "type": "STRING",
+          "value": "**"
+        }
+      ]
+    },
+    "italic": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "*"
+        },
+        {
+          "type": "PATTERN",
+          "value": "[^*\\n]+"
+        },
+        {
+          "type": "STRING",
+          "value": "*"
+        }
+      ]
+    },
+    "underline": {
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "STRING",
+          "value": "_"
+        },
+        {
+          "type": "PATTERN",
+          "value": "[^_\\n]+"
+        },
+        {
+          "type": "STRING",
+          "value": "_"
+        }
+      ]
+    },
+    "uppercase_text": {
+      "type": "PATTERN",
+      "value": "[A-Z][A-Z]+( +[A-Z]+)*"
+    },
+    "text": {
+      "type": "PATTERN",
+      "value": "[^A-Z*_\\n]+|[A-Z][^A-Z*_\\n]"
     },
     "line": {
       "type": "TOKEN",

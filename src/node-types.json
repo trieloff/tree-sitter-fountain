@@ -4,19 +4,49 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "types": [
+        {
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "bold_italic",
+          "named": true
+        },
         {
           "type": "forced_action_start",
           "named": true
         },
         {
-          "type": "line",
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "uppercase_text",
           "named": true
         }
       ]
     }
+  },
+  {
+    "type": "bold",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "bold_italic",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "boneyard",
@@ -80,11 +110,31 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "types": [
         {
-          "type": "line",
+          "type": "bold",
+          "named": true
+        },
+        {
+          "type": "bold_italic",
+          "named": true
+        },
+        {
+          "type": "italic",
+          "named": true
+        },
+        {
+          "type": "text",
+          "named": true
+        },
+        {
+          "type": "underline",
+          "named": true
+        },
+        {
+          "type": "uppercase_text",
           "named": true
         }
       ]
@@ -175,6 +225,11 @@
         }
       ]
     }
+  },
+  {
+    "type": "italic",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "lyric",
@@ -354,6 +409,11 @@
     }
   },
   {
+    "type": "underline",
+    "named": true,
+    "fields": {}
+  },
+  {
     "type": "\n",
     "named": false
   },
@@ -374,6 +434,18 @@
     "named": false
   },
   {
+    "type": "*",
+    "named": false
+  },
+  {
+    "type": "**",
+    "named": false
+  },
+  {
+    "type": "***",
+    "named": false
+  },
+  {
     "type": "*/",
     "named": false
   },
@@ -387,6 +459,10 @@
   },
   {
     "type": "]]",
+    "named": false
+  },
+  {
+    "type": "_",
     "named": false
   },
   {
@@ -430,10 +506,6 @@
     "named": true
   },
   {
-    "type": "line",
-    "named": true
-  },
-  {
     "type": "lyric_start",
     "named": true
   },
@@ -470,6 +542,10 @@
     "named": true
   },
   {
+    "type": "text",
+    "named": true
+  },
+  {
     "type": "title_continuation",
     "named": true
   },
@@ -479,6 +555,10 @@
   },
   {
     "type": "title_key_with_space",
+    "named": true
+  },
+  {
+    "type": "uppercase_text",
     "named": true
   }
 ]

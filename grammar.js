@@ -134,7 +134,7 @@ module.exports = grammar({
     )),
 
     dialogue: $ => prec.right(seq(
-      $.line,
+      repeat1($._inline_content),
       token.immediate('\n')
     )),
 
@@ -152,7 +152,7 @@ module.exports = grammar({
         '\n'
       ),
       seq(
-        $.line,
+        repeat1($._inline_content),
         '\n'
       )
     )),
@@ -228,6 +228,50 @@ module.exports = grammar({
     centered_text: $ => /[^<\n]+/,
 
     centered_end: $ => '<',
+
+    // Inline content: emphasis, uppercase text, and regular text
+    // Order matters: more specific patterns first
+    _inline_content: $ => choice(
+      $.bold_italic,
+      $.bold,
+      $.italic,
+      $.underline,
+      $.uppercase_text,
+      $.text
+    ),
+
+    // Emphasis markers - these have higher precedence
+    bold_italic: $ => seq(
+      '***',
+      /[^*\n]+/,
+      '***'
+    ),
+
+    bold: $ => seq(
+      '**',
+      /[^*\n]+/,
+      '**'
+    ),
+
+    italic: $ => seq(
+      '*',
+      /[^*\n]+/,
+      '*'
+    ),
+
+    underline: $ => seq(
+      '_',
+      /[^_\n]+/,
+      '_'
+    ),
+
+    // Uppercase key words (2+ consecutive uppercase letters)
+    // Can include spaces between uppercase words
+    uppercase_text: $ => /[A-Z][A-Z]+( +[A-Z]+)*/,
+
+    // Regular text - everything else
+    // Matches: lowercase, digits, punctuation, single uppercase + non-uppercase
+    text: $ => /[^A-Z*_\n]+|[A-Z][^A-Z*_\n]/,
 
     line: $ => token(prec(-1, /[^\n]+/)),  // Lower precedence so specific patterns match first
 

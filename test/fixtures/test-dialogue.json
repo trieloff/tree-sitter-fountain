@@ -26,9 +26,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "A typical coffee shop scene."
+          "text": "A "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "typical coffee shop scene."
         }
       ],
       "text": "A typical coffee shop scene.\n\n"
@@ -50,9 +55,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "I can't believe you did that!"
+              "text": "I "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "can't believe you did that!"
             }
           ],
           "text": "I can't believe you did that!\n"
@@ -77,9 +87,24 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "What was I supposed to do?"
+              "text": "Wh"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "at was "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "I "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "supposed to do?"
             }
           ],
           "text": "What was I supposed to do?\n"
@@ -101,8 +126,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(angry)"
+            }
+          ],
           "text": "(angry)\n"
         },
         {
@@ -114,9 +145,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Tell the truth!"
+              "text": "Te"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ll the truth!"
             }
           ],
           "text": "Tell the truth!\n"
@@ -138,8 +174,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(defensively)"
+            }
+          ],
           "text": "(defensively)\n"
         },
         {
@@ -151,7 +193,7 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
               "text": "was trying to protect you."
             }
@@ -178,9 +220,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "You always say that."
+              "text": "Yo"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "u always say that."
             }
           ],
           "text": "You always say that.\n"
@@ -191,8 +238,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(softening)"
+            }
+          ],
           "text": "(softening)\n"
         },
         {
@@ -204,9 +257,24 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "But I appreciate it."
+              "text": "Bu"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "t "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "I "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "appreciate it."
             }
           ],
           "text": "But I appreciate it.\n"
@@ -228,8 +296,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(smiling)"
+            }
+          ],
           "text": "(smiling)\n"
         },
         {
@@ -241,7 +315,7 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
               "text": "know you do."
             }

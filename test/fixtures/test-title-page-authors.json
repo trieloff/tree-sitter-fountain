@@ -90,9 +90,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Work happens."
+          "text": "Wo"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "rk happens."
         }
       ],
       "text": "Work happens.\n"

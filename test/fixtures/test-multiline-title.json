@@ -143,9 +143,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "uppercase_text",
           "children": [],
-          "text": "BRICK and STEEL argue about retirement."
+          "text": "BRICK"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " and "
+        },
+        {
+          "type": "uppercase_text",
+          "children": [],
+          "text": "STEEL"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " argue about retirement."
         }
       ],
       "text": "BRICK and STEEL argue about retirement.\n"

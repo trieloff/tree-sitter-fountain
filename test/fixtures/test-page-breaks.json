@@ -26,9 +26,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "uppercase_text",
           "children": [],
-          "text": "BRICK emerges from the water, his skin glistening."
+          "text": "BRICK"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " emerges from the water, his skin glistening."
         }
       ],
       "text": "BRICK emerges from the water, his skin glistening.\n\n"
@@ -69,9 +74,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "uppercase_text",
           "children": [],
-          "text": "STEEL paces the room, looking worried."
+          "text": "STEEL"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " paces the room, looking worried."
         }
       ],
       "text": "STEEL paces the room, looking worried.\n\n"
@@ -154,9 +164,34 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The General Lee hangs in the air, right where we left it."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "Ge"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "neral "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "Le"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e hangs in the air, right where we left it."
         }
       ],
       "text": "The General Lee hangs in the air, right where we left it.\n"

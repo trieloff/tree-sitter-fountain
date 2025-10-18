@@ -45,9 +45,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Yippee-ki-yay!"
+              "text": "Yi"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ppee-ki-yay!"
             }
           ],
           "text": "Yippee-ki-yay!\n"
@@ -72,9 +77,29 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Mr. McClane, how nice to hear from you."
+              "text": "Mr"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": ". "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Mc"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Cl"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ane, how nice to hear from you."
             }
           ],
           "text": "Mr. McClane, how nice to hear from you.\n"
@@ -86,9 +111,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "@R2-D2"
+          "text": "@"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "R2"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "-"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "D2"
         }
       ],
       "text": "@R2-D2\n"
@@ -97,9 +137,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Beep boop beep!"
+          "text": "Be"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ep boop beep!"
         }
       ],
       "text": "Beep boop beep!\n\n"
@@ -127,9 +172,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Oh my, what did you say?"
+              "text": "Oh"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " my, what did you say?"
             }
           ],
           "text": "Oh my, what did you say?\n"

@@ -26,9 +26,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The door opens."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e door opens."
         }
       ],
       "text": "The door opens.\n\n"
@@ -58,9 +63,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "A car pulls up."
+          "text": "A "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "car pulls up."
         }
       ],
       "text": "A car pulls up.\n\n"
@@ -69,9 +79,29 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "uppercase_text",
           "children": [],
-          "text": "EST. MANSION - DAY"
+          "text": "EST"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": ". "
+        },
+        {
+          "type": "uppercase_text",
+          "children": [],
+          "text": "MANSION"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": " - "
+        },
+        {
+          "type": "uppercase_text",
+          "children": [],
+          "text": "DAY"
         }
       ],
       "text": "EST. MANSION - DAY\n\n"
@@ -80,9 +110,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Establishing shot."
+          "text": "Es"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "tablishing shot."
         }
       ],
       "text": "Establishing shot.\n\n"
@@ -112,9 +147,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Driving through the city."
+          "text": "Dr"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "iving through the city."
         }
       ],
       "text": "Driving through the city.\n\n"
@@ -139,9 +179,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Forced scene heading without standard prefix."
+          "text": "Fo"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "rced scene heading without standard prefix."
         }
       ],
       "text": "Forced scene heading without standard prefix.\n\n"
@@ -166,9 +211,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Another forced heading."
+          "text": "An"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "other forced heading."
         }
       ],
       "text": "Another forced heading.\n\n"
@@ -203,9 +253,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Scene with number."
+          "text": "Sc"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ene with number."
         }
       ],
       "text": "Scene with number.\n\n"
@@ -240,9 +295,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Scene with alphanumeric number."
+          "text": "Sc"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "ene with alphanumeric number."
         }
       ],
       "text": "Scene with alphanumeric number.\n\n"
@@ -277,9 +337,14 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "Complex scene with number."
+          "text": "Co"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "mplex scene with number."
         }
       ],
       "text": "Complex scene with number.\n"

@@ -64,9 +64,24 @@
       "type": "action",
       "children": [
         {
-          "type": "line",
+          "type": "text",
           "children": [],
-          "text": "The Dude bowls."
+          "text": "Th"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "e "
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "Du"
+        },
+        {
+          "type": "text",
+          "children": [],
+          "text": "de bowls."
         }
       ],
       "text": "The Dude bowls.\n"

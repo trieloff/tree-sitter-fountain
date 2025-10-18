@@ -39,9 +39,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "You're going to tell me everything."
+              "text": "Yo"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "u're going to tell me everything."
             }
           ],
           "text": "You're going to tell me everything.\n"
@@ -66,9 +71,19 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "I *really* don't know what you're talking about."
+              "text": "I "
+            },
+            {
+              "type": "italic",
+              "children": [],
+              "text": "*really*"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " don't know what you're talking about."
             }
           ],
           "text": "I *really* don't know what you're talking about.\n"
@@ -103,9 +118,14 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Don't lie to me."
+              "text": "Do"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "n't lie to me."
             }
           ],
           "text": "Don't lie to me.\n"
@@ -127,8 +147,14 @@
           "text": ""
         },
         {
-          "type": "parenthetical",
-          "children": [],
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "(standing up)"
+            }
+          ],
           "text": "(standing up)\n"
         },
         {
@@ -140,9 +166,19 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "want my _lawyer_."
+              "text": "want my "
+            },
+            {
+              "type": "underline",
+              "children": [],
+              "text": "_lawyer_"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "."
             }
           ],
           "text": "want my _lawyer_.\n"
@@ -167,9 +203,34 @@
           "type": "dialogue",
           "children": [
             {
-              "type": "line",
+              "type": "text",
               "children": [],
-              "text": "Fine. But you'll **regret** this."
+              "text": "Fi"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ne. "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Bu"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "t you'll "
+            },
+            {
+              "type": "bold",
+              "children": [],
+              "text": "**regret**"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " this."
             }
           ],
           "text": "Fine. But you'll **regret** this.\n"
