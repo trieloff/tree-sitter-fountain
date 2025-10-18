@@ -3,7 +3,6 @@
 #include <wctype.h>
 
 enum TokenType {
-  TITLE_PAGE_KEY,
   SCENE_START,
   SECTION_START,
   NOTE_START,
@@ -30,20 +29,6 @@ static bool match_keyword(TSLexer *lexer, const char *keyword) {
 }
 
 bool tree_sitter_fountain_external_scanner_scan(void *payload, TSLexer *lexer, const bool *valid_symbols) {
-  // Try title page keywords
-  if (valid_symbols[TITLE_PAGE_KEY]) {
-    if (match_keyword(lexer, "Title:") ||
-        match_keyword(lexer, "Credit:") ||
-        match_keyword(lexer, "Author:") ||
-        match_keyword(lexer, "Source:") ||
-        match_keyword(lexer, "Draft date:") ||
-        match_keyword(lexer, "Contact:")) {
-      lexer->result_symbol = TITLE_PAGE_KEY;
-      lexer->mark_end(lexer);
-      return true;
-    }
-  }
-
   // Try section start (# markers)
   if (valid_symbols[SECTION_START] && lexer->lookahead == '#') {
     while (lexer->lookahead == '#') {

@@ -2,19 +2,39 @@
   "name": "fountain",
   "rules": {
     "document": {
-      "type": "REPEAT",
+      "type": "SEQ",
+      "members": [
+        {
+          "type": "CHOICE",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "title_page"
+            },
+            {
+              "type": "BLANK"
+            }
+          ]
+        },
+        {
+          "type": "REPEAT",
+          "content": {
+            "type": "SYMBOL",
+            "name": "_element"
+          }
+        }
+      ]
+    },
+    "title_page": {
+      "type": "REPEAT1",
       "content": {
         "type": "SYMBOL",
-        "name": "_element"
+        "name": "title_page_field"
       }
     },
     "_element": {
       "type": "CHOICE",
       "members": [
-        {
-          "type": "SYMBOL",
-          "name": "title_page_field"
-        },
         {
           "type": "SYMBOL",
           "name": "boneyard"
@@ -62,14 +82,23 @@
       ]
     },
     "title_page_field": {
-      "type": "PREC",
+      "type": "PREC_LEFT",
       "value": 10,
       "content": {
         "type": "SEQ",
         "members": [
           {
-            "type": "SYMBOL",
-            "name": "title_page_key"
+            "type": "FIELD",
+            "name": "key",
+            "content": {
+              "type": "ALIAS",
+              "content": {
+                "type": "SYMBOL",
+                "name": "title_key"
+              },
+              "named": false,
+              "value": "key"
+            }
           },
           {
             "type": "CHOICE",
@@ -82,8 +111,12 @@
                     "value": " "
                   },
                   {
-                    "type": "SYMBOL",
-                    "name": "description"
+                    "type": "FIELD",
+                    "name": "value",
+                    "content": {
+                      "type": "SYMBOL",
+                      "name": "description"
+                    }
                   }
                 ]
               },
@@ -97,6 +130,26 @@
             "value": "\n"
           }
         ]
+      }
+    },
+    "title_key": {
+      "type": "TOKEN",
+      "content": {
+        "type": "PREC",
+        "value": 1,
+        "content": {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "PATTERN",
+              "value": "[A-Za-z][A-Za-z0-9 ]*"
+            },
+            {
+              "type": "STRING",
+              "value": ":"
+            }
+          ]
+        }
       }
     },
     "scene_heading": {
@@ -568,14 +621,14 @@
   "conflicts": [
     [
       "dialogue_block"
+    ],
+    [
+      "title_page_field",
+      "action"
     ]
   ],
   "precedences": [],
   "externals": [
-    {
-      "type": "SYMBOL",
-      "name": "title_page_key"
-    },
     {
       "type": "SYMBOL",
       "name": "scene_start"

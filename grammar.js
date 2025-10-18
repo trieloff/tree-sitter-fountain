@@ -4,11 +4,11 @@
 module.exports = grammar({
   name: "fountain",
   conflicts: $ => [
-    [$.dialogue_block]
+    [$.dialogue_block],
+    [$.title_page_field, $.action]
   ],
 
   externals: $ => [
-    $.title_page_key,
     $.scene_start,
     $.section_start,
     $.note_start,
@@ -23,10 +23,14 @@ module.exports = grammar({
   ],
 
   rules: {
-    document: $ => repeat($._element),
+    document: $ => seq(
+      optional($.title_page),
+      repeat($._element)
+    ),
+
+    title_page: $ => repeat1($.title_page_field),
 
     _element: $ => choice(
-      $.title_page_field,
       $.boneyard,
       $.page_break,
       $.scene_heading,
@@ -40,11 +44,16 @@ module.exports = grammar({
       $.action
     ),
 
-    title_page_field: $ => prec(10, seq(
-      $.title_page_key,
-      optional(seq(' ', $.description)),
+    title_page_field: $ => prec.left(10, seq(
+      field('key', alias($.title_key, 'key')),
+      optional(seq(' ', field('value', $.description))),
       '\n'
     )),
+
+    title_key: $ => token(prec(1, seq(
+      /[A-Za-z][A-Za-z0-9 ]*/,
+      ':'
+    ))),
 
     scene_heading: $ => prec(5, seq(
       $.scene_start,

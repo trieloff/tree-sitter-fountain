@@ -5,9 +5,8 @@
 
 (parenthetical) @comment.doc
 
-;; Title page
-(title_page_key) @keyword
-(title_page_field (description) @string.special)
+;; Title page - subtle highlighting
+(title_key) @keyword
 
 ;; Character names
 (character) @label
