@@ -139,16 +139,30 @@ bool tree_sitter_fountain_external_scanner_scan(void *payload, TSLexer *lexer, c
   // Try forced transition or centered (>)
   if (lexer->lookahead == '>') {
     lexer->advance(lexer, false);
-    // Check if it's centered text (has text then <)
-    if (valid_symbols[CENTERED_START]) {
+    // Mark the end right after the '>' symbol
+    lexer->mark_end(lexer);
+
+    // Look ahead to see if there's a closing '<' on this line
+    // to distinguish between centered text (>text<) and forced transition (>text)
+    bool has_closing_bracket = false;
+
+    // Scan the rest of the line looking for '<' (don't modify mark_end)
+    while (lexer->lookahead != '\n' && lexer->lookahead != '\0') {
+      if (lexer->lookahead == '<') {
+        has_closing_bracket = true;
+        break;
+      }
+      lexer->advance(lexer, false);
+    }
+
+    // If we found a closing bracket, it's centered text
+    if (has_closing_bracket && valid_symbols[CENTERED_START]) {
       lexer->result_symbol = CENTERED_START;
-      lexer->mark_end(lexer);
       return true;
     }
-    // Otherwise it's a forced transition
-    if (valid_symbols[FORCED_TRANSITION_START]) {
+    // Otherwise, if no closing bracket, it's a forced transition
+    else if (!has_closing_bracket && valid_symbols[FORCED_TRANSITION_START]) {
       lexer->result_symbol = FORCED_TRANSITION_START;
-      lexer->mark_end(lexer);
       return true;
     }
   }
