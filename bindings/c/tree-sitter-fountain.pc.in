@@ -2,10 +2,10 @@ prefix=@PREFIX@
 libdir=@LIBDIR@
 includedir=@INCLUDEDIR@
 
-Name: tree-sitter-fountain
+Name: tree-sitter-Fountain
 Description: Fountain grammar for tree-sitter
 URL: @URL@
 Version: @VERSION@
 Requires: @REQUIRES@
-Libs: -L${libdir} @ADDITIONAL_LIBS@ -ltree-sitter-fountain
+Libs: -L${libdir} @ADDITIONAL_LIBS@ -ltree-sitter-Fountain
 Cflags: -I${includedir}
