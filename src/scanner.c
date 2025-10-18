@@ -16,6 +16,8 @@ enum TokenType {
   SYNOPSIS_START,
   BONEYARD_START,
   TITLE_CONTINUATION,
+  BLANK_LINE,
+  DIALOGUE_LINE_START,
 };
 
 typedef struct {
@@ -170,6 +172,48 @@ bool tree_sitter_fountain_external_scanner_scan(void *payload, TSLexer *lexer, c
     lexer->result_symbol = BONEYARD_START;
     lexer->mark_end(lexer);
     return true;
+  }
+
+  // Try dialogue_line_start - matches if we're at the start of a non-blank line
+  // This prevents dialogue from matching blank lines or lines after blank lines
+  if (valid_symbols[DIALOGUE_LINE_START]) {
+    // Skip any whitespace (spaces/tabs)
+    while (lexer->lookahead == ' ' || lexer->lookahead == '\t') {
+      lexer->advance(lexer, false);
+    }
+
+    // If we hit a newline or EOF, this is NOT a dialogue line (it's blank)
+    if (lexer->lookahead == '\n' || lexer->lookahead == '\0') {
+      return false;
+    }
+
+    // Otherwise, it's a valid dialogue line start
+    lexer->result_symbol = DIALOGUE_LINE_START;
+    lexer->mark_end(lexer);
+    return true;
+  }
+
+  // Try blank line - detects when we're at the start of an empty line (or EOF)
+  // This ends dialogue blocks
+  if (valid_symbols[BLANK_LINE]) {
+    // Skip any whitespace (spaces/tabs)
+    while (lexer->lookahead == ' ' || lexer->lookahead == '\t') {
+      lexer->advance(lexer, false);
+    }
+
+    // If we're at a newline or EOF, this is a blank line
+    if (lexer->lookahead == '\n') {
+      lexer->advance(lexer, false);  // Consume the newline
+      lexer->result_symbol = BLANK_LINE;
+      lexer->mark_end(lexer);
+      return true;
+    }
+
+    if (lexer->lookahead == '\0') {
+      lexer->result_symbol = BLANK_LINE;
+      lexer->mark_end(lexer);
+      return true;
+    }
   }
 
   return false;

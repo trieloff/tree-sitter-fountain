@@ -4,7 +4,6 @@
 module.exports = grammar({
   name: "fountain",
   conflicts: $ => [
-    [$.dialogue_block],
     [$.title_page_field, $.action]
   ],
 
@@ -20,7 +19,9 @@ module.exports = grammar({
     $.page_break_marker,
     $.synopsis_start,
     $.boneyard_start,
-    $.title_continuation
+    $.title_continuation,
+    $.blank_line,
+    $.dialogue_line_start
   ],
 
   rules: {
@@ -107,20 +108,24 @@ module.exports = grammar({
 
     dialogue_block: $ => prec(4, seq(
       $.character,
-      repeat1(choice($.dialogue, $.parenthetical))
+      repeat1(seq(
+        $.dialogue_line_start,  // Must be a non-blank line
+        choice($.dialogue, $.parenthetical)
+      )),
+      optional($.blank_line)  // Optional at EOF
     )),
 
-    dialogue: $ => seq(
+    dialogue: $ => prec.right(seq(
       $.line,
-      '\n'
-    ),
+      token.immediate('\n')
+    )),
 
-    parenthetical: $ => seq(
+    parenthetical: $ => prec.right(seq(
       '(',
       /[^)]+/,
       ')',
       '\n'
-    ),
+    )),
 
     action: $ => prec(1, choice(
       seq(

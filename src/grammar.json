@@ -333,55 +333,87 @@
           {
             "type": "REPEAT1",
             "content": {
-              "type": "CHOICE",
+              "type": "SEQ",
               "members": [
                 {
                   "type": "SYMBOL",
-                  "name": "dialogue"
+                  "name": "dialogue_line_start"
                 },
                 {
-                  "type": "SYMBOL",
-                  "name": "parenthetical"
+                  "type": "CHOICE",
+                  "members": [
+                    {
+                      "type": "SYMBOL",
+                      "name": "dialogue"
+                    },
+                    {
+                      "type": "SYMBOL",
+                      "name": "parenthetical"
+                    }
+                  ]
                 }
               ]
             }
+          },
+          {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "SYMBOL",
+                "name": "blank_line"
+              },
+              {
+                "type": "BLANK"
+              }
+            ]
           }
         ]
       }
     },
     "dialogue": {
-      "type": "SEQ",
-      "members": [
-        {
-          "type": "SYMBOL",
-          "name": "line"
-        },
-        {
-          "type": "STRING",
-          "value": "\n"
-        }
-      ]
+      "type": "PREC_RIGHT",
+      "value": 0,
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "line"
+          },
+          {
+            "type": "IMMEDIATE_TOKEN",
+            "content": {
+              "type": "STRING",
+              "value": "\n"
+            }
+          }
+        ]
+      }
     },
     "parenthetical": {
-      "type": "SEQ",
-      "members": [
-        {
-          "type": "STRING",
-          "value": "("
-        },
-        {
-          "type": "PATTERN",
-          "value": "[^)]+"
-        },
-        {
-          "type": "STRING",
-          "value": ")"
-        },
-        {
-          "type": "STRING",
-          "value": "\n"
-        }
-      ]
+      "type": "PREC_RIGHT",
+      "value": 0,
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "STRING",
+            "value": "("
+          },
+          {
+            "type": "PATTERN",
+            "value": "[^)]+"
+          },
+          {
+            "type": "STRING",
+            "value": ")"
+          },
+          {
+            "type": "STRING",
+            "value": "\n"
+          }
+        ]
+      }
     },
     "action": {
       "type": "PREC",
@@ -656,9 +688,6 @@
   ],
   "conflicts": [
     [
-      "dialogue_block"
-    ],
-    [
       "title_page_field",
       "action"
     ]
@@ -712,6 +741,14 @@
     {
       "type": "SYMBOL",
       "name": "title_continuation"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "blank_line"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "dialogue_line_start"
     }
   ],
   "inline": [],

@@ -87,11 +87,19 @@
       "required": true,
       "types": [
         {
+          "type": "blank_line",
+          "named": true
+        },
+        {
           "type": "character",
           "named": true
         },
         {
           "type": "dialogue",
+          "named": true
+        },
+        {
+          "type": "dialogue_line_start",
           "named": true
         },
         {
@@ -362,6 +370,10 @@
     "named": false
   },
   {
+    "type": "blank_line",
+    "named": true
+  },
+  {
     "type": "boneyard_start",
     "named": true
   },
@@ -371,6 +383,10 @@
   },
   {
     "type": "description",
+    "named": true
+  },
+  {
+    "type": "dialogue_line_start",
     "named": true
   },
   {
