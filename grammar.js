@@ -188,7 +188,8 @@ module.exports = grammar({
     boneyard: $ => prec(10, seq(
       $.boneyard_start,
       $.boneyard_content,
-      '*/'
+      '*/',
+      '\n'
     )),
 
     boneyard_content: $ => token(prec(-1, repeat(choice(
