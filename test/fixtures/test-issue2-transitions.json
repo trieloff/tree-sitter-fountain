@@ -1,12 +1,56 @@
 {
   "type": "document",
-  "expectedNodes": [
-    {"type": "scene_heading"},
-    {"type": "action"},
-    {"type": "transition"},
-    {"type": "transition"},
-    {"type": "transition"},
-    {"type": "transition"},
-    {"type": "scene_heading"}
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": []
+        },
+        {
+          "type": "description",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "transition",
+      "children": []
+    },
+    {
+      "type": "transition",
+      "children": []
+    },
+    {
+      "type": "transition",
+      "children": []
+    },
+    {
+      "type": "transition",
+      "children": []
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": []
+        },
+        {
+          "type": "description",
+          "children": []
+        }
+      ]
+    }
   ]
 }

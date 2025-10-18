@@ -1,7 +1,79 @@
 {
   "type": "document",
-  "expectedNodes": [
-    {"type": "scene_heading"},
-    {"type": "dialogue_block"}
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": []
+        },
+        {
+          "type": "description",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": []
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": []
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": []
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": []
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": []
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

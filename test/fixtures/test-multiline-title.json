@@ -1,8 +1,122 @@
 {
   "type": "document",
-  "expectedNodes": [
-    {"type": "title_page"},
-    {"type": "scene_heading"},
-    {"type": "action"}
+  "children": [
+    {
+      "type": "title_page",
+      "children": [
+        {
+          "type": "title_page_field",
+          "children": [
+            {
+              "type": "title_key",
+              "children": []
+            },
+            {
+              "type": "title_continuation",
+              "children": []
+            },
+            {
+              "type": "title_continuation",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "title_page_field",
+          "children": [
+            {
+              "type": "title_key_with_space",
+              "children": []
+            },
+            {
+              "type": "description",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "title_page_field",
+          "children": [
+            {
+              "type": "title_key_with_space",
+              "children": []
+            },
+            {
+              "type": "description",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "title_page_field",
+          "children": [
+            {
+              "type": "title_key_with_space",
+              "children": []
+            },
+            {
+              "type": "description",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "title_page_field",
+          "children": [
+            {
+              "type": "title_key_with_space",
+              "children": []
+            },
+            {
+              "type": "description",
+              "children": []
+            }
+          ]
+        },
+        {
+          "type": "title_page_field",
+          "children": [
+            {
+              "type": "title_key",
+              "children": []
+            },
+            {
+              "type": "title_continuation",
+              "children": []
+            },
+            {
+              "type": "title_continuation",
+              "children": []
+            },
+            {
+              "type": "title_continuation",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": []
+        },
+        {
+          "type": "description",
+          "children": []
+        }
+      ]
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": []
+        }
+      ]
+    }
   ]
 }

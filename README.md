@@ -64,20 +64,38 @@ npm run test:tree-sitter
 To add a new test:
 
 1. Create a `.fountain` file in `test/fixtures/` with your test content
-2. Create a corresponding `.json` file with the same name containing expected AST nodes:
+2. Generate the expected AST by running:
+
+```bash
+node test/generate-fixtures.js
+```
+
+This will create a `.json` file with the complete AST structure for each `.fountain` file.
+
+Alternatively, you can manually create the JSON file with the expected AST structure:
 
 ```json
 {
   "type": "document",
-  "expectedNodes": [
-    {"type": "scene_heading"},
-    {"type": "action"},
-    {"type": "dialogue_block"}
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {"type": "scene_start", "children": []},
+        {"type": "description", "children": []}
+      ]
+    },
+    {
+      "type": "action",
+      "children": [
+        {"type": "line", "children": []}
+      ]
+    }
   ]
 }
 ```
 
-The test runner will automatically discover and run your new test on the next `npm test` run.
+The test runner will automatically discover and run your new test on the next `npm test` run. Tests perform deep AST comparison, verifying the complete tree structure.
 
 ## References
 
