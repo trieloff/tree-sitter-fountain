@@ -72,10 +72,10 @@
               "text": "Ten."
             }
           ],
-          "text": "Ten.\n\n"
+          "text": "Ten.\n"
         }
       ],
-      "text": "DEALER\nTen.\n\n"
+      "text": "DEALER\nTen.\n"
     },
     {
       "type": "action",
@@ -131,10 +131,10 @@
               "text": "Stand."
             }
           ],
-          "text": "Stand.\n\n"
+          "text": "Stand.\n"
         }
       ],
-      "text": "GAMBLER\n(nervous)\nStand.\n\n"
+      "text": "GAMBLER\n(nervous)\nStand.\n"
     },
     {
       "type": "action",
