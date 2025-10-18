@@ -26,10 +26,14 @@
       ]
     },
     "title_page": {
-      "type": "REPEAT1",
+      "type": "PREC",
+      "value": 20,
       "content": {
-        "type": "SYMBOL",
-        "name": "title_page_field"
+        "type": "REPEAT1",
+        "content": {
+          "type": "SYMBOL",
+          "name": "title_page_field"
+        }
       }
     },
     "_element": {

@@ -28,7 +28,9 @@ module.exports = grammar({
       repeat($._element)
     ),
 
-    title_page: $ => repeat1($.title_page_field),
+    // Title page: consume all key:value pairs and indented lines
+    // until we hit a blank line or EOF or a scene/section start
+    title_page: $ => prec(20, repeat1($.title_page_field)),
 
     _element: $ => choice(
       $.boneyard,
@@ -44,6 +46,8 @@ module.exports = grammar({
       $.action
     ),
 
+    // Note: Multi-line title page values (indented continuation lines)
+    // are not yet fully supported. Only single-line key: value pairs work.
     title_page_field: $ => prec.left(10, seq(
       $.title_key,
       optional(seq(' ', $.description)),
