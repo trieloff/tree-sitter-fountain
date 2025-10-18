@@ -73,14 +73,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(pause)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(pause)\n"
         },
         {
@@ -110,14 +104,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(pause)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(pause)\n"
         },
         {

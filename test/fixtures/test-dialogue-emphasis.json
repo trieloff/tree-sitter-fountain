@@ -147,14 +147,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(standing up)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(standing up)\n"
         },
         {

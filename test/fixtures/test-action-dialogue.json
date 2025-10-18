@@ -127,14 +127,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(appearing from nowhere)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(appearing from nowhere)\n"
         },
         {
@@ -175,14 +169,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(defensive)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(defensive)\n"
         },
         {
@@ -239,14 +227,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(grinning)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(grinning)\n"
         },
         {

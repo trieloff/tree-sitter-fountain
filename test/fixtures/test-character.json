@@ -148,14 +148,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(whispering)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(whispering)\n"
         },
         {
@@ -317,7 +311,7 @@
       "text": "@McCLANE\nYippee-ki-yay!\n"
     },
     {
-      "type": "action",
+      "type": "ERROR",
       "children": [
         {
           "type": "text",
@@ -327,25 +321,20 @@
         {
           "type": "text",
           "children": [],
-          "text": "aracter must be uppercase (testing "
+          "text": "aracter must be uppercase "
         },
         {
-          "type": "text",
+          "type": "ERROR",
           "children": [],
-          "text": "R2"
+          "text": "testing"
         },
         {
-          "type": "text",
+          "type": "dialogue_line_start",
           "children": [],
-          "text": "D2"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": ")."
+          "text": " "
         }
       ],
-      "text": "Character must be uppercase (testing R2D2).\n\n"
+      "text": "Character must be uppercase (testing R2D2).\n"
     },
     {
       "type": "dialogue_block",

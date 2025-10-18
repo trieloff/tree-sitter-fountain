@@ -456,11 +456,11 @@
                   "members": [
                     {
                       "type": "SYMBOL",
-                      "name": "dialogue"
+                      "name": "parenthetical"
                     },
                     {
                       "type": "SYMBOL",
-                      "name": "parenthetical"
+                      "name": "dialogue"
                     }
                   ]
                 }
@@ -495,7 +495,7 @@
     },
     "parenthetical": {
       "type": "PREC_RIGHT",
-      "value": 0,
+      "value": 10,
       "content": {
         "type": "SEQ",
         "members": [
@@ -912,7 +912,7 @@
     },
     "text": {
       "type": "PATTERN",
-      "value": "[^A-Z*_\\n]+|[A-Z][^A-Z*_\\n]"
+      "value": "[^A-Z*_\\n()]+|[A-Z][^A-Z*_\\n()]"
     },
     "line": {
       "type": "TOKEN",

@@ -129,7 +129,7 @@ module.exports = grammar({
       $.character,
       repeat1(seq(
         $.dialogue_line_start,  // Must be a non-blank line
-        choice($.dialogue, $.parenthetical)
+        choice($.parenthetical, $.dialogue)  // Check parenthetical first
       ))
     )),
 
@@ -138,7 +138,7 @@ module.exports = grammar({
       token.immediate('\n')
     )),
 
-    parenthetical: $ => prec.right(seq(
+    parenthetical: $ => prec.right(10, seq(  // Higher precedence than dialogue
       '(',
       /[^)]+/,
       ')',
@@ -271,7 +271,8 @@ module.exports = grammar({
 
     // Regular text - everything else
     // Matches: lowercase, digits, punctuation, single uppercase + non-uppercase
-    text: $ => /[^A-Z*_\n]+|[A-Z][^A-Z*_\n]/,
+    // Excludes parentheses so parentheticals can be recognized in dialogue
+    text: $ => /[^A-Z*_\n()]+|[A-Z][^A-Z*_\n()]/,
 
     line: $ => token(prec(-1, /[^\n]+/)),  // Lower precedence so specific patterns match first
 

@@ -68,14 +68,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(sipping coffee)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(sipping coffee)\n"
         },
         {

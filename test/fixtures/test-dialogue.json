@@ -126,14 +126,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(angry)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(angry)\n"
         },
         {
@@ -174,14 +168,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(defensively)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(defensively)\n"
         },
         {
@@ -238,14 +226,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(softening)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(softening)\n"
         },
         {
@@ -296,14 +278,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(smiling)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(smiling)\n"
         },
         {

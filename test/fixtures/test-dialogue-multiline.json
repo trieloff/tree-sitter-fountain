@@ -120,14 +120,8 @@
           "text": ""
         },
         {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "(listening intently)"
-            }
-          ],
+          "type": "parenthetical",
+          "children": [],
           "text": "(listening intently)\n"
         },
         {
