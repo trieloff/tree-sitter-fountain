@@ -1,0 +1,77 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "OFFICE - DAY"
+        }
+      ],
+      "text": "INT. OFFICE - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "The document contains *italics*, **bold**, and ***bold italics***."
+        }
+      ],
+      "text": "The document contains *italics*, **bold**, and ***bold italics***.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "There is also _underline_ formatting available."
+        }
+      ],
+      "text": "There is also _underline_ formatting available.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "From what seems like only INCHES AWAY. _Steel's face FILLS the *Leupold Mark 4* scope_."
+        }
+      ],
+      "text": "From what seems like only INCHES AWAY. _Steel's face FILLS the *Leupold Mark 4* scope_.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Mixed emphasis: **This is bold with *nested italics* inside**."
+        }
+      ],
+      "text": "Mixed emphasis: **This is bold with *nested italics* inside**.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Edge case with spaces: * not italic * and _ not underline _."
+        }
+      ],
+      "text": "Edge case with spaces: * not italic * and _ not underline _.\n"
+    }
+  ],
+  "text": "INT. OFFICE - DAY\n\nThe document contains *italics*, **bold**, and ***bold italics***.\n\nThere is also _underline_ formatting available.\n\nFrom what seems like only INCHES AWAY. _Steel's face FILLS the *Leupold Mark 4* scope_.\n\nMixed emphasis: **This is bold with *nested italics* inside**.\n\nEdge case with spaces: * not italic * and _ not underline _.\n"
+}

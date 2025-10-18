@@ -1,0 +1,11 @@
+INT. OFFICE - DAY
+
+The document contains *italics*, **bold**, and ***bold italics***.
+
+There is also _underline_ formatting available.
+
+From what seems like only INCHES AWAY. _Steel's face FILLS the *Leupold Mark 4* scope_.
+
+Mixed emphasis: **This is bold with *nested italics* inside**.
+
+Edge case with spaces: * not italic * and _ not underline _.
