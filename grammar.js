@@ -76,12 +76,21 @@ module.exports = grammar({
       ' '
     ))),
 
-    scene_heading: $ => prec(5, seq(
-      $.scene_start,
-      optional(' '),  // Space is optional for forced scene headings (.)
-      $.description,
-      optional($.scene_number),
-      '\n'
+    scene_heading: $ => prec(5, choice(
+      seq(
+        $.scene_start,
+        optional(' '),
+        $.description,
+        optional($.scene_number),
+        '\n'
+      ),
+      seq(
+        '.',
+        optional(' '),
+        $.description,
+        optional($.scene_number),
+        '\n'
+      )
     )),
 
     scene_number: $ => seq(
@@ -109,8 +118,7 @@ module.exports = grammar({
       repeat1(seq(
         $.dialogue_line_start,  // Must be a non-blank line
         choice($.dialogue, $.parenthetical)
-      )),
-      optional($.blank_line)  // Optional at EOF
+      ))
     )),
 
     dialogue: $ => prec.right(seq(

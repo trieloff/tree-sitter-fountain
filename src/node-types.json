@@ -99,10 +99,6 @@
       "required": true,
       "types": [
         {
-          "type": "blank_line",
-          "named": true
-        },
-        {
           "type": "character",
           "named": true
         },
@@ -378,12 +374,12 @@
     "named": false
   },
   {
-    "type": "]]",
+    "type": ".",
     "named": false
   },
   {
-    "type": "blank_line",
-    "named": true
+    "type": "]]",
+    "named": false
   },
   {
     "type": "boneyard_content",
