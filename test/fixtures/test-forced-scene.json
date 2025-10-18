@@ -1,0 +1,82 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": ".OPENING TITLES"
+        }
+      ],
+      "text": ".OPENING TITLES\n\n"
+    },
+    {
+      "type": "centered",
+      "children": [
+        {
+          "type": "centered_start",
+          "children": [],
+          "text": ">"
+        }
+      ],
+      "text": "> BRICK BRADDOCK <\n"
+    },
+    {
+      "type": "centered",
+      "children": [
+        {
+          "type": "centered_start",
+          "children": [],
+          "text": ">"
+        }
+      ],
+      "text": "> & DICK STEEL IN <\n\n"
+    },
+    {
+      "type": "centered",
+      "children": [
+        {
+          "type": "centered_start",
+          "children": [],
+          "text": ">"
+        }
+      ],
+      "text": "> BRICK & STEEL <\n"
+    },
+    {
+      "type": "centered",
+      "children": [
+        {
+          "type": "centered_start",
+          "children": [],
+          "text": ">"
+        }
+      ],
+      "text": "> FULL RETIRED <\n\n"
+    },
+    {
+      "type": "transition",
+      "children": [],
+      "text": "SMASH CUT TO:\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "EXT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "WOODEN SHACK - DAY"
+        }
+      ],
+      "text": "EXT. WOODEN SHACK - DAY\n"
+    }
+  ],
+  "text": ".OPENING TITLES\n\n> BRICK BRADDOCK <\n> & DICK STEEL IN <\n\n> BRICK & STEEL <\n> FULL RETIRED <\n\nSMASH CUT TO:\n\nEXT. WOODEN SHACK - DAY\n"
+}

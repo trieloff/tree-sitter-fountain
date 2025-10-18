@@ -1,0 +1,93 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "EXT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "BRICK'S POOL - DAY"
+        }
+      ],
+      "text": "EXT. BRICK'S POOL - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Steel, in the middle of a heated phone call:"
+        }
+      ],
+      "text": "Steel, in the middle of a heated phone call:\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL\n"
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "They're coming out of the woodwork!"
+            }
+          ],
+          "text": "They're coming out of the woodwork!\n"
+        },
+        {
+          "type": "parenthetical",
+          "children": [],
+          "text": "(pause)\n"
+        }
+      ],
+      "text": "STEEL\nThey're coming out of the woodwork!\n(pause)\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "No, everybody we've put away!"
+        }
+      ],
+      "text": "No, everybody we've put away!\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "(pause)"
+        }
+      ],
+      "text": "(pause)\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Point Blank Sniper?"
+        }
+      ],
+      "text": "Point Blank Sniper?\n"
+    }
+  ],
+  "text": "EXT. BRICK'S POOL - DAY\n\nSteel, in the middle of a heated phone call:\n\nSTEEL\nThey're coming out of the woodwork!\n(pause)\nNo, everybody we've put away!\n(pause)\nPoint Blank Sniper?\n"
+}
