@@ -1,0 +1,137 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "GARAGE - DAY"
+        }
+      ],
+      "text": "INT. GARAGE - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "forced_action_start",
+          "children": [],
+          "text": "!"
+        }
+      ],
+      "text": "!BRICK slams the door shut.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [
+            {
+              "type": "forced_character_start",
+              "children": [],
+              "text": "@"
+            }
+          ],
+          "text": "@McCLANE\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "This is a forced character name with mixed case."
+            }
+          ],
+          "text": "This is a forced character name with mixed case.\n"
+        }
+      ],
+      "text": "@McCLANE\nThis is a forced character name with mixed case.\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Regular dialogue."
+            }
+          ],
+          "text": "Regular dialogue.\n"
+        }
+      ],
+      "text": "BRICK\nRegular dialogue.\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "!This action is forced with leading spaces."
+        }
+      ],
+      "text": "!This action is forced with leading spaces.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [
+            {
+              "type": "forced_character_start",
+              "children": [],
+              "text": "@"
+            }
+          ],
+          "text": "@R2-D2\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Beep boop."
+            }
+          ],
+          "text": "Beep boop.\n"
+        }
+      ],
+      "text": "@R2-D2\nBeep boop.\n"
+    }
+  ],
+  "text": "INT. GARAGE - DAY\n\n!BRICK slams the door shut.\n\n@McCLANE\nThis is a forced character name with mixed case.\n\nBRICK\nRegular dialogue.\n\n!This action is forced with leading spaces.\n\n@R2-D2\nBeep boop.\n"
+}

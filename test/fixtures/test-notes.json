@@ -1,0 +1,76 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "WAREHOUSE - DAY"
+        }
+      ],
+      "text": "INT. WAREHOUSE - DAY\n\n"
+    },
+    {
+      "type": "note",
+      "children": [
+        {
+          "type": "note_start",
+          "children": [],
+          "text": "[["
+        },
+        {
+          "type": "note_content",
+          "children": [],
+          "text": "This is a note that won't appear in the output"
+        }
+      ],
+      "text": "[[This is a note that won't appear in the output]]\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "BRICK enters cautiously."
+        }
+      ],
+      "text": "BRICK enters cautiously.\n\n"
+    },
+    {
+      "type": "note",
+      "children": [
+        {
+          "type": "note_start",
+          "children": [],
+          "text": "[["
+        },
+        {
+          "type": "note_content",
+          "children": [],
+          "text": "TODO: Add more tension here"
+        }
+      ],
+      "text": "[[TODO: Add more tension here]]\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "BRICK exits."
+        }
+      ],
+      "text": "BRICK exits.\n"
+    }
+  ],
+  "text": "INT. WAREHOUSE - DAY\n\n[[This is a note that won't appear in the output]]\n\nBRICK enters cautiously.\n\n[[TODO: Add more tension here]]\n\nBRICK exits.\n"
+}

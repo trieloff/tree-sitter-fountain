@@ -1,0 +1,185 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "APARTMENT - DAY"
+        }
+      ],
+      "text": "INT. APARTMENT - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "BRICK paces nervously. He picks up the phone, sets it down."
+        }
+      ],
+      "text": "BRICK paces nervously. He picks up the phone, sets it down.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "What am I doing?"
+            }
+          ],
+          "text": "What am I doing?\n"
+        }
+      ],
+      "text": "BRICK\nWhat am I doing?\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "He sits on the couch."
+        }
+      ],
+      "text": "He sits on the couch.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "STEEL bursts through the door."
+        }
+      ],
+      "text": "STEEL bursts through the door.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "We need to talk!"
+            }
+          ],
+          "text": "We need to talk!\n"
+        }
+      ],
+      "text": "STEEL\nWe need to talk!\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "About what?"
+            }
+          ],
+          "text": "About what?\n"
+        }
+      ],
+      "text": "BRICK\nAbout what?\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "They stare at each other."
+        }
+      ],
+      "text": "They stare at each other.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Everything."
+            }
+          ],
+          "text": "Everything.\n"
+        }
+      ],
+      "text": "STEEL\nEverything.\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "A long pause."
+        }
+      ],
+      "text": "A long pause.\n"
+    }
+  ],
+  "text": "INT. APARTMENT - DAY\n\nBRICK paces nervously. He picks up the phone, sets it down.\n\nBRICK\nWhat am I doing?\n\nHe sits on the couch.\n\nSTEEL bursts through the door.\n\nSTEEL\nWe need to talk!\n\nBRICK\nAbout what?\n\nThey stare at each other.\n\nSTEEL\nEverything.\n\nA long pause.\n"
+}

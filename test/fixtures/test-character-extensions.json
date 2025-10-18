@@ -1,0 +1,157 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "COMMAND CENTER - DAY"
+        }
+      ],
+      "text": "INT. COMMAND CENTER - DAY\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK (V.O.)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "This is voice over."
+            }
+          ],
+          "text": "This is voice over.\n"
+        }
+      ],
+      "text": "BRICK (V.O.)\nThis is voice over.\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL (O.S.)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "This is off screen."
+            }
+          ],
+          "text": "This is off screen.\n"
+        }
+      ],
+      "text": "STEEL (O.S.)\nThis is off screen.\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK (CONT'D)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "This is continued."
+            }
+          ],
+          "text": "This is continued.\n"
+        }
+      ],
+      "text": "BRICK (CONT'D)\nThis is continued.\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "DISPATCHER (FILTERED)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Roger that, over."
+            }
+          ],
+          "text": "Roger that, over.\n"
+        }
+      ],
+      "text": "DISPATCHER (FILTERED)\nRoger that, over.\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "YOUNG BRICK (O.S.) (V.O.)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Flashback voice over off screen."
+            }
+          ],
+          "text": "Flashback voice over off screen.\n"
+        }
+      ],
+      "text": "YOUNG BRICK (O.S.) (V.O.)\nFlashback voice over off screen.\n"
+    }
+  ],
+  "text": "INT. COMMAND CENTER - DAY\n\nBRICK (V.O.)\nThis is voice over.\n\nSTEEL (O.S.)\nThis is off screen.\n\nBRICK (CONT'D)\nThis is continued.\n\nDISPATCHER (FILTERED)\nRoger that, over.\n\nYOUNG BRICK (O.S.) (V.O.)\nFlashback voice over off screen.\n"
+}

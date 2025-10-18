@@ -1,0 +1,120 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "OFFICE - DAY"
+        }
+      ],
+      "text": "INT. OFFICE - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "This is *italic* text in action."
+        }
+      ],
+      "text": "This is *italic* text in action.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "This is **bold** text in action."
+        }
+      ],
+      "text": "This is **bold** text in action.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "This is ***bold italic*** text."
+        }
+      ],
+      "text": "This is ***bold italic*** text.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "This is _underlined_ text."
+        }
+      ],
+      "text": "This is _underlined_ text.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "This is *italic* in dialogue."
+            }
+          ],
+          "text": "This is *italic* in dialogue.\n"
+        }
+      ],
+      "text": "BRICK\nThis is *italic* in dialogue.\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "This is **bold** in dialogue and _underlined_ too."
+            }
+          ],
+          "text": "This is **bold** in dialogue and _underlined_ too.\n"
+        }
+      ],
+      "text": "STEEL\nThis is **bold** in dialogue and _underlined_ too.\n"
+    }
+  ],
+  "text": "INT. OFFICE - DAY\n\nThis is *italic* text in action.\n\nThis is **bold** text in action.\n\nThis is ***bold italic*** text.\n\nThis is _underlined_ text.\n\nBRICK\nThis is *italic* in dialogue.\n\nSTEEL\nThis is **bold** in dialogue and _underlined_ too.\n"
+}

@@ -1,0 +1,153 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "HOUSE - DAY"
+        }
+      ],
+      "text": "INT. HOUSE - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Regular interior scene."
+        }
+      ],
+      "text": "Regular interior scene.\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "EXT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "BEACH - SUNSET"
+        }
+      ],
+      "text": "EXT. BEACH - SUNSET\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Regular exterior scene."
+        }
+      ],
+      "text": "Regular exterior scene.\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "/EXT. CAR - MOVING - NIGHT"
+        }
+      ],
+      "text": "INT./EXT. CAR - MOVING - NIGHT\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Interior/exterior scene."
+        }
+      ],
+      "text": "Interior/exterior scene.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "I/E. TUNNEL - DAY"
+        }
+      ],
+      "text": "I/E. TUNNEL - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Abbreviated interior/exterior."
+        }
+      ],
+      "text": "Abbreviated interior/exterior.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "EST. CITY SKYLINE - DAY"
+        }
+      ],
+      "text": "EST. CITY SKYLINE - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Establishing shot."
+        }
+      ],
+      "text": "Establishing shot.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "int. basement - night"
+        }
+      ],
+      "text": "int. basement - night\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Lowercase still works."
+        }
+      ],
+      "text": "Lowercase still works.\n"
+    }
+  ],
+  "text": "INT. HOUSE - DAY\n\nRegular interior scene.\n\nEXT. BEACH - SUNSET\n\nRegular exterior scene.\n\nINT./EXT. CAR - MOVING - NIGHT\n\nInterior/exterior scene.\n\nI/E. TUNNEL - DAY\n\nAbbreviated interior/exterior.\n\nEST. CITY SKYLINE - DAY\n\nEstablishing shot.\n\nint. basement - night\n\nLowercase still works.\n"
+}

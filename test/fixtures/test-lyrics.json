@@ -1,0 +1,104 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "KARAOKE BAR - NIGHT"
+        }
+      ],
+      "text": "INT. KARAOKE BAR - NIGHT\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "BRICK takes the stage."
+        }
+      ],
+      "text": "BRICK takes the stage.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "~O say can you see"
+            }
+          ],
+          "text": "~O say can you see\n"
+        }
+      ],
+      "text": "BRICK\n~O say can you see\n"
+    },
+    {
+      "type": "lyric",
+      "children": [
+        {
+          "type": "lyric_start",
+          "children": [],
+          "text": "~"
+        }
+      ],
+      "text": "~by the dawn's early light\n"
+    },
+    {
+      "type": "lyric",
+      "children": [
+        {
+          "type": "lyric_start",
+          "children": [],
+          "text": "~"
+        }
+      ],
+      "text": "~What so proudly we hailed\n"
+    },
+    {
+      "type": "lyric",
+      "children": [
+        {
+          "type": "lyric_start",
+          "children": [],
+          "text": "~"
+        }
+      ],
+      "text": "~at the twilight's last gleaming?\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "The crowd goes wild."
+        }
+      ],
+      "text": "The crowd goes wild.\n"
+    }
+  ],
+  "text": "INT. KARAOKE BAR - NIGHT\n\nBRICK takes the stage.\n\nBRICK\n~O say can you see\n~by the dawn's early light\n~What so proudly we hailed\n~at the twilight's last gleaming?\n\nThe crowd goes wild.\n"
+}

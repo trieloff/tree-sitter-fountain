@@ -37,6 +37,11 @@
           "text": "STEEL\n"
         },
         {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
           "type": "dialogue",
           "children": [
             {
@@ -48,45 +53,59 @@
           "text": "They're coming out of the woodwork!\n"
         },
         {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
           "type": "parenthetical",
           "children": [],
           "text": "(pause)\n"
-        }
-      ],
-      "text": "STEEL\nThey're coming out of the woodwork!\n(pause)\n"
-    },
-    {
-      "type": "action",
-      "children": [
+        },
         {
-          "type": "line",
+          "type": "dialogue_line_start",
           "children": [],
-          "text": "No, everybody we've put away!"
-        }
-      ],
-      "text": "No, everybody we've put away!\n"
-    },
-    {
-      "type": "action",
-      "children": [
+          "text": ""
+        },
         {
-          "type": "line",
-          "children": [],
-          "text": "(pause)"
-        }
-      ],
-      "text": "(pause)\n"
-    },
-    {
-      "type": "action",
-      "children": [
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "No, everybody we've put away!"
+            }
+          ],
+          "text": "No, everybody we've put away!\n"
+        },
         {
-          "type": "line",
+          "type": "dialogue_line_start",
           "children": [],
-          "text": "Point Blank Sniper?"
+          "text": ""
+        },
+        {
+          "type": "parenthetical",
+          "children": [],
+          "text": "(pause)\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Point Blank Sniper?"
+            }
+          ],
+          "text": "Point Blank Sniper?\n"
         }
       ],
-      "text": "Point Blank Sniper?\n"
+      "text": "STEEL\nThey're coming out of the woodwork!\n(pause)\nNo, everybody we've put away!\n(pause)\nPoint Blank Sniper?\n"
     }
   ],
   "text": "EXT. BRICK'S POOL - DAY\n\nSteel, in the middle of a heated phone call:\n\nSTEEL\nThey're coming out of the woodwork!\n(pause)\nNo, everybody we've put away!\n(pause)\nPoint Blank Sniper?\n"

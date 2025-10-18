@@ -1,0 +1,179 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "section_heading",
+      "children": [
+        {
+          "type": "section_start",
+          "children": [],
+          "text": "#"
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "Act I"
+        }
+      ],
+      "text": "# Act I\n\n"
+    },
+    {
+      "type": "synopsis",
+      "children": [
+        {
+          "type": "synopsis_start",
+          "children": [],
+          "text": "="
+        }
+      ],
+      "text": "= Setup. Introduction of our heroes.\n\n"
+    },
+    {
+      "type": "section_heading",
+      "children": [
+        {
+          "type": "section_start",
+          "children": [],
+          "text": "##"
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "Scene 1"
+        }
+      ],
+      "text": "## Scene 1\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "BRICK'S HOUSE - DAY"
+        }
+      ],
+      "text": "INT. BRICK'S HOUSE - DAY\n\n"
+    },
+    {
+      "type": "synopsis",
+      "children": [
+        {
+          "type": "synopsis_start",
+          "children": [],
+          "text": "="
+        }
+      ],
+      "text": "= Brick and Steel meet for the first time.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "Hello."
+            }
+          ],
+          "text": "Hello.\n"
+        }
+      ],
+      "text": "BRICK\nHello.\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "## Scene 2"
+        }
+      ],
+      "text": "## Scene 2\n\n"
+    },
+    {
+      "type": "synopsis",
+      "children": [
+        {
+          "type": "synopsis_start",
+          "children": [],
+          "text": "="
+        }
+      ],
+      "text": "= The adventure begins.\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "EXT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "STREET - DAY"
+        }
+      ],
+      "text": "EXT. STREET - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "They walk together."
+        }
+      ],
+      "text": "They walk together.\n\n"
+    },
+    {
+      "type": "section_heading",
+      "children": [
+        {
+          "type": "section_start",
+          "children": [],
+          "text": "#"
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "Act II"
+        }
+      ],
+      "text": "# Act II\n\n"
+    },
+    {
+      "type": "synopsis",
+      "children": [
+        {
+          "type": "synopsis_start",
+          "children": [],
+          "text": "="
+        }
+      ],
+      "text": "= The confrontation.\n"
+    }
+  ],
+  "text": "# Act I\n\n= Setup. Introduction of our heroes.\n\n## Scene 1\n\nINT. BRICK'S HOUSE - DAY\n\n= Brick and Steel meet for the first time.\n\nBRICK\nHello.\n\n## Scene 2\n\n= The adventure begins.\n\nEXT. STREET - DAY\n\nThey walk together.\n\n# Act II\n\n= The confrontation.\n"
+}

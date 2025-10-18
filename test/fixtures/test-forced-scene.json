@@ -2,12 +2,17 @@
   "type": "document",
   "children": [
     {
-      "type": "action",
+      "type": "scene_heading",
       "children": [
         {
-          "type": "line",
+          "type": "scene_start",
           "children": [],
-          "text": ".OPENING TITLES"
+          "text": "."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "OPENING TITLES"
         }
       ],
       "text": ".OPENING TITLES\n\n"
@@ -19,6 +24,16 @@
           "type": "centered_start",
           "children": [],
           "text": ">"
+        },
+        {
+          "type": "centered_text",
+          "children": [],
+          "text": " BRICK BRADDOCK "
+        },
+        {
+          "type": "centered_end",
+          "children": [],
+          "text": "<"
         }
       ],
       "text": "> BRICK BRADDOCK <\n"
@@ -30,6 +45,16 @@
           "type": "centered_start",
           "children": [],
           "text": ">"
+        },
+        {
+          "type": "centered_text",
+          "children": [],
+          "text": " & DICK STEEL IN "
+        },
+        {
+          "type": "centered_end",
+          "children": [],
+          "text": "<"
         }
       ],
       "text": "> & DICK STEEL IN <\n\n"
@@ -41,6 +66,16 @@
           "type": "centered_start",
           "children": [],
           "text": ">"
+        },
+        {
+          "type": "centered_text",
+          "children": [],
+          "text": " BRICK & STEEL "
+        },
+        {
+          "type": "centered_end",
+          "children": [],
+          "text": "<"
         }
       ],
       "text": "> BRICK & STEEL <\n"
@@ -52,6 +87,16 @@
           "type": "centered_start",
           "children": [],
           "text": ">"
+        },
+        {
+          "type": "centered_text",
+          "children": [],
+          "text": " FULL RETIRED "
+        },
+        {
+          "type": "centered_end",
+          "children": [],
+          "text": "<"
         }
       ],
       "text": "> FULL RETIRED <\n\n"

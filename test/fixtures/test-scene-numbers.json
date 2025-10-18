@@ -1,0 +1,114 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "HOUSE - DAY #1#"
+        }
+      ],
+      "text": "INT. HOUSE - DAY #1#\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "BRICK enters."
+        }
+      ],
+      "text": "BRICK enters.\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "EXT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "GARDEN - DAY #2#"
+        }
+      ],
+      "text": "EXT. GARDEN - DAY #2#\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "STEEL is waiting."
+        }
+      ],
+      "text": "STEEL is waiting.\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "INT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "BASEMENT - NIGHT #3A#"
+        }
+      ],
+      "text": "INT. BASEMENT - NIGHT #3A#\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "They discover something."
+        }
+      ],
+      "text": "They discover something.\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "FLASHBACK #10#"
+        }
+      ],
+      "text": ".FLASHBACK #10#\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "A memory sequence."
+        }
+      ],
+      "text": "A memory sequence.\n"
+    }
+  ],
+  "text": "INT. HOUSE - DAY #1#\n\nBRICK enters.\n\nEXT. GARDEN - DAY #2#\n\nSTEEL is waiting.\n\nINT. BASEMENT - NIGHT #3A#\n\nThey discover something.\n\n.FLASHBACK #10#\n\nA memory sequence.\n"
+}
