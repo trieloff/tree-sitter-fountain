@@ -41,6 +41,44 @@ Then, run `:TSInstall fountain`.
 ## Updating
 You'll need to fetch `queries/highlights.scm` manually. Then run `:TSUpdate fountain`.
 
+## Testing
+
+### Running Tests
+
+Run the unit tests using Node.js built-in test runner:
+
+```bash
+npm test
+```
+
+This will run all fixture-based tests in `test/fixtures/`.
+
+Alternatively, run the tree-sitter corpus tests:
+
+```bash
+npm run test:tree-sitter
+```
+
+### Creating New Tests
+
+To add a new test:
+
+1. Create a `.fountain` file in `test/fixtures/` with your test content
+2. Create a corresponding `.json` file with the same name containing expected AST nodes:
+
+```json
+{
+  "type": "document",
+  "expectedNodes": [
+    {"type": "scene_heading"},
+    {"type": "action"},
+    {"type": "dialogue_block"}
+  ]
+}
+```
+
+The test runner will automatically discover and run your new test on the next `npm test` run.
+
 ## References
 
 <!-- NOTE: add the grammar's references here -->

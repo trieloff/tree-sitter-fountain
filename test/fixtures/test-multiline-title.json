@@ -1,0 +1,8 @@
+{
+  "type": "document",
+  "expectedNodes": [
+    {"type": "title_page"},
+    {"type": "scene_heading"},
+    {"type": "action"}
+  ]
+}

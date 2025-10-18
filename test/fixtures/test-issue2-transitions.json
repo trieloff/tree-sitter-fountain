@@ -1,0 +1,12 @@
+{
+  "type": "document",
+  "expectedNodes": [
+    {"type": "scene_heading"},
+    {"type": "action"},
+    {"type": "transition"},
+    {"type": "transition"},
+    {"type": "transition"},
+    {"type": "transition"},
+    {"type": "scene_heading"}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "type": "document",
+  "expectedNodes": [
+    {"type": "scene_heading"},
+    {"type": "dialogue_block"}
+  ]
+}
