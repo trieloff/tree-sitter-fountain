@@ -64,11 +64,6 @@
     }
   },
   {
-    "type": "description",
-    "named": true,
-    "fields": {}
-  },
-  {
     "type": "dialogue",
     "named": true,
     "fields": {},
@@ -314,7 +309,15 @@
           "named": true
         },
         {
+          "type": "title_continuation",
+          "named": true
+        },
+        {
           "type": "title_key",
+          "named": true
+        },
+        {
+          "type": "title_key_with_space",
           "named": true
         }
       ]
@@ -396,6 +399,10 @@
     "named": true
   },
   {
+    "type": "description",
+    "named": true
+  },
+  {
     "type": "forced_action_start",
     "named": true
   },
@@ -436,7 +443,15 @@
     "named": true
   },
   {
+    "type": "title_continuation",
+    "named": true
+  },
+  {
     "type": "title_key",
+    "named": true
+  },
+  {
+    "type": "title_key_with_space",
     "named": true
   }
 ]

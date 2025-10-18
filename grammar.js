@@ -19,7 +19,8 @@ module.exports = grammar({
     $.centered_start,
     $.page_break_marker,
     $.synopsis_start,
-    $.boneyard_start
+    $.boneyard_start,
+    $.title_continuation
   ],
 
   rules: {
@@ -46,17 +47,32 @@ module.exports = grammar({
       $.action
     ),
 
-    // Note: Multi-line title page values (indented continuation lines)
-    // are not yet fully supported. Only single-line key: value pairs work.
-    title_page_field: $ => prec.left(10, seq(
-      $.title_key,
-      optional(seq(' ', $.description)),
-      '\n'
-    )),
+    // Title page field supports multi-line values via indented continuation lines
+    title_page_field: $ => choice(
+      // Form 1: Key with inline value (space is part of the key token)
+      seq(
+        $.title_key_with_space,
+        $.description,
+        '\n',
+        repeat(seq($.title_continuation, '\n'))
+      ),
+      // Form 2: Key without inline value, followed by continuations
+      seq(
+        $.title_key,
+        '\n',
+        repeat1(seq($.title_continuation, '\n'))
+      )
+    ),
 
     title_key: $ => token(prec(1, seq(
       /[A-Za-z][A-Za-z0-9 ]*/,
       ':'
+    ))),
+
+    title_key_with_space: $ => token(prec(1, seq(
+      /[A-Za-z][A-Za-z0-9 ]*/,
+      ':',
+      ' '
     ))),
 
     scene_heading: $ => prec(5, seq(
@@ -187,6 +203,7 @@ module.exports = grammar({
 
     line: $ => /[^\n]+/,
 
-    description: $ => /[^\n]+/
+    // Description should not start with whitespace (to avoid matching continuation lines)
+    description: $ => /[^ \t\n][^\n]*/
   }
 });

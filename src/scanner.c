@@ -1,6 +1,7 @@
 #include "tree_sitter/parser.h"
 #include <string.h>
 #include <wctype.h>
+#include <stdlib.h>
 
 enum TokenType {
   SCENE_START,
@@ -14,10 +15,17 @@ enum TokenType {
   PAGE_BREAK_MARKER,
   SYNOPSIS_START,
   BONEYARD_START,
+  TITLE_CONTINUATION,
 };
 
+typedef struct {
+  bool in_title_page;
+} Scanner;
+
 void *tree_sitter_fountain_external_scanner_create() {
-  return NULL;
+  Scanner *scanner = (Scanner *)malloc(sizeof(Scanner));
+  scanner->in_title_page = true;  // Start assuming we're in title page
+  return scanner;
 }
 
 static bool match_keyword(TSLexer *lexer, const char *keyword) {
@@ -29,8 +37,43 @@ static bool match_keyword(TSLexer *lexer, const char *keyword) {
 }
 
 bool tree_sitter_fountain_external_scanner_scan(void *payload, TSLexer *lexer, const bool *valid_symbols) {
-  // Try section start (# markers)
+  Scanner *scanner = (Scanner *)payload;
+
+  // Try title continuation (indented line: 3+ spaces or tab at start of line)
+  if (valid_symbols[TITLE_CONTINUATION] && scanner->in_title_page) {
+    // Count leading whitespace
+    int space_count = 0;
+    bool has_tab = false;
+
+    while (lexer->lookahead == ' ' || lexer->lookahead == '\t') {
+      if (lexer->lookahead == '\t') {
+        has_tab = true;
+        lexer->advance(lexer, false);
+        break;
+      }
+      space_count++;
+      lexer->advance(lexer, false);
+    }
+
+    // Must have 3+ spaces or a tab, and not be an empty line
+    if ((space_count >= 3 || has_tab) &&
+        lexer->lookahead != '\n' &&
+        lexer->lookahead != '\0') {
+
+      // Consume the rest of the line (but NOT the newline - grammar handles that)
+      while (lexer->lookahead != '\n' && lexer->lookahead != '\0') {
+        lexer->advance(lexer, false);
+      }
+
+      lexer->result_symbol = TITLE_CONTINUATION;
+      lexer->mark_end(lexer);
+      return true;
+    }
+  }
+
+  // Try section start (# markers) - this ends title page
   if (valid_symbols[SECTION_START] && lexer->lookahead == '#') {
+    scanner->in_title_page = false;
     while (lexer->lookahead == '#') {
       lexer->advance(lexer, false);
     }
@@ -39,12 +82,13 @@ bool tree_sitter_fountain_external_scanner_scan(void *payload, TSLexer *lexer, c
     return true;
   }
 
-  // Try scene start (INT., EXT., etc.)
+  // Try scene start (INT., EXT., etc.) - this ends title page
   if (valid_symbols[SCENE_START]) {
     if (match_keyword(lexer, "INT.") ||
         match_keyword(lexer, "EXT.") ||
         match_keyword(lexer, "INT./EXT.") ||
         match_keyword(lexer, "EST.")) {
+      scanner->in_title_page = false;
       lexer->result_symbol = SCENE_START;
       lexer->mark_end(lexer);
       return true;
@@ -132,13 +176,26 @@ bool tree_sitter_fountain_external_scanner_scan(void *payload, TSLexer *lexer, c
 }
 
 void tree_sitter_fountain_external_scanner_destroy(void *payload) {
-  /* NOOP */
+  Scanner *scanner = (Scanner *)payload;
+  if (scanner) {
+    free(scanner);
+  }
 }
 
 unsigned tree_sitter_fountain_external_scanner_serialize(void *payload, char *buffer) {
+  Scanner *scanner = (Scanner *)payload;
+  if (scanner && buffer) {
+    buffer[0] = scanner->in_title_page ? 1 : 0;
+    return 1;
+  }
   return 0;
 }
 
 void tree_sitter_fountain_external_scanner_deserialize(void *payload, const char *buffer, unsigned length) {
-  /* NOOP */
+  Scanner *scanner = (Scanner *)payload;
+  if (scanner && buffer && length > 0) {
+    scanner->in_title_page = buffer[0] != 0;
+  } else if (scanner) {
+    scanner->in_title_page = true;  // Default to true if no state
+  }
 }

@@ -86,42 +86,71 @@
       ]
     },
     "title_page_field": {
-      "type": "PREC_LEFT",
-      "value": 10,
-      "content": {
-        "type": "SEQ",
-        "members": [
-          {
-            "type": "SYMBOL",
-            "name": "title_key"
-          },
-          {
-            "type": "CHOICE",
-            "members": [
-              {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "title_key_with_space"
+            },
+            {
+              "type": "SYMBOL",
+              "name": "description"
+            },
+            {
+              "type": "STRING",
+              "value": "\n"
+            },
+            {
+              "type": "REPEAT",
+              "content": {
                 "type": "SEQ",
                 "members": [
                   {
-                    "type": "STRING",
-                    "value": " "
+                    "type": "SYMBOL",
+                    "name": "title_continuation"
                   },
                   {
-                    "type": "SYMBOL",
-                    "name": "description"
+                    "type": "STRING",
+                    "value": "\n"
                   }
                 ]
-              },
-              {
-                "type": "BLANK"
               }
-            ]
-          },
-          {
-            "type": "STRING",
-            "value": "\n"
-          }
-        ]
-      }
+            }
+          ]
+        },
+        {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "SYMBOL",
+              "name": "title_key"
+            },
+            {
+              "type": "STRING",
+              "value": "\n"
+            },
+            {
+              "type": "REPEAT1",
+              "content": {
+                "type": "SEQ",
+                "members": [
+                  {
+                    "type": "SYMBOL",
+                    "name": "title_continuation"
+                  },
+                  {
+                    "type": "STRING",
+                    "value": "\n"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     },
     "title_key": {
       "type": "TOKEN",
@@ -138,6 +167,30 @@
             {
               "type": "STRING",
               "value": ":"
+            }
+          ]
+        }
+      }
+    },
+    "title_key_with_space": {
+      "type": "TOKEN",
+      "content": {
+        "type": "PREC",
+        "value": 1,
+        "content": {
+          "type": "SEQ",
+          "members": [
+            {
+              "type": "PATTERN",
+              "value": "[A-Za-z][A-Za-z0-9 ]*"
+            },
+            {
+              "type": "STRING",
+              "value": ":"
+            },
+            {
+              "type": "STRING",
+              "value": " "
             }
           ]
         }
@@ -600,7 +653,7 @@
     },
     "description": {
       "type": "PATTERN",
-      "value": "[^\\n]+"
+      "value": "[^ \\t\\n][^\\n]*"
     }
   },
   "extras": [
@@ -663,6 +716,10 @@
     {
       "type": "SYMBOL",
       "name": "boneyard_start"
+    },
+    {
+      "type": "SYMBOL",
+      "name": "title_continuation"
     }
   ],
   "inline": [],
