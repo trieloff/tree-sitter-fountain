@@ -2,155 +2,161 @@
   "type": "document",
   "children": [
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "EXT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "EXT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "BRICK'S POOL "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "EXT. BRICK'S POOL - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "BRICK'S POOL "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
-        }
-      ],
-      "text": "EXT. BRICK'S POOL - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "St"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "eel, in the middle of a heated phone call:"
-        }
-      ],
-      "text": "Steel, in the middle of a heated phone call:\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "STEEL\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "Th"
+              "text": "St"
             },
             {
               "type": "text",
               "children": [],
-              "text": "ey're coming out of the woodwork!"
+              "text": "eel, in the middle of a heated phone call:"
             }
           ],
-          "text": "They're coming out of the woodwork!\n"
+          "text": "Steel, in the middle of a heated phone call:\n\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "parenthetical",
-          "children": [],
-          "text": "(pause)\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "dialogue_block",
           "children": [
             {
-              "type": "text",
+              "type": "character",
               "children": [],
-              "text": "No"
+              "text": "STEEL\n"
             },
             {
-              "type": "text",
+              "type": "dialogue_line_start",
               "children": [],
-              "text": ", everybody we've put away!"
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Th"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "ey're coming out of the woodwork!"
+                }
+              ],
+              "text": "They're coming out of the woodwork!\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "parenthetical",
+              "children": [],
+              "text": "(pause)\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "No"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": ", everybody we've put away!"
+                }
+              ],
+              "text": "No, everybody we've put away!\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "parenthetical",
+              "children": [],
+              "text": "(pause)\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Po"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "int "
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Bl"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "ank "
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Sn"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "iper?"
+                }
+              ],
+              "text": "Point Blank Sniper?\n"
             }
           ],
-          "text": "No, everybody we've put away!\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "parenthetical",
-          "children": [],
-          "text": "(pause)\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "Po"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "int "
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "Bl"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "ank "
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "Sn"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "iper?"
-            }
-          ],
-          "text": "Point Blank Sniper?\n"
+          "text": "STEEL\nThey're coming out of the woodwork!\n(pause)\nNo, everybody we've put away!\n(pause)\nPoint Blank Sniper?\n"
         }
       ],
-      "text": "STEEL\nThey're coming out of the woodwork!\n(pause)\nNo, everybody we've put away!\n(pause)\nPoint Blank Sniper?\n"
+      "text": "EXT. BRICK'S POOL - DAY\n\nSteel, in the middle of a heated phone call:\n\nSTEEL\nThey're coming out of the woodwork!\n(pause)\nNo, everybody we've put away!\n(pause)\nPoint Blank Sniper?\n"
     }
   ],
   "text": "EXT. BRICK'S POOL - DAY\n\nSteel, in the middle of a heated phone call:\n\nSTEEL\nThey're coming out of the woodwork!\n(pause)\nNo, everybody we've put away!\n(pause)\nPoint Blank Sniper?\n"

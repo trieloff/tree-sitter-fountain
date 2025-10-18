@@ -98,41 +98,47 @@
       "text": "Title: THE LAST STAND\nCredit: Written by\nAuthor: Andrew Knauer & George Nolfi\nDraft date: 12/15/2011\nContact:\n    Lionsgate Films\n    2700 Colorado Ave\n    Santa Monica, CA 90404\n\n"
     },
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "EXT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "EXT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "DESERT "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "EXT. DESERT - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "DESERT "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "e sun beats down."
+            }
+          ],
+          "text": "The sun beats down.\n"
         }
       ],
-      "text": "EXT. DESERT - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Th"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "e sun beats down."
-        }
-      ],
-      "text": "The sun beats down.\n"
+      "text": "EXT. DESERT - DAY\n\nThe sun beats down.\n"
     }
   ],
   "text": "Title: THE LAST STAND\nCredit: Written by\nAuthor: Andrew Knauer & George Nolfi\nDraft date: 12/15/2011\nContact:\n    Lionsgate Films\n    2700 Colorado Ave\n    Santa Monica, CA 90404\n\nEXT. DESERT - DAY\n\nThe sun beats down.\n"

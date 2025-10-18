@@ -204,11 +204,11 @@
           "named": true
         },
         {
-          "type": "scene_heading",
+          "type": "scene_block",
           "named": true
         },
         {
-          "type": "section_heading",
+          "type": "section_block",
           "named": true
         },
         {
@@ -286,6 +286,53 @@
     "fields": {}
   },
   {
+    "type": "scene_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "action",
+          "named": true
+        },
+        {
+          "type": "boneyard",
+          "named": true
+        },
+        {
+          "type": "centered",
+          "named": true
+        },
+        {
+          "type": "dialogue_block",
+          "named": true
+        },
+        {
+          "type": "lyric",
+          "named": true
+        },
+        {
+          "type": "note",
+          "named": true
+        },
+        {
+          "type": "scene_heading",
+          "named": true
+        },
+        {
+          "type": "synopsis",
+          "named": true
+        },
+        {
+          "type": "transition",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "scene_heading",
     "named": true,
     "fields": {},
@@ -316,6 +363,61 @@
     "type": "scene_number",
     "named": true,
     "fields": {}
+  },
+  {
+    "type": "section_block",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "action",
+          "named": true
+        },
+        {
+          "type": "boneyard",
+          "named": true
+        },
+        {
+          "type": "centered",
+          "named": true
+        },
+        {
+          "type": "dialogue_block",
+          "named": true
+        },
+        {
+          "type": "lyric",
+          "named": true
+        },
+        {
+          "type": "note",
+          "named": true
+        },
+        {
+          "type": "page_break",
+          "named": true
+        },
+        {
+          "type": "scene_block",
+          "named": true
+        },
+        {
+          "type": "section_heading",
+          "named": true
+        },
+        {
+          "type": "synopsis",
+          "named": true
+        },
+        {
+          "type": "transition",
+          "named": true
+        }
+      ]
+    }
   },
   {
     "type": "section_heading",

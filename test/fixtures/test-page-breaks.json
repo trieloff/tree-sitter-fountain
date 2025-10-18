@@ -2,41 +2,47 @@
   "type": "document",
   "children": [
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "EXT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "EXT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "BRICK'S POOL "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "EXT. BRICK'S POOL - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "BRICK'S POOL "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
+          "type": "action",
+          "children": [
+            {
+              "type": "uppercase_text",
+              "children": [],
+              "text": "BRICK"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " emerges from the water, his skin glistening."
+            }
+          ],
+          "text": "BRICK emerges from the water, his skin glistening.\n\n"
         }
       ],
-      "text": "EXT. BRICK'S POOL - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "uppercase_text",
-          "children": [],
-          "text": "BRICK"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " emerges from the water, his skin glistening."
-        }
-      ],
-      "text": "BRICK emerges from the water, his skin glistening.\n\n"
+      "text": "EXT. BRICK'S POOL - DAY\n\nBRICK emerges from the water, his skin glistening.\n\n"
     },
     {
       "type": "page_break",
@@ -50,62 +56,68 @@
       "text": "===\n\n"
     },
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "STEEL'S APARTMENT "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " NIGHT"
+            }
+          ],
+          "text": "INT. STEEL'S APARTMENT - NIGHT\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "STEEL'S APARTMENT "
+          "type": "action",
+          "children": [
+            {
+              "type": "uppercase_text",
+              "children": [],
+              "text": "STEEL"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " paces the room, looking worried."
+            }
+          ],
+          "text": "STEEL paces the room, looking worried.\n\n"
         },
         {
-          "type": "scene_time",
-          "children": [],
-          "text": " NIGHT"
+          "type": "centered",
+          "children": [
+            {
+              "type": "centered_start",
+              "children": [],
+              "text": ">"
+            },
+            {
+              "type": "centered_text",
+              "children": [],
+              "text": "**End of Act One**"
+            },
+            {
+              "type": "centered_end",
+              "children": [],
+              "text": "<"
+            }
+          ],
+          "text": ">**End of Act One**<\n\n"
         }
       ],
-      "text": "INT. STEEL'S APARTMENT - NIGHT\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "uppercase_text",
-          "children": [],
-          "text": "STEEL"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " paces the room, looking worried."
-        }
-      ],
-      "text": "STEEL paces the room, looking worried.\n\n"
-    },
-    {
-      "type": "centered",
-      "children": [
-        {
-          "type": "centered_start",
-          "children": [],
-          "text": ">"
-        },
-        {
-          "type": "centered_text",
-          "children": [],
-          "text": "**End of Act One**"
-        },
-        {
-          "type": "centered_end",
-          "children": [],
-          "text": "<"
-        }
-      ],
-      "text": ">**End of Act One**<\n\n"
+      "text": "INT. STEEL'S APARTMENT - NIGHT\n\nSTEEL paces the room, looking worried.\n\n>**End of Act One**<\n\n"
     },
     {
       "type": "page_break",
@@ -140,61 +152,67 @@
       "text": ">**Act Two**<\n\n"
     },
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "HEADQUARTERS "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " CONTINUOUS"
+            }
+          ],
+          "text": "INT. HEADQUARTERS - CONTINUOUS\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "HEADQUARTERS "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " CONTINUOUS"
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "e "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Ge"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "neral "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Le"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "e hangs in the air, right where we left it."
+            }
+          ],
+          "text": "The General Lee hangs in the air, right where we left it.\n"
         }
       ],
-      "text": "INT. HEADQUARTERS - CONTINUOUS\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Th"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "e "
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "Ge"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "neral "
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "Le"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "e hangs in the air, right where we left it."
-        }
-      ],
-      "text": "The General Lee hangs in the air, right where we left it.\n"
+      "text": "INT. HEADQUARTERS - CONTINUOUS\n\nThe General Lee hangs in the air, right where we left it.\n"
     }
   ],
   "text": "EXT. BRICK'S POOL - DAY\n\nBRICK emerges from the water, his skin glistening.\n\n===\n\nINT. STEEL'S APARTMENT - NIGHT\n\nSTEEL paces the room, looking worried.\n\n>**End of Act One**<\n\n===\n\n>**Act Two**<\n\nINT. HEADQUARTERS - CONTINUOUS\n\nThe General Lee hangs in the air, right where we left it.\n"

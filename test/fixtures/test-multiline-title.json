@@ -119,51 +119,57 @@
       "text": "Title:\n    BRICK & STEEL\n    FULL RETIRED\nCredit: Written by\nAuthor: Stu Maschwitz\nSource: Story by KTM\nDraft date: 1/20/2012\nContact:\n    Next Level Productions\n    1588 Mission Dr.\n    Solvang, CA 93463\n\n"
     },
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "BRICK'S HOUSE "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "INT. BRICK'S HOUSE - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "BRICK'S HOUSE "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
+          "type": "action",
+          "children": [
+            {
+              "type": "uppercase_text",
+              "children": [],
+              "text": "BRICK"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " and "
+            },
+            {
+              "type": "uppercase_text",
+              "children": [],
+              "text": "STEEL"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " argue about retirement."
+            }
+          ],
+          "text": "BRICK and STEEL argue about retirement.\n"
         }
       ],
-      "text": "INT. BRICK'S HOUSE - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "uppercase_text",
-          "children": [],
-          "text": "BRICK"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " and "
-        },
-        {
-          "type": "uppercase_text",
-          "children": [],
-          "text": "STEEL"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " argue about retirement."
-        }
-      ],
-      "text": "BRICK and STEEL argue about retirement.\n"
+      "text": "INT. BRICK'S HOUSE - DAY\n\nBRICK and STEEL argue about retirement.\n"
     }
   ],
   "text": "Title:\n    BRICK & STEEL\n    FULL RETIRED\nCredit: Written by\nAuthor: Stu Maschwitz\nSource: Story by KTM\nDraft date: 1/20/2012\nContact:\n    Next Level Productions\n    1588 Mission Dr.\n    Solvang, CA 93463\n\nINT. BRICK'S HOUSE - DAY\n\nBRICK and STEEL argue about retirement.\n"

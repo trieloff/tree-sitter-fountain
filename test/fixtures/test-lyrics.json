@@ -2,127 +2,133 @@
   "type": "document",
   "children": [
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "CHOCOLATE FACTORY "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "INT. CHOCOLATE FACTORY - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "CHOCOLATE FACTORY "
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Wi"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "lly "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "Wo"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "nka dances across the factory floor."
+            }
+          ],
+          "text": "Willy Wonka dances across the factory floor.\n\n"
         },
         {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
-        }
-      ],
-      "text": "INT. CHOCOLATE FACTORY - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Wi"
+          "type": "lyric",
+          "children": [
+            {
+              "type": "lyric_start",
+              "children": [],
+              "text": "~"
+            }
+          ],
+          "text": "~Willy Wonka! Willy Wonka! The amazing chocolatier!\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "lly "
+          "type": "lyric",
+          "children": [
+            {
+              "type": "lyric_start",
+              "children": [],
+              "text": "~"
+            }
+          ],
+          "text": "~Willy Wonka! Willy Wonka! Everybody give a cheer!\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "Wo"
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "e children watch in amazement."
+            }
+          ],
+          "text": "The children watch in amazement.\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "nka dances across the factory floor."
-        }
-      ],
-      "text": "Willy Wonka dances across the factory floor.\n\n"
-    },
-    {
-      "type": "lyric",
-      "children": [
-        {
-          "type": "lyric_start",
-          "children": [],
-          "text": "~"
-        }
-      ],
-      "text": "~Willy Wonka! Willy Wonka! The amazing chocolatier!\n"
-    },
-    {
-      "type": "lyric",
-      "children": [
-        {
-          "type": "lyric_start",
-          "children": [],
-          "text": "~"
-        }
-      ],
-      "text": "~Willy Wonka! Willy Wonka! Everybody give a cheer!\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Th"
+          "type": "lyric",
+          "children": [
+            {
+              "type": "lyric_start",
+              "children": [],
+              "text": "~"
+            }
+          ],
+          "text": "~He's the candy man, the candy man can\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "e children watch in amazement."
-        }
-      ],
-      "text": "The children watch in amazement.\n\n"
-    },
-    {
-      "type": "lyric",
-      "children": [
-        {
-          "type": "lyric_start",
-          "children": [],
-          "text": "~"
-        }
-      ],
-      "text": "~He's the candy man, the candy man can\n"
-    },
-    {
-      "type": "lyric",
-      "children": [
-        {
-          "type": "lyric_start",
-          "children": [],
-          "text": "~"
-        }
-      ],
-      "text": "~Making chocolate dreams come true for every fan\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Wo"
+          "type": "lyric",
+          "children": [
+            {
+              "type": "lyric_start",
+              "children": [],
+              "text": "~"
+            }
+          ],
+          "text": "~Making chocolate dreams come true for every fan\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "nka spins around and bows."
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Wo"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "nka spins around and bows."
+            }
+          ],
+          "text": "Wonka spins around and bows.\n"
         }
       ],
-      "text": "Wonka spins around and bows.\n"
+      "text": "INT. CHOCOLATE FACTORY - DAY\n\nWilly Wonka dances across the factory floor.\n\n~Willy Wonka! Willy Wonka! The amazing chocolatier!\n~Willy Wonka! Willy Wonka! Everybody give a cheer!\n\nThe children watch in amazement.\n\n~He's the candy man, the candy man can\n~Making chocolate dreams come true for every fan\n\nWonka spins around and bows.\n"
     }
   ],
   "text": "INT. CHOCOLATE FACTORY - DAY\n\nWilly Wonka dances across the factory floor.\n\n~Willy Wonka! Willy Wonka! The amazing chocolatier!\n~Willy Wonka! Willy Wonka! Everybody give a cheer!\n\nThe children watch in amazement.\n\n~He's the candy man, the candy man can\n~Making chocolate dreams come true for every fan\n\nWonka spins around and bows.\n"

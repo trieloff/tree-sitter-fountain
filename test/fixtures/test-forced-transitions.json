@@ -2,157 +2,175 @@
   "type": "document",
   "children": [
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "BRICK'S POOL "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "INT. BRICK'S POOL - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "BRICK'S POOL "
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Br"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "ick and "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "St"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "eel regard one another. "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "A "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "job well done."
+            }
+          ],
+          "text": "Brick and Steel regard one another. A job well done.\n\n"
         },
         {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
+          "type": "transition",
+          "children": [
+            {
+              "type": "forced_transition_start",
+              "children": [],
+              "text": ">"
+            }
+          ],
+          "text": ">Burn to White.\n\n"
         }
       ],
-      "text": "INT. BRICK'S POOL - DAY\n\n"
+      "text": "INT. BRICK'S POOL - DAY\n\nBrick and Steel regard one another. A job well done.\n\n>Burn to White.\n\n"
     },
     {
-      "type": "action",
+      "type": "scene_block",
       "children": [
         {
-          "type": "text",
-          "children": [],
-          "text": "Br"
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "EXT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "DESERT "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "EXT. DESERT - DAY\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "ick and "
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "e sun beats down mercilessly."
+            }
+          ],
+          "text": "The sun beats down mercilessly.\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "St"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "eel regard one another. "
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "A "
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "job well done."
+          "type": "transition",
+          "children": [
+            {
+              "type": "forced_transition_start",
+              "children": [],
+              "text": ">"
+            }
+          ],
+          "text": ">IRIS OUT\n\n"
         }
       ],
-      "text": "Brick and Steel regard one another. A job well done.\n\n"
+      "text": "EXT. DESERT - DAY\n\nThe sun beats down mercilessly.\n\n>IRIS OUT\n\n"
     },
     {
-      "type": "transition",
+      "type": "scene_block",
       "children": [
         {
-          "type": "forced_transition_start",
-          "children": [],
-          "text": ">"
-        }
-      ],
-      "text": ">Burn to White.\n\n"
-    },
-    {
-      "type": "scene_heading",
-      "children": [
-        {
-          "type": "scene_start",
-          "children": [],
-          "text": "EXT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "VAULT "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " NIGHT"
+            }
+          ],
+          "text": "INT. VAULT - NIGHT\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "DESERT "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Th"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "e treasure gleams."
+            }
+          ],
+          "text": "The treasure gleams.\n"
         }
       ],
-      "text": "EXT. DESERT - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Th"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "e sun beats down mercilessly."
-        }
-      ],
-      "text": "The sun beats down mercilessly.\n\n"
-    },
-    {
-      "type": "transition",
-      "children": [
-        {
-          "type": "forced_transition_start",
-          "children": [],
-          "text": ">"
-        }
-      ],
-      "text": ">IRIS OUT\n\n"
-    },
-    {
-      "type": "scene_heading",
-      "children": [
-        {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
-        },
-        {
-          "type": "scene_location",
-          "children": [],
-          "text": "VAULT "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " NIGHT"
-        }
-      ],
-      "text": "INT. VAULT - NIGHT\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Th"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "e treasure gleams."
-        }
-      ],
-      "text": "The treasure gleams.\n"
+      "text": "INT. VAULT - NIGHT\n\nThe treasure gleams.\n"
     }
   ],
   "text": "INT. BRICK'S POOL - DAY\n\nBrick and Steel regard one another. A job well done.\n\n>Burn to White.\n\nEXT. DESERT - DAY\n\nThe sun beats down mercilessly.\n\n>IRIS OUT\n\nINT. VAULT - NIGHT\n\nThe treasure gleams.\n"

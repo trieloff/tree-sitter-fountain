@@ -2,129 +2,31 @@
   "type": "document",
   "children": [
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "EXT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "EXT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "MOVIE SET "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "EXT. MOVIE SET - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "MOVIE SET "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
-        }
-      ],
-      "text": "EXT. MOVIE SET - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Th"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "e director yells "
-        },
-        {
-          "type": "italic",
-          "children": [],
-          "text": "*action*"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " and the scene begins."
-        }
-      ],
-      "text": "The director yells *action* and the scene begins.\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "St"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "eel enters wearing "
-        },
-        {
-          "type": "bold",
-          "children": [],
-          "text": "**bold sunglasses**"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " and a "
-        },
-        {
-          "type": "bold_italic",
-          "children": [],
-          "text": "***bold italic jacket***"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "."
-        }
-      ],
-      "text": "Steel enters wearing **bold sunglasses** and a ***bold italic jacket***.\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "He"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " notices the "
-        },
-        {
-          "type": "underline",
-          "children": [],
-          "text": "_underlined contract_"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " on the table."
-        }
-      ],
-      "text": "He notices the _underlined contract_ on the table.\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "STEEL\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
@@ -134,18 +36,158 @@
             {
               "type": "text",
               "children": [],
-              "text": "is contract is "
+              "text": "e director yells "
             },
             {
               "type": "italic",
               "children": [],
-              "text": "*very*"
+              "text": "*action*"
             },
             {
               "type": "text",
               "children": [],
-              "text": " important. "
+              "text": " and the scene begins."
+            }
+          ],
+          "text": "The director yells *action* and the scene begins.\n\n"
+        },
+        {
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "St"
             },
+            {
+              "type": "text",
+              "children": [],
+              "text": "eel enters wearing "
+            },
+            {
+              "type": "bold",
+              "children": [],
+              "text": "**bold sunglasses**"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " and a "
+            },
+            {
+              "type": "bold_italic",
+              "children": [],
+              "text": "***bold italic jacket***"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "."
+            }
+          ],
+          "text": "Steel enters wearing **bold sunglasses** and a ***bold italic jacket***.\n\n"
+        },
+        {
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "He"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " notices the "
+            },
+            {
+              "type": "underline",
+              "children": [],
+              "text": "_underlined contract_"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": " on the table."
+            }
+          ],
+          "text": "He notices the _underlined contract_ on the table.\n\n"
+        },
+        {
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "STEEL\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Th"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "is contract is "
+                },
+                {
+                  "type": "italic",
+                  "children": [],
+                  "text": "*very*"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": " important. "
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Th"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "e terms are "
+                },
+                {
+                  "type": "bold",
+                  "children": [],
+                  "text": "**non-negotiable**"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": " and "
+                },
+                {
+                  "type": "bold_italic",
+                  "children": [],
+                  "text": "***absolutely final***"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "."
+                }
+              ],
+              "text": "This contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n"
+            }
+          ],
+          "text": "STEEL\nThis contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n"
+        },
+        {
+          "type": "action",
+          "children": [
             {
               "type": "text",
               "children": [],
@@ -154,59 +196,23 @@
             {
               "type": "text",
               "children": [],
-              "text": "e terms are "
+              "text": "e lawyer points to the "
             },
             {
-              "type": "bold",
+              "type": "underline",
               "children": [],
-              "text": "**non-negotiable**"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": " and "
-            },
-            {
-              "type": "bold_italic",
-              "children": [],
-              "text": "***absolutely final***"
+              "text": "_signature line_"
             },
             {
               "type": "text",
               "children": [],
-              "text": "."
+              "text": " at the bottom."
             }
           ],
-          "text": "This contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n"
+          "text": "The lawyer points to the _signature line_ at the bottom.\n"
         }
       ],
-      "text": "STEEL\nThis contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Th"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "e lawyer points to the "
-        },
-        {
-          "type": "underline",
-          "children": [],
-          "text": "_signature line_"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": " at the bottom."
-        }
-      ],
-      "text": "The lawyer points to the _signature line_ at the bottom.\n"
+      "text": "EXT. MOVIE SET - DAY\n\nThe director yells *action* and the scene begins.\n\nSteel enters wearing **bold sunglasses** and a ***bold italic jacket***.\n\nHe notices the _underlined contract_ on the table.\n\nSTEEL\nThis contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n\nThe lawyer points to the _signature line_ at the bottom.\n"
     }
   ],
   "text": "EXT. MOVIE SET - DAY\n\nThe director yells *action* and the scene begins.\n\nSteel enters wearing **bold sunglasses** and a ***bold italic jacket***.\n\nHe notices the _underlined contract_ on the table.\n\nSTEEL\nThis contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n\nThe lawyer points to the _signature line_ at the bottom.\n"

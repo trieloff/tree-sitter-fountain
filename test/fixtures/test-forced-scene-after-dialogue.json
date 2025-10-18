@@ -34,41 +34,47 @@
       "text": "STEEL\nThey're coming out of the woodwork!\n"
     },
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "SNIPER SCOPE POV"
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "SNIPER SCOPE POV"
+            }
+          ],
+          "text": ".SNIPER SCOPE POV\n\n"
+        },
+        {
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Fr"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "om what seems like only "
+            },
+            {
+              "type": "uppercase_text",
+              "children": [],
+              "text": "INCHES AWAY"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "."
+            }
+          ],
+          "text": "From what seems like only INCHES AWAY.\n"
         }
       ],
-      "text": ".SNIPER SCOPE POV\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Fr"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "om what seems like only "
-        },
-        {
-          "type": "uppercase_text",
-          "children": [],
-          "text": "INCHES AWAY"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "."
-        }
-      ],
-      "text": "From what seems like only INCHES AWAY.\n"
+      "text": ".SNIPER SCOPE POV\n\nFrom what seems like only INCHES AWAY.\n"
     }
   ],
   "text": "STEEL\nThey're coming out of the woodwork!\n\n.SNIPER SCOPE POV\n\nFrom what seems like only INCHES AWAY.\n"

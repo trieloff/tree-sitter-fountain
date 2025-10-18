@@ -61,41 +61,47 @@
       "text": "Title:\n    _**BRICK & STEEL**_\n    _**FULL RETIRED**_\nCredit: Written by\nAuthor: Stu Maschwitz\n\n"
     },
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "HOUSE "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "INT. HOUSE - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "HOUSE "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "A "
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "scene begins."
+            }
+          ],
+          "text": "A scene begins.\n"
         }
       ],
-      "text": "INT. HOUSE - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "A "
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "scene begins."
-        }
-      ],
-      "text": "A scene begins.\n"
+      "text": "INT. HOUSE - DAY\n\nA scene begins.\n"
     }
   ],
   "text": "Title:\n    _**BRICK & STEEL**_\n    _**FULL RETIRED**_\nCredit: Written by\nAuthor: Stu Maschwitz\n\nINT. HOUSE - DAY\n\nA scene begins.\n"

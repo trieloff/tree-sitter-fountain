@@ -4,7 +4,9 @@
 module.exports = grammar({
   name: "fountain",
   conflicts: $ => [
-    [$.title_page_field, $.action]
+    [$.title_page_field, $.action],
+    [$.scene_block],
+    [$.section_block]
   ],
 
   externals: $ => [
@@ -34,18 +36,55 @@ module.exports = grammar({
     // until we hit a blank line or EOF or a scene/section start
     title_page: $ => prec(20, repeat1($.title_page_field)),
 
+    // Top-level elements: sections, scenes, and standalone items
     _element: $ => choice(
+      $.section_block,
+      $.scene_block,
+      $.dialogue_block,
+      $.action,
+      $.transition,
+      $.centered,
+      $.lyric,
       $.boneyard,
       $.page_break,
-      $.scene_heading,
       $.synopsis,
+      $.note
+    ),
+
+    // Section block: section heading followed by scenes and content
+    // Continues until the next section heading or EOF
+    section_block: $ => prec.right(seq(
       $.section_heading,
+      repeat(choice(
+        $.scene_block,
+        $.dialogue_block,
+        $.action,
+        $.transition,
+        $.centered,
+        $.lyric,
+        $.boneyard,
+        $.page_break,
+        $.synopsis,
+        $.note
+      ))
+    )),
+
+    // Scene block: scene heading followed by scene content
+    scene_block: $ => seq(
+      $.scene_heading,
+      repeat($._scene_content)
+    ),
+
+    // Content that can appear within a scene
+    _scene_content: $ => choice(
       $.dialogue_block,
+      $.action,
       $.transition,
       $.centered,
       $.lyric,
       $.note,
-      $.action
+      $.boneyard,
+      $.synopsis
     ),
 
     // Title page field supports multi-line values via indented continuation lines

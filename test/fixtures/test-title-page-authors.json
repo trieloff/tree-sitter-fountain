@@ -66,41 +66,47 @@
       "text": "Title: SCREENPLAY WITH MULTIPLE AUTHORS\nAuthors:\n    Jane Smith\n    John Doe\n    Alice Johnson\nDraft date: 3/15/2023\n\n"
     },
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "OFFICE "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "INT. OFFICE - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "OFFICE "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
+          "type": "action",
+          "children": [
+            {
+              "type": "text",
+              "children": [],
+              "text": "Wo"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "rk happens."
+            }
+          ],
+          "text": "Work happens.\n"
         }
       ],
-      "text": "INT. OFFICE - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Wo"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "rk happens."
-        }
-      ],
-      "text": "Work happens.\n"
+      "text": "INT. OFFICE - DAY\n\nWork happens.\n"
     }
   ],
   "text": "Title: SCREENPLAY WITH MULTIPLE AUTHORS\nAuthors:\n    Jane Smith\n    John Doe\n    Alice Johnson\nDraft date: 3/15/2023\n\nINT. OFFICE - DAY\n\nWork happens.\n"

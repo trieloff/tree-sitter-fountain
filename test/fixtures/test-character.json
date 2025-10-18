@@ -2,313 +2,319 @@
   "type": "document",
   "children": [
     {
-      "type": "scene_heading",
+      "type": "scene_block",
       "children": [
         {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
+          "type": "scene_heading",
+          "children": [
+            {
+              "type": "scene_start",
+              "children": [],
+              "text": "INT."
+            },
+            {
+              "type": "scene_location",
+              "children": [],
+              "text": "LIVING ROOM "
+            },
+            {
+              "type": "scene_time",
+              "children": [],
+              "text": " DAY"
+            }
+          ],
+          "text": "INT. LIVING ROOM - DAY\n\n"
         },
         {
-          "type": "scene_location",
-          "children": [],
-          "text": "LIVING ROOM "
-        },
-        {
-          "type": "scene_time",
-          "children": [],
-          "text": " DAY"
-        }
-      ],
-      "text": "INT. LIVING ROOM - DAY\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Ba"
-        },
-        {
-          "type": "text",
-          "children": [],
-          "text": "sic character with dialogue."
-        }
-      ],
-      "text": "Basic character with dialogue.\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "JOHN\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "He"
+              "text": "Ba"
             },
             {
               "type": "text",
               "children": [],
-              "text": "llo, world!"
+              "text": "sic character with dialogue."
             }
           ],
-          "text": "Hello, world!\n"
-        }
-      ],
-      "text": "JOHN\nHello, world!\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Ch"
+          "text": "Basic character with dialogue.\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "aracter with extension."
-        }
-      ],
-      "text": "Character with extension.\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "MOM (O.S.)\n"
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "JOHN\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "He"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "llo, world!"
+                }
+              ],
+              "text": "Hello, world!\n"
+            }
+          ],
+          "text": "JOHN\nHello, world!\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "Di"
+              "text": "Ch"
             },
             {
               "type": "text",
               "children": [],
-              "text": "nner's ready!"
+              "text": "aracter with extension."
             }
           ],
-          "text": "Dinner's ready!\n"
-        }
-      ],
-      "text": "MOM (O.S.)\nDinner's ready!\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Ch"
+          "text": "Character with extension.\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "aracter with parenthetical."
-        }
-      ],
-      "text": "Character with parenthetical.\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "SARAH\n"
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "MOM (O.S.)\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Di"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "nner's ready!"
+                }
+              ],
+              "text": "Dinner's ready!\n"
+            }
+          ],
+          "text": "MOM (O.S.)\nDinner's ready!\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "parenthetical",
-          "children": [],
-          "text": "(whispering)\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "Do"
+              "text": "Ch"
             },
             {
               "type": "text",
               "children": [],
-              "text": "n't tell anyone."
+              "text": "aracter with parenthetical."
             }
           ],
-          "text": "Don't tell anyone.\n"
-        }
-      ],
-      "text": "SARAH\n(whispering)\nDon't tell anyone.\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Mu"
+          "text": "Character with parenthetical.\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "ltiple characters in sequence."
-        }
-      ],
-      "text": "Multiple characters in sequence.\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "DETECTIVE\n"
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "SARAH\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "parenthetical",
+              "children": [],
+              "text": "(whispering)\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Do"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "n't tell anyone."
+                }
+              ],
+              "text": "Don't tell anyone.\n"
+            }
+          ],
+          "text": "SARAH\n(whispering)\nDon't tell anyone.\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "Wh"
+              "text": "Mu"
             },
             {
               "type": "text",
               "children": [],
-              "text": "at happened here?"
+              "text": "ltiple characters in sequence."
             }
           ],
-          "text": "What happened here?\n"
-        }
-      ],
-      "text": "DETECTIVE\nWhat happened here?\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "WITNESS\n"
+          "text": "Multiple characters in sequence.\n\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "DETECTIVE\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Wh"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "at happened here?"
+                }
+              ],
+              "text": "What happened here?\n"
+            }
+          ],
+          "text": "DETECTIVE\nWhat happened here?\n"
         },
         {
-          "type": "dialogue",
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "WITNESS\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "I "
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "saw everything."
+                }
+              ],
+              "text": "I saw everything.\n"
+            }
+          ],
+          "text": "WITNESS\nI saw everything.\n"
+        },
+        {
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "I "
+              "text": "Ch"
             },
             {
               "type": "text",
               "children": [],
-              "text": "saw everything."
+              "text": "aracter with mixed case forced."
             }
           ],
-          "text": "I saw everything.\n"
-        }
-      ],
-      "text": "WITNESS\nI saw everything.\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Ch"
+          "text": "Character with mixed case forced.\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "aracter with mixed case forced."
-        }
-      ],
-      "text": "Character with mixed case forced.\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
+          "type": "dialogue_block",
           "children": [
             {
-              "type": "forced_character_start",
-              "children": [],
-              "text": "@"
-            }
-          ],
-          "text": "@McCLANE\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "text",
-              "children": [],
-              "text": "Yi"
+              "type": "character",
+              "children": [
+                {
+                  "type": "forced_character_start",
+                  "children": [],
+                  "text": "@"
+                }
+              ],
+              "text": "@McCLANE\n"
             },
             {
-              "type": "text",
+              "type": "dialogue_line_start",
               "children": [],
-              "text": "ppee-ki-yay!"
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Yi"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "ppee-ki-yay!"
+                }
+              ],
+              "text": "Yippee-ki-yay!\n"
             }
           ],
-          "text": "Yippee-ki-yay!\n"
+          "text": "@McCLANE\nYippee-ki-yay!\n"
         }
       ],
-      "text": "@McCLANE\nYippee-ki-yay!\n"
+      "text": "INT. LIVING ROOM - DAY\n\nBasic character with dialogue.\n\nJOHN\nHello, world!\n\nCharacter with extension.\n\nMOM (O.S.)\nDinner's ready!\n\nCharacter with parenthetical.\n\nSARAH\n(whispering)\nDon't tell anyone.\n\nMultiple characters in sequence.\n\nDETECTIVE\nWhat happened here?\n\nWITNESS\nI saw everything.\n\nCharacter with mixed case forced.\n\n@McCLANE\nYippee-ki-yay!\n"
     },
     {
       "type": "ERROR",
