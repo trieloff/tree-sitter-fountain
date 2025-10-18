@@ -2,14 +2,27 @@
  (action)
  (dialogue)
 ] @spell
+
 (parenthetical) @markup.italic
 
+;; Title page
+(title_page_key) @keyword
+(title_page_field (description) @string)
+
+;; Character names
 (character) @markup.heading.2
+
+;; Transitions
 (transition) @keyword
 
-[
- (section_heading)
- (scene_heading)
-] @markup.heading.1
+;; Scene headings
+(scene_start) @keyword
+(scene_heading (description) @markup.heading.1)
 
-(note) @comment
+;; Section headings
+(section_start) @keyword
+(section_heading (description) @markup.heading.1)
+
+;; Notes
+(note_start) @punctuation.bracket
+(note_content) @comment

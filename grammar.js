@@ -7,38 +7,48 @@ module.exports = grammar({
     [$.dialogue_block]
   ],
 
+  externals: $ => [
+    $.title_page_key,
+    $.scene_start,
+    $.section_start,
+    $.note_start
+  ],
+
   rules: {
     document: $ => repeat($._element),
 
     _element: $ => choice(
+      $.title_page_field,
       $.scene_heading,
       $.dialogue_block,
-      $.action,
       $.transition,
       $.section_heading,
-      $.note
+      $.note,
+      $.action
     ),
 
-    scene_heading: $ => seq(
-      choice(
-        'INT.',
-        'EXT.',
-        'INT./EXT.',
-        'EST.'
-      ),
-      optional($.description),
+    title_page_field: $ => prec(10, seq(
+      $.title_page_key,
+      optional(seq(' ', $.description)),
       '\n'
-    ),
+    )),
+
+    scene_heading: $ => prec(5, seq(
+      $.scene_start,
+      ' ',
+      $.description,
+      '\n'
+    )),
 
     character: $ => seq(
       /[A-Z][A-Z0-9 \(\)\.']*[A-Z\)]/,
       '\n'
     ),
 
-    dialogue_block: $ => seq(
+    dialogue_block: $ => prec(4, seq(
       $.character,
       repeat1(choice($.dialogue, $.parenthetical))
-    ),
+    )),
 
     dialogue: $ => seq(
       $.line,
@@ -52,28 +62,38 @@ module.exports = grammar({
       '\n'
     ),
 
-    action: $ => seq(
+    action: $ => prec(1, seq(
       $.line,
       '\n'
-    ),
+    )),
 
-    transition: $ => seq(
-      /[A-Z ]+:/,
+    transition: $ => prec(3, seq(
+      choice(
+        'CUT TO:',
+        'FADE OUT:',
+        'FADE IN:',
+        'FADE TO:',
+        'DISSOLVE TO:',
+        'MATCH CUT TO:',
+        /[A-Z][A-Z ]+TO:/
+      ),
       '\n'
-    ),
+    )),
 
-    section_heading: $ => seq(
-      repeat1('#'),
-      optional($.description),
+    section_heading: $ => prec(5, seq(
+      $.section_start,
+      optional(seq(' ', $.description)),
       '\n'
-    ),
+    )),
 
-    note: $ => seq(
-      '[[',
-      /[^]]+/,
+    note: $ => prec(5, seq(
+      $.note_start,
+      $.note_content,
       ']]',
       '\n'
-    ),
+    )),
+
+    note_content: $ => /[^\]]+/,
 
     line: $ => /[^\n]+/,
 

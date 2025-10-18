@@ -91,6 +91,10 @@
           "named": true
         },
         {
+          "type": "title_page_field",
+          "named": true
+        },
+        {
           "type": "transition",
           "named": true
         }
@@ -105,7 +109,21 @@
   {
     "type": "note",
     "named": true,
-    "fields": {}
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "note_content",
+          "named": true
+        },
+        {
+          "type": "note_start",
+          "named": true
+        }
+      ]
+    }
   },
   {
     "type": "parenthetical",
@@ -117,11 +135,15 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
-      "required": false,
+      "multiple": true,
+      "required": true,
       "types": [
         {
           "type": "description",
+          "named": true
+        },
+        {
+          "type": "scene_start",
           "named": true
         }
       ]
@@ -132,11 +154,34 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
-      "required": false,
+      "multiple": true,
+      "required": true,
       "types": [
         {
           "type": "description",
+          "named": true
+        },
+        {
+          "type": "section_start",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "title_page_field",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "description",
+          "named": true
+        },
+        {
+          "type": "title_page_key",
           "named": true
         }
       ]
@@ -152,7 +197,7 @@
     "named": false
   },
   {
-    "type": "#",
+    "type": " ",
     "named": false
   },
   {
@@ -164,27 +209,51 @@
     "named": false
   },
   {
-    "type": "EST.",
+    "type": "CUT TO:",
     "named": false
   },
   {
-    "type": "EXT.",
+    "type": "DISSOLVE TO:",
     "named": false
   },
   {
-    "type": "INT.",
+    "type": "FADE IN:",
     "named": false
   },
   {
-    "type": "INT./EXT.",
+    "type": "FADE OUT:",
     "named": false
   },
   {
-    "type": "[[",
+    "type": "FADE TO:",
+    "named": false
+  },
+  {
+    "type": "MATCH CUT TO:",
     "named": false
   },
   {
     "type": "]]",
     "named": false
+  },
+  {
+    "type": "note_content",
+    "named": true
+  },
+  {
+    "type": "note_start",
+    "named": true
+  },
+  {
+    "type": "scene_start",
+    "named": true
+  },
+  {
+    "type": "section_start",
+    "named": true
+  },
+  {
+    "type": "title_page_key",
+    "named": true
   }
 ]
