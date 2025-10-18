@@ -18,17 +18,6 @@
       "text": "# ACT I\n\n"
     },
     {
-      "type": "synopsis",
-      "children": [
-        {
-          "type": "synopsis_start",
-          "children": [],
-          "text": "="
-        }
-      ],
-      "text": "= Set up the characters and the story.\n\n"
-    },
-    {
       "type": "section_heading",
       "children": [
         {
@@ -39,10 +28,48 @@
         {
           "type": "description",
           "children": [],
-          "text": "Sequence 1"
+          "text": "THE BEGINNING"
         }
       ],
-      "text": "## Sequence 1\n\n"
+      "text": "## THE BEGINNING\n\n"
+    },
+    {
+      "type": "synopsis",
+      "children": [
+        {
+          "type": "synopsis_start",
+          "children": [],
+          "text": "="
+        }
+      ],
+      "text": "= Steel and Brick meet for the first time.\n\n"
+    },
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "EXT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "COFFEE SHOP - MORNING"
+        }
+      ],
+      "text": "EXT. COFFEE SHOP - MORNING\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Steel walks in nervously."
+        }
+      ],
+      "text": "Steel walks in nervously.\n\n"
     },
     {
       "type": "section_heading",
@@ -55,26 +82,10 @@
         {
           "type": "description",
           "children": [],
-          "text": "Scene Group A"
+          "text": "First Encounter"
         }
       ],
-      "text": "### Scene Group A\n\n"
-    },
-    {
-      "type": "scene_heading",
-      "children": [
-        {
-          "type": "scene_start",
-          "children": [],
-          "text": "EXT."
-        },
-        {
-          "type": "description",
-          "children": [],
-          "text": "BRICK'S PATIO - DAY"
-        }
-      ],
-      "text": "EXT. BRICK'S PATIO - DAY\n\n"
+      "text": "### First Encounter\n\n"
     },
     {
       "type": "synopsis",
@@ -85,7 +96,61 @@
           "text": "="
         }
       ],
-      "text": "= This scene sets up Brick & Steel's new life as retirees.\n\n"
+      "text": "= The tension builds as they size each other up.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "You must be Brick."
+            }
+          ],
+          "text": "You must be Brick.\n"
+        }
+      ],
+      "text": "STEEL\nYou must be Brick.\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "BRICK\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "And you're Steel. I've heard about you."
+            }
+          ],
+          "text": "And you're Steel. I've heard about you.\n"
+        }
+      ],
+      "text": "BRICK\nAnd you're Steel. I've heard about you.\n"
     },
     {
       "type": "action",
@@ -93,104 +158,7 @@
         {
           "type": "line",
           "children": [],
-          "text": "A gorgeous day. The sun is shining."
-        }
-      ],
-      "text": "A gorgeous day. The sun is shining.\n\n"
-    },
-    {
-      "type": "scene_heading",
-      "children": [
-        {
-          "type": "scene_start",
-          "children": [],
-          "text": "INT."
-        },
-        {
-          "type": "description",
-          "children": [],
-          "text": "BRICK'S LIVING ROOM - CONTINUOUS"
-        }
-      ],
-      "text": "INT. BRICK'S LIVING ROOM - CONTINUOUS\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "line",
-          "children": [],
-          "text": "Brick sits on the couch."
-        }
-      ],
-      "text": "Brick sits on the couch.\n\n"
-    },
-    {
-      "type": "section_heading",
-      "children": [
-        {
-          "type": "section_start",
-          "children": [],
-          "text": "##"
-        },
-        {
-          "type": "description",
-          "children": [],
-          "text": "Sequence 2"
-        }
-      ],
-      "text": "## Sequence 2\n\n"
-    },
-    {
-      "type": "synopsis",
-      "children": [
-        {
-          "type": "synopsis_start",
-          "children": [],
-          "text": "="
-        }
-      ],
-      "text": "= The adventure begins.\n\n"
-    },
-    {
-      "type": "scene_heading",
-      "children": [
-        {
-          "type": "scene_start",
-          "children": [],
-          "text": "EXT."
-        },
-        {
-          "type": "description",
-          "children": [],
-          "text": "CITY STREET - NIGHT"
-        }
-      ],
-      "text": "EXT. CITY STREET - NIGHT\n\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "line",
-          "children": [],
-          "text": "Dark and mysterious."
-        }
-      ],
-      "text": "Dark and mysterious.\n\n"
-    },
-    {
-      "type": "section_heading",
-      "children": [
-        {
-          "type": "section_start",
-          "children": [],
-          "text": "#"
-        },
-        {
-          "type": "description",
-          "children": [],
-          "text": "ACT II"
+          "text": "# ACT II"
         }
       ],
       "text": "# ACT II\n\n"
@@ -204,7 +172,23 @@
           "text": "="
         }
       ],
-      "text": "= The main conflict.\n\n"
+      "text": "= The partnership is tested.\n\n"
+    },
+    {
+      "type": "section_heading",
+      "children": [
+        {
+          "type": "section_start",
+          "children": [],
+          "text": "##"
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "THE CHALLENGE"
+        }
+      ],
+      "text": "## THE CHALLENGE\n\n"
     },
     {
       "type": "scene_heading",
@@ -212,15 +196,15 @@
         {
           "type": "scene_start",
           "children": [],
-          "text": "INT."
+          "text": "EXT."
         },
         {
           "type": "description",
           "children": [],
-          "text": "WAREHOUSE - DAY"
+          "text": "DOWNTOWN STREET - DAY"
         }
       ],
-      "text": "INT. WAREHOUSE - DAY\n\n"
+      "text": "EXT. DOWNTOWN STREET - DAY\n\n"
     },
     {
       "type": "action",
@@ -228,11 +212,11 @@
         {
           "type": "line",
           "children": [],
-          "text": "The showdown location."
+          "text": "They face their greatest obstacle yet."
         }
       ],
-      "text": "The showdown location.\n"
+      "text": "They face their greatest obstacle yet.\n"
     }
   ],
-  "text": "# ACT I\n\n= Set up the characters and the story.\n\n## Sequence 1\n\n### Scene Group A\n\nEXT. BRICK'S PATIO - DAY\n\n= This scene sets up Brick & Steel's new life as retirees.\n\nA gorgeous day. The sun is shining.\n\nINT. BRICK'S LIVING ROOM - CONTINUOUS\n\nBrick sits on the couch.\n\n## Sequence 2\n\n= The adventure begins.\n\nEXT. CITY STREET - NIGHT\n\nDark and mysterious.\n\n# ACT II\n\n= The main conflict.\n\nINT. WAREHOUSE - DAY\n\nThe showdown location.\n"
+  "text": "# ACT I\n\n## THE BEGINNING\n\n= Steel and Brick meet for the first time.\n\nEXT. COFFEE SHOP - MORNING\n\nSteel walks in nervously.\n\n### First Encounter\n\n= The tension builds as they size each other up.\n\nSTEEL\nYou must be Brick.\n\nBRICK\nAnd you're Steel. I've heard about you.\n\n# ACT II\n\n= The partnership is tested.\n\n## THE CHALLENGE\n\nEXT. DOWNTOWN STREET - DAY\n\nThey face their greatest obstacle yet.\n"
 }
