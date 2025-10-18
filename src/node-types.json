@@ -161,11 +161,6 @@
     }
   },
   {
-    "type": "line",
-    "named": true,
-    "fields": {}
-  },
-  {
     "type": "lyric",
     "named": true,
     "fields": {},
@@ -363,30 +358,6 @@
     "named": false
   },
   {
-    "type": "CUT TO:",
-    "named": false
-  },
-  {
-    "type": "DISSOLVE TO:",
-    "named": false
-  },
-  {
-    "type": "FADE IN:",
-    "named": false
-  },
-  {
-    "type": "FADE OUT:",
-    "named": false
-  },
-  {
-    "type": "FADE TO:",
-    "named": false
-  },
-  {
-    "type": "MATCH CUT TO:",
-    "named": false
-  },
-  {
     "type": "]]",
     "named": false
   },
@@ -412,6 +383,10 @@
   },
   {
     "type": "forced_transition_start",
+    "named": true
+  },
+  {
+    "type": "line",
     "named": true
   },
   {

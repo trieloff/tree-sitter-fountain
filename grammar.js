@@ -65,12 +65,12 @@ module.exports = grammar({
     ),
 
     title_key: $ => token(prec(1, seq(
-      /[A-Za-z][A-Za-z0-9 ]*/,
+      /[A-Z][a-z][A-Za-z0-9 ]*/,  // Must start with capital then lowercase (Title case)
       ':'
     ))),
 
     title_key_with_space: $ => token(prec(1, seq(
-      /[A-Za-z][A-Za-z0-9 ]*/,
+      /[A-Z][a-z][A-Za-z0-9 ]*/,  // Must start with capital then lowercase (Title case)
       ':',
       ' '
     ))),
@@ -91,14 +91,16 @@ module.exports = grammar({
 
     character: $ => choice(
       seq(
-        /[A-Z][A-Z0-9 \(\)\.']*[A-Z\)]/,
-        optional(/\s*\^/),  // dual dialogue marker
-        '\n'
+        token(seq(
+          /[A-Z][A-Z0-9 \(\)\.']*[A-Z0-9\)\.]/,  // Character name - all caps, can have spaces, must end with letter/digit/paren/period
+          optional(/ \^/)  // optional dual dialogue marker with single space
+        )),
+        token.immediate(/\n/)  // Must be immediately followed by newline (no colon allowed)
       ),
       seq(
         $.forced_character_start,
         /[^\n]+/,
-        optional(/\s*\^/),
+        optional(/ \^/),
         '\n'
       )
     ),
@@ -139,15 +141,7 @@ module.exports = grammar({
         '\n'
       ),
       seq(
-        choice(
-          'CUT TO:',
-          'FADE OUT:',
-          'FADE IN:',
-          'FADE TO:',
-          'DISSOLVE TO:',
-          'MATCH CUT TO:',
-          /[A-Z][A-Z ]+TO:/
-        ),
+        token(/[A-Z][A-Z ]*TO:/),  // Any uppercase text ending in TO:
         '\n'
       )
     )),
@@ -201,7 +195,7 @@ module.exports = grammar({
       '\n'
     )),
 
-    line: $ => /[^\n]+/,
+    line: $ => token(prec(-1, /[^\n]+/)),  // Lower precedence so specific patterns match first
 
     // Description should not start with whitespace (to avoid matching continuation lines)
     description: $ => /[^ \t\n][^\n]*/
