@@ -5,9 +5,9 @@ const path = require('path');
 const fixturesDir = path.join(__dirname, 'fixtures');
 
 /**
- * Parse tree-sitter CLI output into a JSON AST structure
+ * Parse tree-sitter CLI output into a JSON AST structure with text content
  */
-function parseTreeSitterOutput(output) {
+function parseTreeSitterOutput(output, sourceText) {
   // Remove warning and debug lines, extract only the AST portion
   const lines = output.split('\n');
 
@@ -34,6 +34,7 @@ function parseTreeSitterOutput(output) {
   }
 
   const cleanOutput = lines.slice(astStartIdx, astEndIdx + 1).join('\n').trim();
+  const sourceLines = sourceText.split('\n');
 
   const stack = [];
   let current = null;
@@ -56,7 +57,51 @@ function parseTreeSitterOutput(output) {
       }
       current = node;
 
-      // Skip position info [x,y] - [x,y]
+      // Extract position info [startRow,startCol] - [endRow,endCol]
+      if (cleanOutput[i] === ' ' && cleanOutput[i + 1] === '[') {
+        i += 2; // skip ' ['
+        let posStr = '';
+        while (i < cleanOutput.length && cleanOutput[i] !== ']') {
+          posStr += cleanOutput[i];
+          i++;
+        }
+        const [startRow, startCol] = posStr.split(',').map(s => parseInt(s.trim()));
+
+        i++; // skip ']'
+        while (i < cleanOutput.length && cleanOutput[i] === ' ') i++;
+        if (cleanOutput[i] === '-') {
+          i++; // skip '-'
+          while (i < cleanOutput.length && cleanOutput[i] === ' ') i++;
+          if (cleanOutput[i] === '[') {
+            i++; // skip '['
+            posStr = '';
+            while (i < cleanOutput.length && cleanOutput[i] !== ']') {
+              posStr += cleanOutput[i];
+              i++;
+            }
+            const [endRow, endCol] = posStr.split(',').map(s => parseInt(s.trim()));
+
+            // Extract text from source
+            if (startRow === endRow) {
+              node.text = sourceLines[startRow]?.substring(startCol, endCol);
+            } else {
+              // Multi-line node
+              let text = sourceLines[startRow]?.substring(startCol) || '';
+              for (let r = startRow + 1; r < endRow; r++) {
+                text += '\n' + (sourceLines[r] || '');
+              }
+              if (endRow < sourceLines.length) {
+                text += '\n' + (sourceLines[endRow]?.substring(0, endCol) || '');
+              }
+              node.text = text;
+            }
+
+            i++; // skip ']'
+          }
+        }
+      }
+
+      // Skip rest of line until newline or paren
       while (i < cleanOutput.length && cleanOutput[i] !== '\n' && cleanOutput[i] !== '(' && cleanOutput[i] !== ')') {
         i++;
       }
@@ -86,6 +131,9 @@ for (const file of fountainFiles) {
   const fountainPath = path.join(fixturesDir, file);
   const jsonPath = path.join(fixturesDir, file.replace('.fountain', '.json'));
 
+  // Read source file
+  const sourceText = fs.readFileSync(fountainPath, 'utf8');
+
   // Parse using tree-sitter CLI (ignore exit code as it may fail on parse errors)
   let output;
   try {
@@ -94,8 +142,8 @@ for (const file of fountainFiles) {
     output = err.stdout || err.output?.join('') || '';
   }
 
-  // Convert to JSON AST
-  const ast = parseTreeSitterOutput(output);
+  // Convert to JSON AST with text content
+  const ast = parseTreeSitterOutput(output, sourceText);
 
   // Write to file
   fs.writeFileSync(jsonPath, JSON.stringify(ast, null, 2));

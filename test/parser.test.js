@@ -9,11 +9,11 @@ const execAsync = promisify(exec);
 const fixturesDir = path.join(__dirname, 'fixtures');
 
 /**
- * Parse tree-sitter CLI output into a JSON AST structure
+ * Parse tree-sitter CLI output into a JSON AST structure with text content
  * Converts from: (node_type [0,0] - [1,0] ...)
- * To: {type: 'node_type', children: [...]}
+ * To: {type: 'node_type', children: [...], text: '...'}
  */
-function parseTreeSitterOutput(output) {
+function parseTreeSitterOutput(output, sourceText) {
   // Remove warning and debug lines, extract only the AST portion
   const lines = output.split('\n');
 
@@ -40,6 +40,7 @@ function parseTreeSitterOutput(output) {
   }
 
   const cleanOutput = lines.slice(astStartIdx, astEndIdx + 1).join('\n').trim();
+  const sourceLines = sourceText.split('\n');
 
   const stack = [];
   let current = null;
@@ -62,7 +63,51 @@ function parseTreeSitterOutput(output) {
       }
       current = node;
 
-      // Skip position info [x,y] - [x,y]
+      // Extract position info [startRow,startCol] - [endRow,endCol]
+      if (cleanOutput[i] === ' ' && cleanOutput[i + 1] === '[') {
+        i += 2; // skip ' ['
+        let posStr = '';
+        while (i < cleanOutput.length && cleanOutput[i] !== ']') {
+          posStr += cleanOutput[i];
+          i++;
+        }
+        const [startRow, startCol] = posStr.split(',').map(s => parseInt(s.trim()));
+
+        i++; // skip ']'
+        while (i < cleanOutput.length && cleanOutput[i] === ' ') i++;
+        if (cleanOutput[i] === '-') {
+          i++; // skip '-'
+          while (i < cleanOutput.length && cleanOutput[i] === ' ') i++;
+          if (cleanOutput[i] === '[') {
+            i++; // skip '['
+            posStr = '';
+            while (i < cleanOutput.length && cleanOutput[i] !== ']') {
+              posStr += cleanOutput[i];
+              i++;
+            }
+            const [endRow, endCol] = posStr.split(',').map(s => parseInt(s.trim()));
+
+            // Extract text from source
+            if (startRow === endRow) {
+              node.text = sourceLines[startRow]?.substring(startCol, endCol);
+            } else {
+              // Multi-line node
+              let text = sourceLines[startRow]?.substring(startCol) || '';
+              for (let r = startRow + 1; r < endRow; r++) {
+                text += '\n' + (sourceLines[r] || '');
+              }
+              if (endRow < sourceLines.length) {
+                text += '\n' + (sourceLines[endRow]?.substring(0, endCol) || '');
+              }
+              node.text = text;
+            }
+
+            i++; // skip ']'
+          }
+        }
+      }
+
+      // Skip rest of line until newline or paren
       while (i < cleanOutput.length && cleanOutput[i] !== '\n' && cleanOutput[i] !== '(' && cleanOutput[i] !== ')') {
         i++;
       }
@@ -118,14 +163,15 @@ for (const testName of fountainFiles) {
     assert.ok(fs.existsSync(fountainPath), `Fountain file ${testName}.fountain should exist`);
     assert.ok(fs.existsSync(jsonPath), `JSON file ${testName}.json should exist`);
 
-    // Load expected AST
+    // Load source and expected AST
+    const sourceText = fs.readFileSync(fountainPath, 'utf8');
     const expected = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
 
     // Parse the fountain file using tree-sitter CLI
     const { stdout } = await execAsync(`npx --yes tree-sitter parse "${fountainPath}" 2>&1`);
 
-    // Parse the tree-sitter output into AST
-    const actual = parseTreeSitterOutput(stdout);
+    // Parse the tree-sitter output into AST with text content
+    const actual = parseTreeSitterOutput(stdout, sourceText);
 
     // Deep compare the ASTs
     compareAST(actual, expected);

@@ -6,74 +6,82 @@
       "children": [
         {
           "type": "scene_start",
-          "children": []
+          "children": [],
+          "text": "INT."
         },
         {
           "type": "description",
-          "children": []
+          "children": [],
+          "text": "APARTMENT - DAY"
         }
-      ]
+      ],
+      "text": "INT. APARTMENT - DAY\n\n"
     },
     {
       "type": "dialogue_block",
       "children": [
         {
           "type": "character",
-          "children": []
+          "children": [],
+          "text": "BRICK ^\n"
         },
         {
           "type": "dialogue_line_start",
-          "children": []
+          "children": [],
+          "text": ""
         },
         {
           "type": "dialogue",
           "children": [
             {
               "type": "line",
-              "children": []
+              "children": [],
+              "text": "Screw retirement."
             }
-          ]
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": []
-        },
-        {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "line",
-              "children": []
-            }
-          ]
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": []
-        },
-        {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "line",
-              "children": []
-            }
-          ]
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": []
-        },
-        {
-          "type": "dialogue",
-          "children": [
-            {
-              "type": "line",
-              "children": []
-            }
-          ]
+          ],
+          "text": "Screw retirement.\n"
         }
-      ]
+      ],
+      "text": "BRICK ^\nScrew retirement.\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL ^\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "That's what I've been saying!"
+            }
+          ],
+          "text": "That's what I've been saying!\n"
+        }
+      ],
+      "text": "STEEL ^\nThat's what I've been saying!\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Regular action line here."
+        }
+      ],
+      "text": "Regular action line here.\n"
     }
-  ]
+  ],
+  "text": "INT. APARTMENT - DAY\n\nBRICK ^\nScrew retirement.\n\nSTEEL ^\nThat's what I've been saying!\n\nRegular action line here.\n"
 }
