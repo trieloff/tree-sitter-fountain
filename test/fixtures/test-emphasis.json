@@ -1,0 +1,93 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "scene_heading",
+      "children": [
+        {
+          "type": "scene_start",
+          "children": [],
+          "text": "EXT."
+        },
+        {
+          "type": "description",
+          "children": [],
+          "text": "MOVIE SET - DAY"
+        }
+      ],
+      "text": "EXT. MOVIE SET - DAY\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "The director yells *action* and the scene begins."
+        }
+      ],
+      "text": "The director yells *action* and the scene begins.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Steel enters wearing **bold sunglasses** and a ***bold italic jacket***."
+        }
+      ],
+      "text": "Steel enters wearing **bold sunglasses** and a ***bold italic jacket***.\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "He notices the _underlined contract_ on the table."
+        }
+      ],
+      "text": "He notices the _underlined contract_ on the table.\n\n"
+    },
+    {
+      "type": "dialogue_block",
+      "children": [
+        {
+          "type": "character",
+          "children": [],
+          "text": "STEEL\n"
+        },
+        {
+          "type": "dialogue_line_start",
+          "children": [],
+          "text": ""
+        },
+        {
+          "type": "dialogue",
+          "children": [
+            {
+              "type": "line",
+              "children": [],
+              "text": "This contract is *very* important. The terms are **non-negotiable** and ***absolutely final***."
+            }
+          ],
+          "text": "This contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n"
+        }
+      ],
+      "text": "STEEL\nThis contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "The lawyer points to the _signature line_ at the bottom."
+        }
+      ],
+      "text": "The lawyer points to the _signature line_ at the bottom.\n"
+    }
+  ],
+  "text": "EXT. MOVIE SET - DAY\n\nThe director yells *action* and the scene begins.\n\nSteel enters wearing **bold sunglasses** and a ***bold italic jacket***.\n\nHe notices the _underlined contract_ on the table.\n\nSTEEL\nThis contract is *very* important. The terms are **non-negotiable** and ***absolutely final***.\n\nThe lawyer points to the _signature line_ at the bottom.\n"
+}
