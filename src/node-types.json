@@ -304,27 +304,20 @@
   {
     "type": "title_page_field",
     "named": true,
-    "fields": {
-      "key": {
-        "multiple": false,
-        "required": true,
-        "types": [
-          {
-            "type": "key",
-            "named": false
-          }
-        ]
-      },
-      "value": {
-        "multiple": false,
-        "required": false,
-        "types": [
-          {
-            "type": "description",
-            "named": true
-          }
-        ]
-      }
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "description",
+          "named": true
+        },
+        {
+          "type": "title_key",
+          "named": true
+        }
+      ]
     }
   },
   {
@@ -415,10 +408,6 @@
     "named": true
   },
   {
-    "type": "key",
-    "named": false
-  },
-  {
     "type": "lyric_start",
     "named": true
   },
@@ -444,6 +433,10 @@
   },
   {
     "type": "synopsis_start",
+    "named": true
+  },
+  {
+    "type": "title_key",
     "named": true
   }
 ]

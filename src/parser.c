@@ -11,9 +11,9 @@
 #define ALIAS_COUNT 0
 #define TOKEN_COUNT 35
 #define EXTERNAL_TOKEN_COUNT 11
-#define FIELD_COUNT 2
+#define FIELD_COUNT 0
 #define MAX_ALIAS_SEQUENCE_LENGTH 5
-#define PRODUCTION_ID_COUNT 3
+#define PRODUCTION_ID_COUNT 1
 
 enum ts_symbol_identifiers {
   anon_sym_SPACE = 1,
@@ -80,7 +80,7 @@ static const char * const ts_symbol_names[] = {
   [ts_builtin_sym_end] = "end",
   [anon_sym_SPACE] = " ",
   [anon_sym_LF] = "\n",
-  [sym_title_key] = "key",
+  [sym_title_key] = "title_key",
   [anon_sym_POUND] = "#",
   [aux_sym_scene_number_token1] = "scene_number_token1",
   [aux_sym_character_token1] = "character_token1",
@@ -215,7 +215,7 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
   },
   [sym_title_key] = {
     .visible = true,
-    .named = false,
+    .named = true,
   },
   [anon_sym_POUND] = {
     .visible = true,
@@ -437,30 +437,6 @@ static const TSSymbolMetadata ts_symbol_metadata[] = {
     .visible = false,
     .named = false,
   },
-};
-
-enum ts_field_identifiers {
-  field_key = 1,
-  field_value = 2,
-};
-
-static const char * const ts_field_names[] = {
-  [0] = NULL,
-  [field_key] = "key",
-  [field_value] = "value",
-};
-
-static const TSFieldMapSlice ts_field_map_slices[PRODUCTION_ID_COUNT] = {
-  [1] = {.index = 0, .length = 1},
-  [2] = {.index = 1, .length = 2},
-};
-
-static const TSFieldMapEntry ts_field_map_entries[] = {
-  [0] =
-    {field_key, 0},
-  [1] =
-    {field_key, 0},
-    {field_value, 2},
 };
 
 static const TSSymbol ts_alias_sequences[PRODUCTION_ID_COUNT][MAX_ALIAS_SEQUENCE_LENGTH] = {
@@ -3115,10 +3091,10 @@ static const TSParseActionEntry ts_parse_actions[] = {
   [108] = {.entry = {.count = 1, .reusable = false}}, REDUCE(sym_title_page, 1, 0, 0),
   [110] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_parenthetical, 4, 0, 0),
   [112] = {.entry = {.count = 1, .reusable = false}}, REDUCE(sym_parenthetical, 4, 0, 0),
-  [114] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_title_page_field, 2, 0, 1),
-  [116] = {.entry = {.count = 1, .reusable = false}}, REDUCE(sym_title_page_field, 2, 0, 1),
-  [118] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_title_page_field, 4, 0, 2),
-  [120] = {.entry = {.count = 1, .reusable = false}}, REDUCE(sym_title_page_field, 4, 0, 2),
+  [114] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_title_page_field, 2, 0, 0),
+  [116] = {.entry = {.count = 1, .reusable = false}}, REDUCE(sym_title_page_field, 2, 0, 0),
+  [118] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_title_page_field, 4, 0, 0),
+  [120] = {.entry = {.count = 1, .reusable = false}}, REDUCE(sym_title_page_field, 4, 0, 0),
   [122] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_dialogue, 2, 0, 0),
   [124] = {.entry = {.count = 1, .reusable = false}}, REDUCE(sym_dialogue, 2, 0, 0),
   [126] = {.entry = {.count = 1, .reusable = true}}, REDUCE(sym_section_heading, 4, 0, 0),
@@ -3278,9 +3254,6 @@ TS_PUBLIC const TSLanguage *tree_sitter_fountain(void) {
     .small_parse_table_map = ts_small_parse_table_map,
     .parse_actions = ts_parse_actions,
     .symbol_names = ts_symbol_names,
-    .field_names = ts_field_names,
-    .field_map_slices = ts_field_map_slices,
-    .field_map_entries = ts_field_map_entries,
     .symbol_metadata = ts_symbol_metadata,
     .public_symbol_map = ts_symbol_map,
     .alias_map = ts_non_terminal_alias_map,

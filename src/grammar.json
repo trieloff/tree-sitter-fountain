@@ -88,17 +88,8 @@
         "type": "SEQ",
         "members": [
           {
-            "type": "FIELD",
-            "name": "key",
-            "content": {
-              "type": "ALIAS",
-              "content": {
-                "type": "SYMBOL",
-                "name": "title_key"
-              },
-              "named": false,
-              "value": "key"
-            }
+            "type": "SYMBOL",
+            "name": "title_key"
           },
           {
             "type": "CHOICE",
@@ -111,12 +102,8 @@
                     "value": " "
                   },
                   {
-                    "type": "FIELD",
-                    "name": "value",
-                    "content": {
-                      "type": "SYMBOL",
-                      "name": "description"
-                    }
+                    "type": "SYMBOL",
+                    "name": "description"
                   }
                 ]
               },

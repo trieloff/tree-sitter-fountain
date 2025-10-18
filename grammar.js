@@ -45,8 +45,8 @@ module.exports = grammar({
     ),
 
     title_page_field: $ => prec.left(10, seq(
-      field('key', alias($.title_key, 'key')),
-      optional(seq(' ', field('value', $.description))),
+      $.title_key,
+      optional(seq(' ', $.description)),
       '\n'
     )),
 
