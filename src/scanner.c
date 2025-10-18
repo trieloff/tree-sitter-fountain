@@ -84,8 +84,24 @@ bool tree_sitter_fountain_external_scanner_scan(void *payload, TSLexer *lexer, c
     return true;
   }
 
-  // Try scene start (INT., EXT., etc.) - this ends title page
+  // Try scene start (INT., EXT., etc. or forced scene heading with .) - this ends title page
   if (valid_symbols[SCENE_START]) {
+    // Check for forced scene heading (. followed by alphanumeric)
+    if (lexer->lookahead == '.') {
+      lexer->advance(lexer, false);
+      // Must be followed by an alphanumeric character to be a forced scene heading
+      if (iswalnum(lexer->lookahead)) {
+        scanner->in_title_page = false;
+        lexer->result_symbol = SCENE_START;
+        lexer->mark_end(lexer);
+        return true;
+      }
+      // Not a forced scene heading, backtrack would be needed but we can't,
+      // so this will just fail to match
+      return false;
+    }
+
+    // Check for standard scene headings
     if (match_keyword(lexer, "INT.") ||
         match_keyword(lexer, "EXT.") ||
         match_keyword(lexer, "INT./EXT.") ||

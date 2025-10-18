@@ -207,8 +207,16 @@
             "name": "scene_start"
           },
           {
-            "type": "STRING",
-            "value": " "
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "STRING",
+                "value": " "
+              },
+              {
+                "type": "BLANK"
+              }
+            ]
           },
           {
             "type": "SYMBOL",
@@ -650,12 +658,12 @@
             "name": "centered_start"
           },
           {
-            "type": "PATTERN",
-            "value": "[^<\\n]+"
+            "type": "SYMBOL",
+            "name": "centered_text"
           },
           {
-            "type": "STRING",
-            "value": "<"
+            "type": "SYMBOL",
+            "name": "centered_end"
           },
           {
             "type": "STRING",
@@ -663,6 +671,14 @@
           }
         ]
       }
+    },
+    "centered_text": {
+      "type": "PATTERN",
+      "value": "[^<\\n]+"
+    },
+    "centered_end": {
+      "type": "STRING",
+      "value": "<"
     },
     "line": {
       "type": "TOKEN",

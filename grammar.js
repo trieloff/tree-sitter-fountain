@@ -78,7 +78,7 @@ module.exports = grammar({
 
     scene_heading: $ => prec(5, seq(
       $.scene_start,
-      ' ',
+      optional(' '),  // Space is optional for forced scene headings (.)
       $.description,
       optional($.scene_number),
       '\n'
@@ -195,10 +195,14 @@ module.exports = grammar({
     // Centered text (>text<)
     centered: $ => prec(4, seq(
       $.centered_start,
-      /[^<\n]+/,
-      '<',
+      $.centered_text,
+      $.centered_end,
       '\n'
     )),
+
+    centered_text: $ => /[^<\n]+/,
+
+    centered_end: $ => '<',
 
     line: $ => token(prec(-1, /[^\n]+/)),  // Lower precedence so specific patterns match first
 

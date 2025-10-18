@@ -38,11 +38,19 @@
     "named": true,
     "fields": {},
     "children": {
-      "multiple": false,
+      "multiple": true,
       "required": true,
       "types": [
         {
+          "type": "centered_end",
+          "named": true
+        },
+        {
           "type": "centered_start",
+          "named": true
+        },
+        {
+          "type": "centered_text",
           "named": true
         }
       ]
@@ -362,10 +370,6 @@
     "named": false
   },
   {
-    "type": "<",
-    "named": false
-  },
-  {
     "type": "]]",
     "named": false
   },
@@ -378,7 +382,15 @@
     "named": true
   },
   {
+    "type": "centered_end",
+    "named": true
+  },
+  {
     "type": "centered_start",
+    "named": true
+  },
+  {
+    "type": "centered_text",
     "named": true
   },
   {
