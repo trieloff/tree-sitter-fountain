@@ -1,0 +1,81 @@
+{
+  "type": "document",
+  "children": [
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Bill stands in the middle of the room and shouts."
+        }
+      ],
+      "text": "Bill stands in the middle of the room and shouts.\n\n"
+    },
+    {
+      "type": "centered",
+      "children": [
+        {
+          "type": "centered_start",
+          "children": [],
+          "text": ">"
+        },
+        {
+          "type": "centered_text",
+          "children": [],
+          "text": "THE END"
+        },
+        {
+          "type": "centered_end",
+          "children": [],
+          "text": "<"
+        }
+      ],
+      "text": ">THE END<\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "More action."
+        }
+      ],
+      "text": "More action.\n\n"
+    },
+    {
+      "type": "centered",
+      "children": [
+        {
+          "type": "centered_start",
+          "children": [],
+          "text": ">"
+        },
+        {
+          "type": "centered_text",
+          "children": [],
+          "text": " FADE OUT "
+        },
+        {
+          "type": "centered_end",
+          "children": [],
+          "text": "<"
+        }
+      ],
+      "text": "> FADE OUT <\n\n"
+    },
+    {
+      "type": "action",
+      "children": [
+        {
+          "type": "line",
+          "children": [],
+          "text": "Even more action."
+        }
+      ],
+      "text": "Even more action.\n"
+    }
+  ],
+  "text": "Bill stands in the middle of the room and shouts.\n\n>THE END<\n\nMore action.\n\n> FADE OUT <\n\nEven more action.\n"
+}
