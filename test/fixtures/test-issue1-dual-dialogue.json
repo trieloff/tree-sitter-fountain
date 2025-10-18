@@ -26,11 +26,6 @@
           "text": "BRICK ^\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
           "type": "dialogue",
           "children": [
             {
@@ -39,10 +34,10 @@
               "text": "Screw retirement."
             }
           ],
-          "text": "Screw retirement.\n"
+          "text": "Screw retirement.\n\n"
         }
       ],
-      "text": "BRICK ^\nScrew retirement.\n"
+      "text": "BRICK ^\nScrew retirement.\n\n"
     },
     {
       "type": "dialogue_block",
@@ -53,11 +48,6 @@
           "text": "STEEL ^\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
           "type": "dialogue",
           "children": [
             {
@@ -66,10 +56,10 @@
               "text": "That's what I've been saying!"
             }
           ],
-          "text": "That's what I've been saying!\n"
+          "text": "That's what I've been saying!\n\n"
         }
       ],
-      "text": "STEEL ^\nThat's what I've been saying!\n"
+      "text": "STEEL ^\nThat's what I've been saying!\n\n"
     },
     {
       "type": "action",
