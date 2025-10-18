@@ -91,13 +91,11 @@ module.exports = grammar({
     ),
 
     character: $ => choice(
-      seq(
-        token(seq(
-          /[A-Z][A-Z0-9 \(\)\.']*[A-Z0-9\)\.]/,  // Character name - all caps, can have spaces, must end with letter/digit/paren/period
-          optional(/ \^/)  // optional dual dialogue marker with single space
-        )),
-        token.immediate(/\n/)  // Must be immediately followed by newline (no colon allowed)
-      ),
+      token(seq(
+        /[A-Z][A-Z0-9 \(\)\.']*[A-Z0-9\)\.]/,  // Character name - all caps, can have spaces, must end with letter/digit/paren/period
+        optional(/ \^/),  // optional dual dialogue marker with single space
+        /\n/  // Must be immediately followed by newline (no colon allowed)
+      )),
       seq(
         $.forced_character_start,
         /[^\n]+/,
