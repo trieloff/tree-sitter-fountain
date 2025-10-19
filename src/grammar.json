@@ -952,6 +952,10 @@
       "members": [
         {
           "type": "SYMBOL",
+          "name": "escaped_char"
+        },
+        {
+          "type": "SYMBOL",
           "name": "bold_italic"
         },
         {
@@ -985,6 +989,10 @@
       "members": [
         {
           "type": "SYMBOL",
+          "name": "escaped_char"
+        },
+        {
+          "type": "SYMBOL",
           "name": "bold_italic"
         },
         {
@@ -1008,6 +1016,10 @@
           "name": "text"
         }
       ]
+    },
+    "escaped_char": {
+      "type": "PATTERN",
+      "value": "\\\\[*_\\[\\]()\\\\]"
     },
     "bold_italic": {
       "type": "SEQ",
@@ -1087,7 +1099,7 @@
     },
     "text": {
       "type": "PATTERN",
-      "value": "[^A-Z*_\\n()]+|[A-Z][^A-Z*_\\n()]"
+      "value": "[^A-Z*_\\n()\\\\]+|[A-Z][^A-Z*_\\n()\\\\]"
     },
     "line": {
       "type": "TOKEN",

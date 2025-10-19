@@ -273,6 +273,7 @@ module.exports = grammar({
     // Action inline content: includes paren_text for inline parens like "MAYA (28)"
     // Order matters: more specific patterns first
     _action_inline_content: $ => choice(
+      $.escaped_char,
       $.bold_italic,
       $.bold,
       $.italic,
@@ -284,6 +285,7 @@ module.exports = grammar({
 
     // Dialogue inline content: excludes paren_text (parentheticals are standalone lines)
     _inline_content: $ => choice(
+      $.escaped_char,
       $.bold_italic,
       $.bold,
       $.italic,
@@ -291,6 +293,10 @@ module.exports = grammar({
       $.uppercase_text,
       $.text
     ),
+
+    // Escaped characters - backslash followed by special char renders literally
+    // Must come before emphasis markers to prevent \* from being parsed as italic
+    escaped_char: $ => /\\[*_\[\]()\\]/,
 
     // Emphasis markers - these have higher precedence
     bold_italic: $ => seq(
@@ -327,8 +333,8 @@ module.exports = grammar({
 
     // Regular text - everything else
     // Matches: lowercase, digits, punctuation, single uppercase + non-uppercase
-    // Excludes parentheses so parentheticals can be recognized in dialogue
-    text: $ => /[^A-Z*_\n()]+|[A-Z][^A-Z*_\n()]/,
+    // Excludes: parentheses (for parentheticals), emphasis markers, backslash (for escaped chars)
+    text: $ => /[^A-Z*_\n()\\]+|[A-Z][^A-Z*_\n()\\]/,
 
     line: $ => token(prec(-1, /[^\n]+/)),  // Lower precedence so specific patterns match first
 

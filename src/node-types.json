@@ -16,6 +16,10 @@
           "named": true
         },
         {
+          "type": "escaped_char",
+          "named": true
+        },
+        {
           "type": "forced_action_start",
           "named": true
         },
@@ -123,6 +127,10 @@
         },
         {
           "type": "bold_italic",
+          "named": true
+        },
+        {
+          "type": "escaped_char",
           "named": true
         },
         {
@@ -597,6 +605,10 @@
   },
   {
     "type": "dialogue_line_start",
+    "named": true
+  },
+  {
+    "type": "escaped_char",
     "named": true
   },
   {
