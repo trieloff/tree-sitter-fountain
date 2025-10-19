@@ -31,12 +31,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Th"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "e door opens."
+              "text": "The door opens."
             }
           ],
           "text": "The door opens.\n\n"
@@ -74,12 +69,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "A "
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "car pulls up."
+              "text": "A car pulls up."
             }
           ],
           "text": "A car pulls up.\n\n"
@@ -121,12 +111,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Es"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "tablishing shot."
+              "text": "Establishing shot."
             }
           ],
           "text": "Establishing shot.\n\n"
@@ -164,12 +149,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Dr"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "iving through the city."
+              "text": "Driving through the city."
             }
           ],
           "text": "Driving through the city.\n\n"
@@ -202,12 +182,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Fo"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "rced scene heading without standard prefix."
+              "text": "Forced scene heading without standard prefix."
             }
           ],
           "text": "Forced scene heading without standard prefix.\n\n"
@@ -240,12 +215,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "An"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "other forced heading."
+              "text": "Another forced heading."
             }
           ],
           "text": "Another forced heading.\n\n"
@@ -288,12 +258,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Sc"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "ene with number."
+              "text": "Scene with number."
             }
           ],
           "text": "Scene with number.\n\n"
@@ -336,12 +301,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Sc"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "ene with alphanumeric number."
+              "text": "Scene with alphanumeric number."
             }
           ],
           "text": "Scene with alphanumeric number.\n\n"
@@ -384,12 +344,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Co"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "mplex scene with number."
+              "text": "Complex scene with number."
             }
           ],
           "text": "Complex scene with number.\n"

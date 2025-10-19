@@ -31,12 +31,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Sh"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "e checks her phone: 7:28 "
+              "text": "She checks her phone: 7:28 "
             },
             {
               "type": "uppercase_text",
@@ -57,12 +52,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "He"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": " arrives with supplies: coffee, donuts, and newspapers."
+              "text": "He arrives with supplies: coffee, donuts, and newspapers."
             }
           ],
           "text": "He arrives with supplies: coffee, donuts, and newspapers.\n\n"
@@ -73,12 +63,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Th"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "e screen displays a message: "
+              "text": "The screen displays a message: "
             },
             {
               "type": "uppercase_text",

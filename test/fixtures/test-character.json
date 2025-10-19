@@ -31,12 +31,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Ba"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "sic character with dialogue."
+              "text": "Basic character with dialogue."
             }
           ],
           "text": "Basic character with dialogue.\n\n"
@@ -60,12 +55,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "He"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "llo, world!"
+                  "text": "Hello, world!"
                 }
               ],
               "text": "Hello, world!\n"
@@ -79,12 +69,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Ch"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "aracter with extension."
+              "text": "Character with extension."
             }
           ],
           "text": "Character with extension.\n\n"
@@ -108,12 +93,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Di"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "nner's ready!"
+                  "text": "Dinner's ready!"
                 }
               ],
               "text": "Dinner's ready!\n"
@@ -127,12 +107,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Ch"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "aracter with parenthetical."
+              "text": "Character with parenthetical."
             }
           ],
           "text": "Character with parenthetical.\n\n"
@@ -166,12 +141,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Do"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "n't tell anyone."
+                  "text": "Don't tell anyone."
                 }
               ],
               "text": "Don't tell anyone.\n"
@@ -185,12 +155,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Mu"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "ltiple characters in sequence."
+              "text": "Multiple characters in sequence."
             }
           ],
           "text": "Multiple characters in sequence.\n\n"
@@ -214,12 +179,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Wh"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "at happened here?"
+                  "text": "What happened here?"
                 }
               ],
               "text": "What happened here?\n"
@@ -246,12 +206,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "I "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "saw everything."
+                  "text": "I saw everything."
                 }
               ],
               "text": "I saw everything.\n"
@@ -265,12 +220,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Ch"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "aracter with mixed case forced."
+              "text": "Character with mixed case forced."
             }
           ],
           "text": "Character with mixed case forced.\n\n"
@@ -300,12 +250,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Yi"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "ppee-ki-yay!"
+                  "text": "Yippee-ki-yay!"
                 }
               ],
               "text": "Yippee-ki-yay!\n"
@@ -319,12 +264,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Ch"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "aracter must be uppercase "
+              "text": "Character must be uppercase "
             },
             {
               "type": "paren_text",
@@ -358,12 +298,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Be"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "ep boop!"
+                  "text": "Beep boop!"
                 }
               ],
               "text": "Beep boop!\n"
@@ -377,12 +312,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Ch"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "aracter with uppercase extension."
+              "text": "Character with uppercase extension."
             }
           ],
           "text": "Character with uppercase extension.\n\n"
@@ -406,12 +336,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Ev"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "erything is going according to plan."
+                  "text": "Everything is going according to plan."
                 }
               ],
               "text": "Everything is going according to plan.\n"
@@ -425,12 +350,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Ch"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "aracter with voice over extension."
+              "text": "Character with voice over extension."
             }
           ],
           "text": "Character with voice over extension.\n\n"
@@ -454,12 +374,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Th"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "is is your captain speaking."
+                  "text": "This is your captain speaking."
                 }
               ],
               "text": "This is your captain speaking.\n"

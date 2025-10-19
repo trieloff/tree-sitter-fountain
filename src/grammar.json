@@ -1099,7 +1099,7 @@
     },
     "text": {
       "type": "PATTERN",
-      "value": "[^A-Z*_\\n()\\\\]+|[A-Z][^A-Z*_\\n()\\\\]"
+      "value": "[^A-Z*_\\n()\\\\]+|[A-Z][^A-Z*_\\n()\\\\]+"
     },
     "line": {
       "type": "TOKEN",

@@ -52,12 +52,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Th"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "e "
+              "text": "The "
             },
             {
               "type": "uppercase_text",
@@ -88,12 +83,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "In"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "side the car, we see a "
+              "text": "Inside the car, we see a "
             },
             {
               "type": "uppercase_text",
@@ -114,12 +104,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Th"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "e driver notices the "
+              "text": "The driver notices the "
             },
             {
               "type": "uppercase_text",
@@ -163,12 +148,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Th"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "at was close!"
+                  "text": "That was close!"
                 }
               ],
               "text": "That was close!\n"
@@ -182,12 +162,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "He"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": " checks the "
+              "text": "He checks the "
             },
             {
               "type": "uppercase_text",

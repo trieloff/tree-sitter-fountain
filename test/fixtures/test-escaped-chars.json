@@ -31,12 +31,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Th"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "is has a "
+              "text": "This has a "
             },
             {
               "type": "escaped_char",
@@ -67,12 +62,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Al"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "so "
+              "text": "Also "
             },
             {
               "type": "escaped_char",
@@ -93,12 +83,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Es"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "caped underscore: "
+              "text": "Escaped underscore: "
             },
             {
               "type": "escaped_char",
@@ -124,12 +109,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "Es"
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "caped parens: "
+              "text": "Escaped parens: "
             },
             {
               "type": "escaped_char",
@@ -198,12 +178,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Wék"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "ʷos kleutōr!"
+                  "text": "Wékʷos kleutōr!"
                 }
               ],
               "text": "n PIE: \\*Wékʷos kleutōr!\n"

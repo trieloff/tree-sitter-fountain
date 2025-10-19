@@ -332,9 +332,9 @@ module.exports = grammar({
     paren_text: $ => /\([^)\n]+\)/,
 
     // Regular text - everything else
-    // Matches: lowercase, digits, punctuation, single uppercase + non-uppercase
+    // Matches: lowercase, digits, punctuation, title-case words (capital + lowercase+)
     // Excludes: parentheses (for parentheticals), emphasis markers, backslash (for escaped chars)
-    text: $ => /[^A-Z*_\n()\\]+|[A-Z][^A-Z*_\n()\\]/,
+    text: $ => /[^A-Z*_\n()\\]+|[A-Z][^A-Z*_\n()\\]+/,
 
     line: $ => token(prec(-1, /[^\n]+/)),  // Lower precedence so specific patterns match first
 

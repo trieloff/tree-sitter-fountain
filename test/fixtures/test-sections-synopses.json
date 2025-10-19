@@ -83,12 +83,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "St"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "eel walks in nervously."
+                  "text": "Steel walks in nervously."
                 }
               ],
               "text": "Steel walks in nervously.\n\n"
@@ -148,22 +143,12 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Yo"
+                  "text": "You must be "
                 },
                 {
                   "type": "text",
                   "children": [],
-                  "text": "u must be "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "Br"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "ick."
+                  "text": "Brick."
                 }
               ],
               "text": "You must be Brick.\n"
@@ -190,32 +175,17 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "An"
+                  "text": "And you're "
                 },
                 {
                   "type": "text",
                   "children": [],
-                  "text": "d you're "
+                  "text": "Steel. "
                 },
                 {
                   "type": "text",
                   "children": [],
-                  "text": "St"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "eel. "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "I'"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "ve heard about you."
+                  "text": "I've heard about you."
                 }
               ],
               "text": "And you're Steel. I've heard about you.\n"
@@ -302,12 +272,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Th"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "ey face their greatest obstacle yet."
+                  "text": "They face their greatest obstacle yet."
                 }
               ],
               "text": "They face their greatest obstacle yet.\n"

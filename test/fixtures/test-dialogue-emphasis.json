@@ -44,12 +44,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Yo"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "u're going to tell me everything."
+                  "text": "You're going to tell me everything."
                 }
               ],
               "text": "You're going to tell me everything.\n"
@@ -123,12 +118,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Do"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "n't lie to me."
+                  "text": "Don't lie to me."
                 }
               ],
               "text": "Don't lie to me.\n"
@@ -202,22 +192,12 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Fi"
+                  "text": "Fine. "
                 },
                 {
                   "type": "text",
                   "children": [],
-                  "text": "ne. "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "Bu"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "t you'll "
+                  "text": "But you'll "
                 },
                 {
                   "type": "bold",

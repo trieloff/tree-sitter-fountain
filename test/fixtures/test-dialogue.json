@@ -31,12 +31,7 @@
             {
               "type": "text",
               "children": [],
-              "text": "A "
-            },
-            {
-              "type": "text",
-              "children": [],
-              "text": "typical coffee shop scene."
+              "text": "A typical coffee shop scene."
             }
           ],
           "text": "A typical coffee shop scene.\n\n"
@@ -60,12 +55,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "I "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "can't believe you did that!"
+                  "text": "I can't believe you did that!"
                 }
               ],
               "text": "I can't believe you did that!\n"
@@ -92,22 +82,12 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Wh"
+                  "text": "What was "
                 },
                 {
                   "type": "text",
                   "children": [],
-                  "text": "at was "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "I "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "supposed to do?"
+                  "text": "I supposed to do?"
                 }
               ],
               "text": "What was I supposed to do?\n"
@@ -144,12 +124,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Te"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "ll the truth!"
+                  "text": "Tell the truth!"
                 }
               ],
               "text": "Tell the truth!\n"
@@ -213,12 +188,7 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Yo"
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "u always say that."
+                  "text": "You always say that."
                 }
               ],
               "text": "You always say that.\n"
@@ -244,22 +214,12 @@
                 {
                   "type": "text",
                   "children": [],
-                  "text": "Bu"
+                  "text": "But "
                 },
                 {
                   "type": "text",
                   "children": [],
-                  "text": "t "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "I "
-                },
-                {
-                  "type": "text",
-                  "children": [],
-                  "text": "appreciate it."
+                  "text": "I appreciate it."
                 }
               ],
               "text": "But I appreciate it.\n"
