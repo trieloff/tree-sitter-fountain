@@ -178,9 +178,11 @@ module.exports = grammar({
     )),
 
     parenthetical: $ => prec.right(10, seq(  // Higher precedence than dialogue
+      optional(/ +/),  // Optional leading spaces
       '(',
       /[^)]+/,
       ')',
+      optional(/ +/),  // Optional trailing spaces
       '\n'
     )),
 
@@ -191,7 +193,7 @@ module.exports = grammar({
         '\n'
       ),
       seq(
-        repeat1($._inline_content),
+        repeat1($._action_inline_content),
         '\n'
       )
     )),
@@ -268,8 +270,19 @@ module.exports = grammar({
 
     centered_end: $ => '<',
 
-    // Inline content: emphasis, uppercase text, and regular text
+    // Action inline content: includes paren_text for inline parens like "MAYA (28)"
     // Order matters: more specific patterns first
+    _action_inline_content: $ => choice(
+      $.bold_italic,
+      $.bold,
+      $.italic,
+      $.underline,
+      $.uppercase_text,
+      $.paren_text,
+      $.text
+    ),
+
+    // Dialogue inline content: excludes paren_text (parentheticals are standalone lines)
     _inline_content: $ => choice(
       $.bold_italic,
       $.bold,
@@ -307,6 +320,10 @@ module.exports = grammar({
     // Uppercase key words (2+ consecutive uppercase letters)
     // Can include spaces between uppercase words
     uppercase_text: $ => /[A-Z][A-Z]+( +[A-Z]+)*/,
+
+    // Parenthesized text - for inline parens in action lines and dialogue
+    // Must be on same line (no newlines), entire paren group
+    paren_text: $ => /\([^)\n]+\)/,
 
     // Regular text - everything else
     // Matches: lowercase, digits, punctuation, single uppercase + non-uppercase

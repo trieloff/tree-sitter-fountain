@@ -24,6 +24,10 @@
           "named": true
         },
         {
+          "type": "paren_text",
+          "named": true
+        },
+        {
           "type": "text",
           "named": true
         },
@@ -621,6 +625,10 @@
   },
   {
     "type": "page_break_marker",
+    "named": true
+  },
+  {
+    "type": "paren_text",
     "named": true
   },
   {

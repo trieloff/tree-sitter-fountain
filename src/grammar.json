@@ -614,6 +614,18 @@
         "type": "SEQ",
         "members": [
           {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "PATTERN",
+                "value": " +"
+              },
+              {
+                "type": "BLANK"
+              }
+            ]
+          },
+          {
             "type": "STRING",
             "value": "("
           },
@@ -624,6 +636,18 @@
           {
             "type": "STRING",
             "value": ")"
+          },
+          {
+            "type": "CHOICE",
+            "members": [
+              {
+                "type": "PATTERN",
+                "value": " +"
+              },
+              {
+                "type": "BLANK"
+              }
+            ]
           },
           {
             "type": "STRING",
@@ -662,7 +686,7 @@
                 "type": "REPEAT1",
                 "content": {
                   "type": "SYMBOL",
-                  "name": "_inline_content"
+                  "name": "_action_inline_content"
                 }
               },
               {
@@ -923,6 +947,39 @@
       "type": "STRING",
       "value": "<"
     },
+    "_action_inline_content": {
+      "type": "CHOICE",
+      "members": [
+        {
+          "type": "SYMBOL",
+          "name": "bold_italic"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "bold"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "italic"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "underline"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "uppercase_text"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "paren_text"
+        },
+        {
+          "type": "SYMBOL",
+          "name": "text"
+        }
+      ]
+    },
     "_inline_content": {
       "type": "CHOICE",
       "members": [
@@ -1023,6 +1080,10 @@
     "uppercase_text": {
       "type": "PATTERN",
       "value": "[A-Z][A-Z]+( +[A-Z]+)*"
+    },
+    "paren_text": {
+      "type": "PATTERN",
+      "value": "\\([^)\\n]+\\)"
     },
     "text": {
       "type": "PATTERN",

@@ -312,163 +312,163 @@
             }
           ],
           "text": "@McCLANE\nYippee-ki-yay!\n"
-        }
-      ],
-      "text": "INT. LIVING ROOM - DAY\n\nBasic character with dialogue.\n\nJOHN\nHello, world!\n\nCharacter with extension.\n\nMOM (O.S.)\nDinner's ready!\n\nCharacter with parenthetical.\n\nSARAH\n(whispering)\nDon't tell anyone.\n\nMultiple characters in sequence.\n\nDETECTIVE\nWhat happened here?\n\nWITNESS\nI saw everything.\n\nCharacter with mixed case forced.\n\n@McCLANE\nYippee-ki-yay!\n"
-    },
-    {
-      "type": "ERROR",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Ch"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "aracter must be uppercase "
-        },
-        {
-          "type": "ERROR",
-          "children": [],
-          "text": "testing"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": " "
-        }
-      ],
-      "text": "Character must be uppercase (testing R2D2).\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "R2D2\n"
-        },
-        {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "Be"
+              "text": "Ch"
             },
             {
               "type": "text",
               "children": [],
-              "text": "ep boop!"
+              "text": "aracter must be uppercase "
+            },
+            {
+              "type": "paren_text",
+              "children": [],
+              "text": "(testing R2D2)"
+            },
+            {
+              "type": "text",
+              "children": [],
+              "text": "."
             }
           ],
-          "text": "Beep boop!\n"
-        }
-      ],
-      "text": "R2D2\nBeep boop!\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Ch"
+          "text": "Character must be uppercase (testing R2D2).\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "aracter with uppercase extension."
-        }
-      ],
-      "text": "Character with uppercase extension.\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "HANS (ON THE RADIO)\n"
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "R2D2\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Be"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "ep boop!"
+                }
+              ],
+              "text": "Beep boop!\n"
+            }
+          ],
+          "text": "R2D2\nBeep boop!\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "Ev"
+              "text": "Ch"
             },
             {
               "type": "text",
               "children": [],
-              "text": "erything is going according to plan."
+              "text": "aracter with uppercase extension."
             }
           ],
-          "text": "Everything is going according to plan.\n"
-        }
-      ],
-      "text": "HANS (ON THE RADIO)\nEverything is going according to plan.\n"
-    },
-    {
-      "type": "action",
-      "children": [
-        {
-          "type": "text",
-          "children": [],
-          "text": "Ch"
+          "text": "Character with uppercase extension.\n\n"
         },
         {
-          "type": "text",
-          "children": [],
-          "text": "aracter with voice over extension."
-        }
-      ],
-      "text": "Character with voice over extension.\n\n"
-    },
-    {
-      "type": "dialogue_block",
-      "children": [
-        {
-          "type": "character",
-          "children": [],
-          "text": "CAPTAIN (V.O.)\n"
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "HANS (ON THE RADIO)\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Ev"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "erything is going according to plan."
+                }
+              ],
+              "text": "Everything is going according to plan.\n"
+            }
+          ],
+          "text": "HANS (ON THE RADIO)\nEverything is going according to plan.\n"
         },
         {
-          "type": "dialogue_line_start",
-          "children": [],
-          "text": ""
-        },
-        {
-          "type": "dialogue",
+          "type": "action",
           "children": [
             {
               "type": "text",
               "children": [],
-              "text": "Th"
+              "text": "Ch"
             },
             {
               "type": "text",
               "children": [],
-              "text": "is is your captain speaking."
+              "text": "aracter with voice over extension."
             }
           ],
-          "text": "This is your captain speaking.\n"
+          "text": "Character with voice over extension.\n\n"
+        },
+        {
+          "type": "dialogue_block",
+          "children": [
+            {
+              "type": "character",
+              "children": [],
+              "text": "CAPTAIN (V.O.)\n"
+            },
+            {
+              "type": "dialogue_line_start",
+              "children": [],
+              "text": ""
+            },
+            {
+              "type": "dialogue",
+              "children": [
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "Th"
+                },
+                {
+                  "type": "text",
+                  "children": [],
+                  "text": "is is your captain speaking."
+                }
+              ],
+              "text": "This is your captain speaking.\n"
+            }
+          ],
+          "text": "CAPTAIN (V.O.)\nThis is your captain speaking.\n"
         }
       ],
-      "text": "CAPTAIN (V.O.)\nThis is your captain speaking.\n"
+      "text": "INT. LIVING ROOM - DAY\n\nBasic character with dialogue.\n\nJOHN\nHello, world!\n\nCharacter with extension.\n\nMOM (O.S.)\nDinner's ready!\n\nCharacter with parenthetical.\n\nSARAH\n(whispering)\nDon't tell anyone.\n\nMultiple characters in sequence.\n\nDETECTIVE\nWhat happened here?\n\nWITNESS\nI saw everything.\n\nCharacter with mixed case forced.\n\n@McCLANE\nYippee-ki-yay!\n\nCharacter must be uppercase (testing R2D2).\n\nR2D2\nBeep boop!\n\nCharacter with uppercase extension.\n\nHANS (ON THE RADIO)\nEverything is going according to plan.\n\nCharacter with voice over extension.\n\nCAPTAIN (V.O.)\nThis is your captain speaking.\n"
     }
   ],
   "text": "INT. LIVING ROOM - DAY\n\nBasic character with dialogue.\n\nJOHN\nHello, world!\n\nCharacter with extension.\n\nMOM (O.S.)\nDinner's ready!\n\nCharacter with parenthetical.\n\nSARAH\n(whispering)\nDon't tell anyone.\n\nMultiple characters in sequence.\n\nDETECTIVE\nWhat happened here?\n\nWITNESS\nI saw everything.\n\nCharacter with mixed case forced.\n\n@McCLANE\nYippee-ki-yay!\n\nCharacter must be uppercase (testing R2D2).\n\nR2D2\nBeep boop!\n\nCharacter with uppercase extension.\n\nHANS (ON THE RADIO)\nEverything is going according to plan.\n\nCharacter with voice over extension.\n\nCAPTAIN (V.O.)\nThis is your captain speaking.\n"
