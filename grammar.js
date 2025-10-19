@@ -272,7 +272,8 @@ module.exports = grammar({
 
     // Action inline content: includes paren_text for inline parens like "MAYA (28)"
     // Order matters: more specific patterns first
-    _action_inline_content: $ => choice(
+    // literal_char must come LAST as fallback for unmatched * or _
+    _action_inline_content: $ => prec.left(choice(
       $.escaped_char,
       $.bold_italic,
       $.bold,
@@ -280,48 +281,52 @@ module.exports = grammar({
       $.underline,
       $.uppercase_text,
       $.paren_text,
-      $.text
-    ),
+      $.text,
+      prec(-1, $.literal_char)  // Lowest precedence - only match if nothing else works
+    )),
 
     // Dialogue inline content: excludes paren_text (parentheticals are standalone lines)
-    _inline_content: $ => choice(
+    _inline_content: $ => prec.left(choice(
       $.escaped_char,
       $.bold_italic,
       $.bold,
       $.italic,
       $.underline,
       $.uppercase_text,
-      $.text
-    ),
+      $.text,
+      prec(-1, $.literal_char)  // Lowest precedence - only match if nothing else works
+    )),
 
     // Escaped characters - backslash followed by special char renders literally
     // Must come before emphasis markers to prevent \* from being parsed as italic
     escaped_char: $ => /\\[*_\[\]()\\]/,
 
     // Emphasis markers - these have higher precedence
-    bold_italic: $ => seq(
+    // Using token() to make matching atomic - either match completely or not at all
+    // This prevents partial matches that would consume opening delimiters
+    bold_italic: $ => token(seq(
       '***',
       /[^*\n]+/,
       '***'
-    ),
+    )),
 
-    bold: $ => seq(
+    bold: $ => token(seq(
       '**',
       /[^*\n]+/,
       '**'
-    ),
+    )),
 
-    italic: $ => seq(
+    italic: $ => token(seq(
       '*',
       /[^*\n]+/,
       '*'
-    ),
+    )),
 
-    underline: $ => seq(
+    underline: $ => token(seq(
       '_',
       /[^_\n]+/,
       '_'
-    ),
+    )),
 
     // Uppercase key words (2+ consecutive uppercase letters)
     // Can include spaces between uppercase words
@@ -330,6 +335,11 @@ module.exports = grammar({
     // Parenthesized text - for inline parens in action lines and dialogue
     // Must be on same line (no newlines), entire paren group
     paren_text: $ => /\([^)\n]+\)/,
+
+    // Literal emphasis characters that aren't part of formatting
+    // Matches single * or _ that can't be paired for emphasis
+    // Must come after emphasis rules attempt to match, as fallback
+    literal_char: $ => /[*_]/,
 
     // Regular text - everything else
     // Matches: lowercase, digits, punctuation, title-case words (capital + lowercase+)

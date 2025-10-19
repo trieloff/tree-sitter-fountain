@@ -948,146 +948,182 @@
       "value": "<"
     },
     "_action_inline_content": {
-      "type": "CHOICE",
-      "members": [
-        {
-          "type": "SYMBOL",
-          "name": "escaped_char"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "bold_italic"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "bold"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "italic"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "underline"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "uppercase_text"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "paren_text"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "text"
-        }
-      ]
+      "type": "PREC_LEFT",
+      "value": 0,
+      "content": {
+        "type": "CHOICE",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "escaped_char"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "bold_italic"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "bold"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "italic"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "underline"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "uppercase_text"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "paren_text"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "text"
+          },
+          {
+            "type": "PREC",
+            "value": -1,
+            "content": {
+              "type": "SYMBOL",
+              "name": "literal_char"
+            }
+          }
+        ]
+      }
     },
     "_inline_content": {
-      "type": "CHOICE",
-      "members": [
-        {
-          "type": "SYMBOL",
-          "name": "escaped_char"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "bold_italic"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "bold"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "italic"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "underline"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "uppercase_text"
-        },
-        {
-          "type": "SYMBOL",
-          "name": "text"
-        }
-      ]
+      "type": "PREC_LEFT",
+      "value": 0,
+      "content": {
+        "type": "CHOICE",
+        "members": [
+          {
+            "type": "SYMBOL",
+            "name": "escaped_char"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "bold_italic"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "bold"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "italic"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "underline"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "uppercase_text"
+          },
+          {
+            "type": "SYMBOL",
+            "name": "text"
+          },
+          {
+            "type": "PREC",
+            "value": -1,
+            "content": {
+              "type": "SYMBOL",
+              "name": "literal_char"
+            }
+          }
+        ]
+      }
     },
     "escaped_char": {
       "type": "PATTERN",
       "value": "\\\\[*_\\[\\]()\\\\]"
     },
     "bold_italic": {
-      "type": "SEQ",
-      "members": [
-        {
-          "type": "STRING",
-          "value": "***"
-        },
-        {
-          "type": "PATTERN",
-          "value": "[^*\\n]+"
-        },
-        {
-          "type": "STRING",
-          "value": "***"
-        }
-      ]
+      "type": "TOKEN",
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "STRING",
+            "value": "***"
+          },
+          {
+            "type": "PATTERN",
+            "value": "[^*\\n]+"
+          },
+          {
+            "type": "STRING",
+            "value": "***"
+          }
+        ]
+      }
     },
     "bold": {
-      "type": "SEQ",
-      "members": [
-        {
-          "type": "STRING",
-          "value": "**"
-        },
-        {
-          "type": "PATTERN",
-          "value": "[^*\\n]+"
-        },
-        {
-          "type": "STRING",
-          "value": "**"
-        }
-      ]
+      "type": "TOKEN",
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "STRING",
+            "value": "**"
+          },
+          {
+            "type": "PATTERN",
+            "value": "[^*\\n]+"
+          },
+          {
+            "type": "STRING",
+            "value": "**"
+          }
+        ]
+      }
     },
     "italic": {
-      "type": "SEQ",
-      "members": [
-        {
-          "type": "STRING",
-          "value": "*"
-        },
-        {
-          "type": "PATTERN",
-          "value": "[^*\\n]+"
-        },
-        {
-          "type": "STRING",
-          "value": "*"
-        }
-      ]
+      "type": "TOKEN",
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "STRING",
+            "value": "*"
+          },
+          {
+            "type": "PATTERN",
+            "value": "[^*\\n]+"
+          },
+          {
+            "type": "STRING",
+            "value": "*"
+          }
+        ]
+      }
     },
     "underline": {
-      "type": "SEQ",
-      "members": [
-        {
-          "type": "STRING",
-          "value": "_"
-        },
-        {
-          "type": "PATTERN",
-          "value": "[^_\\n]+"
-        },
-        {
-          "type": "STRING",
-          "value": "_"
-        }
-      ]
+      "type": "TOKEN",
+      "content": {
+        "type": "SEQ",
+        "members": [
+          {
+            "type": "STRING",
+            "value": "_"
+          },
+          {
+            "type": "PATTERN",
+            "value": "[^_\\n]+"
+          },
+          {
+            "type": "STRING",
+            "value": "_"
+          }
+        ]
+      }
     },
     "uppercase_text": {
       "type": "PATTERN",
@@ -1096,6 +1132,10 @@
     "paren_text": {
       "type": "PATTERN",
       "value": "\\([^)\\n]+\\)"
+    },
+    "literal_char": {
+      "type": "PATTERN",
+      "value": "[*_]"
     },
     "text": {
       "type": "PATTERN",
